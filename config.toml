@@ -3,3 +3,72 @@ languageCode = "en-us"
 title = "Pacific Rim Mathematical Association Congress 2021"
 theme = "infinity-hugo"
 
+[params]
+  [params.hero]
+    enable         = true
+    bg             = "images/vancouver-bg-dark.jpg"
+    title          = "PRIMA 2021 Congress"
+    subtitle       = "The Pacific Rim Mathematical Association Congress 2021 will take place in Vancouver, Canada in the summer of 2021."
+    countdownYear  = "2021"
+    countdownMonth = "07"
+    countdownDay   = "1"
+
+  [params.navigation]
+    logo           = "images/prima_logo_24.png"
+    home           = "Home"
+    about          = "About"
+    registration   = "Register"
+    service        = "Speakers"
+    organizers     = "Organizers"
+    contact        = "Contact"
+
+  [params.about]
+    enable         = true
+    heading        = "The PRIMA Congress 2021 will take place in Vancouver in the summer of 2021"
+    description    = "Planning for this event is underway."
+    [[params.about.sliderItem]]
+      image   = "images/1_sm.jpg"
+    [[params.about.sliderItem]]
+      image   = "images/2_sm.jpg"
+    [[params.about.sliderItem]]
+      image   = "images/3_sm.jpg"
+
+  [params.registration]
+    enable         = true
+    title          = "Registration will be open soon."
+  
+  [params.service]
+    enable         = true
+    title          = "Speakers"
+    subtitle       = "The program for this event is still being developed"
+    [[params.service.serviceItem]]
+      icon         = ""
+      title        = "Speaker"
+      description  = "Profile of speaker 1"
+    [[params.service.serviceItem]]
+      icon         = ""
+      title        = "Speaker"
+      description  = "Profile of speaker 2"
+    [[params.service.serviceItem]]
+      icon         = ""
+      title        = "Speaker"
+      description  = "Profile of speaker 3"
+    [[params.service.serviceItem]]
+      icon         = ""
+      title        = "Speaker"
+      description  = "Profile of speaker 4"
+    [[params.service.serviceItem]]
+      icon         = ""
+      title        = "Speaker"
+      description  = "Profile of speaker 5"
+
+
+  [params.organizers]
+    enable         = true
+    title          = "Organizing Committee to appear"
+
+  [params.contact]
+    enable         = true
+    title          = "Get in Touch"
+    subtitle       = "If you have questions about PRIMA 2021, please get in touch with the organizing committee via the form below."
+
