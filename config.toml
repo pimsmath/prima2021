@@ -42,6 +42,7 @@ theme = "infinity-hugo"
     enable         = true
     title          = "Speakers"
     subtitle       = "The program for this event is still being developed"
+    more           = "See all speakers"
     [[params.speakers.speakerItem]]
       icon         = ""
       title        = "Speaker 1"
@@ -68,6 +69,7 @@ theme = "infinity-hugo"
     enable         = true
     title          = "Organizing Committee"
     subtitle       = "Members of the organizing committees will appear here soon."
+    more           = "See all organizers"
     [[params.organizers.organizerItem]]
       icon         = ""
       title        = "Organizer1"
