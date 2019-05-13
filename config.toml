@@ -10,22 +10,22 @@ theme = "infinity-hugo"
     title          = "PRIMA Congress 2021"
     subtitle       = "The Pacific Rim Mathematical Association Congress 2021 will take place in Vancouver, Canada in the summer of 2021. Mathematicians from around the Pacific Rim will converge to discuss the latest developments in Mathematics."
     countdownYear  = "2021"
-    countdownMonth = "07"
-    countdownDay   = "1"
+    countdownMonth = "06"
+    countdownDay   = "4"
 
   [params.navigation]
     logo           = "images/prima_logo_24.png"
     home           = "Home"
     about          = "About"
-    registration   = "Register"
-    service        = "Speakers"
+    speakers       = "Speakers"
+    registration   = "Registration"
     organizers     = "Organizers"
     contact        = "Contact"
 
   [params.about]
     enable         = true
-    heading        = "The PRIMA Congress 2021 will take place in Vancouver in the summer of 2021"
-    description    = "Planning for this event is underway."
+    heading        = "PRIMA 2021 - Vancouver"
+    description    = "PRIMA is an association of mathematical science institutes, departments and societies from around the Pacific Rim, founded in 2005 to promote and facilitate the development of the mathematical sciences throughout the pacific rim region. The PRIMA congress is a triennial meeting of these groups which showcases recent developments in mathematics and brings together the pacific rim mathematical community."
     [[params.about.sliderItem]]
       image   = "images/1_sm.jpg"
     [[params.about.sliderItem]]
@@ -35,29 +35,30 @@ theme = "infinity-hugo"
 
   [params.registration]
     enable         = true
-    title          = "Registration will be open soon."
+    heading        = "Registration"
+    description    = "links to the registration site will be posted here when available."
   
-  [params.service]
+  [params.speakers]
     enable         = true
     title          = "Speakers"
     subtitle       = "The program for this event is still being developed"
-    [[params.service.serviceItem]]
+    [[params.speakers.speakerItem]]
       icon         = ""
-      title        = "Speaker"
+      title        = "Speaker 1"
       description  = "Profile of speaker 1"
-    [[params.service.serviceItem]]
+    [[params.speakers.speakerItem]]
       icon         = ""
-      title        = "Speaker"
+      title        = "Speaker 2"
       description  = "Profile of speaker 2"
-    [[params.service.serviceItem]]
+    [[params.speakers.speakerItem]]
       icon         = ""
-      title        = "Speaker"
+      title        = "Speaker 3"
       description  = "Profile of speaker 3"
-    [[params.service.serviceItem]]
+    [[params.speakers.speakerItem]]
       icon         = ""
-      title        = "Speaker"
+      title        = "Speaker 4"
       description  = "Profile of speaker 4"
-    [[params.service.serviceItem]]
+    [[params.speakers.speakerItem]]
       icon         = ""
       title        = "Speaker"
       description  = "Profile of speaker 5"
@@ -65,7 +66,16 @@ theme = "infinity-hugo"
 
   [params.organizers]
     enable         = true
-    title          = "Organizing Committee to appear"
+    title          = "Organizing Committee"
+    subtitle       = "Members of the organizing committees will appear here soon."
+    [[params.organizers.organizerItem]]
+      icon         = ""
+      title        = "Organizer1"
+      description  = "Description of organizer 1"
+    [[params.organizers.organizerItem]]
+      icon         = ""
+      title        = "Organizer2"
+      description  = "Description of organizer 2"
 
   [params.contact]
     enable         = true

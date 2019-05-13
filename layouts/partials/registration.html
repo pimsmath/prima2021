@@ -1,0 +1,21 @@
+{{ if .Site.Params.registration.enable }}
+    {{"<!-- Registration Section -->" | safeHTML}}
+    <section id="registration" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7 col-sm-12 wow fadeInLeft">
+                    <div class="content">
+                        <div class="sub-heading">
+                        {{ with .Site.Params.registration.heading }}
+                            <h3>{{ . }}</h3>
+                        {{ end }}
+                        </div>
+                        {{ with .Site.Params.registration.description }}
+                            <p>{{ . | markdownify }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
