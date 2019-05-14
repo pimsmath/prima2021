@@ -11,9 +11,15 @@
         <div class="collapse navbar-toggleable-md" id="navbarResponsive">
             <ul class="nav navbar-nav menu float-lg-right" id="top-nav">
                 <li class="nav-item active">
+                  {{ if .IsHome }}
                     <a class="nav-link" href="#">
                         {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
                     </a>
+                  {{ else }}
+                    <a class="nav-link" href="{{ .Site.BaseURL }}">
+                        {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
+                    </a>
+                  {{ end }}
                 </li>
                 {{ if .Site.Params.about.enable }}
                     <li class="nav-item">

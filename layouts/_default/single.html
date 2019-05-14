@@ -1,1 +1,24 @@
-Single
+{{ partial "header" . }}
+
+{{ partial "preloader" . }}
+
+{{ partial "navigation" . }}
+
+<section id="speaker" class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7 col-sm-12 wow fadeInDown">
+        <h2>{{ .Title }}</h2>
+        <strong>{{ .Params.affiliation }}</strong>
+      </div>
+    </div>
+    <div class="row">
+      <div class="content">
+      {{ .Content }}
+      </div>
+  </div>
+</section>
+
+
+{{ partial "footer" . }}
+{{ partial "mathjax" . }}
