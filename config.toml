@@ -49,14 +49,6 @@ theme = "infinity-hugo"
     title          = "Organizing Committee"
     subtitle       = "Members of the organizing committees will appear here soon."
     more           = "See all organizers"
-    [[params.organizers.organizerItem]]
-      icon         = ""
-      title        = "Organizer1"
-      description  = "Description of organizer 1"
-    [[params.organizers.organizerItem]]
-      icon         = ""
-      title        = "Organizer2"
-      description  = "Description of organizer 2"
 
   [params.contact]
     enable         = true
