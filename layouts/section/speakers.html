@@ -1,17 +1,1 @@
-{{ partial "header" . }}
-
-{{ partial "preloader" . }}
-
-
-<div id="content">
-  {{ .Content }}
-  <ul>
-    {{ range .Pages }}
-      <li>
-        <a href="{{ .Permalink }}">{{ .Title }}</a>
-      </li>
-    {{ end }}
-  </ul>
-</div>
-
-{{ partial "footer.html" . }}
+{{ partial "person" . }}

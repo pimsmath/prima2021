@@ -1,0 +1,33 @@
+{{ partial "header" . }}
+
+{{ partial "preloader" . }}
+
+{{ partial "navigation" . }}
+
+<section id="service" class="service section">
+  <div id="content">
+    <div class="container">
+      <div class="row">
+        <div class="heading">
+          <h2>{{ .Title }}</h2>
+        </div>
+      </div>
+    </div>
+    {{ .Content }}
+    <div class="container">
+      <div class="row">
+        {{ range .Pages }}
+        <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .Params.delay }}">
+          <div class="block">
+            <i class="{{ .Params.icon }}"></i>
+            <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+            <p>{{ .Params.affiliation }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,8 @@
+.navigation.light {
+  background-color:#fff;
+  box-shadow: 0 2px 7px 0px rgba(142, 142, 142, 0.15);
+}
+
+.navigation.light a {
+    color: #666;
+}

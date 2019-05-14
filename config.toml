@@ -43,27 +43,6 @@ theme = "infinity-hugo"
     title          = "Speakers"
     subtitle       = "The program for this event is still being developed"
     more           = "See all speakers"
-    [[params.speakers.speakerItem]]
-      icon         = ""
-      title        = "Speaker 1"
-      description  = "Profile of speaker 1"
-    [[params.speakers.speakerItem]]
-      icon         = ""
-      title        = "Speaker 2"
-      description  = "Profile of speaker 2"
-    [[params.speakers.speakerItem]]
-      icon         = ""
-      title        = "Speaker 3"
-      description  = "Profile of speaker 3"
-    [[params.speakers.speakerItem]]
-      icon         = ""
-      title        = "Speaker 4"
-      description  = "Profile of speaker 4"
-    [[params.speakers.speakerItem]]
-      icon         = ""
-      title        = "Speaker"
-      description  = "Profile of speaker 5"
-
 
   [params.organizers]
     enable         = true
