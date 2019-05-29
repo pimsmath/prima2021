@@ -1,8 +1,9 @@
 ---
-title: "Organizer Two"
-date: 2019-05-13T17:51:54-07:00
-draft: false
+title: Organizer Two
+date: '2019-05-14T00:51:54.000+00:00'
 affiliation: University Two
+photo: "/uploads/Portrait_Placeholder-3.png"
+
 ---
 ## Biography
 
