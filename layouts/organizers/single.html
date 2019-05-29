@@ -11,11 +11,14 @@
         <h2>{{ .Title }}</h2>
         <strong>{{ .Params.affiliation }}</strong>
       </div>
-{{ with .Params.Photo }}
-    {{ $photoFileName := strings.TrimPrefix "/uploads/" . }}
-    {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch $photoFileName }}
-    imageResource: {{ $imageResource.RelPermalink }}
-{{ end }}
+      <div class="col-md-5 col-sm-12 wow fadeinDown">
+        {{ with .Params.Photo }}
+          {{ $photoFileName := strings.TrimPrefix "/uploads/" . }}
+          {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch $photoFileName }}
+          {{ $imageResized := $imageResource.Fill "200x200" }}
+        <img src="{{ $imageResized.RelPermalink }}" alt="{{ $.Title }} photo">
+       {{ end }}
+      </div>
     </div>
     <div class="row">
       <div class="content">
