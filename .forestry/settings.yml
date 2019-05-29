@@ -18,6 +18,7 @@ sections:
   label: Speakers
   create: all
   match: "**/*"
+  exclude: _index.md
   templates:
   - speakers
 - type: heading
