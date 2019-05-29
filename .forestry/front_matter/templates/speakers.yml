@@ -21,5 +21,3 @@ fields:
     schema:
       format: markdown
   label: Biography
-pages:
-- content/the-first-speaker.md
