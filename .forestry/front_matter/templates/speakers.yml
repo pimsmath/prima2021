@@ -19,3 +19,4 @@ fields:
   label: Photo
 pages:
 - content/speakers/speaker-1.md
+- content/organizers/organizer-1.md
