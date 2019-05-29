@@ -7,17 +7,13 @@ fields:
   config:
     required: false
   label: Title
+- name: affiliation
+  type: text
+  config:
+    required: false
+  label: Affiliation
 - name: photo
   type: file
   config:
     maxSize: 250
   label: Photo
-- name: biography
-  type: textarea
-  default: ''
-  config:
-    required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: Biography
