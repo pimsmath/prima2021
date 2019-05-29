@@ -1,6 +1,6 @@
 +++
 affiliation = "University of British Columbia"
-photo = ""
+photo = "/uploads/Portrait_Placeholder.jpg"
 title = "Speaker 1"
 
 +++
