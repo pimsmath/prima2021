@@ -1,6 +1,6 @@
 +++
 affiliation = "University 1"
-photo = ""
+photo = "/uploads/Portrait_Placeholder-1.jpg"
 title = "Organizer 1"
 
 +++
