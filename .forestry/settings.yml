@@ -4,6 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Content
 - type: directory
   path: content/organizers
   label: Organizers
@@ -18,6 +20,14 @@ sections:
   match: "**/*"
   templates:
   - speakers
+- type: heading
+  label: Front Page
+- type: document
+  path: config.toml
+  label: Config
+  match: "**/*"
+- type: heading
+  label: Other
 - type: directory
   path: content
   label: Pages
