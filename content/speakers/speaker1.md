@@ -1,9 +1,10 @@
 ---
-title: "Speaker1"
-date: 2019-05-09T11:11:43-07:00
-affiliation: "University of British Columbia"
+title: Speaker1
+date: '2019-05-09T18:11:43.000+00:00'
+affiliation: University of British Columbia
 theme: light
-draft: false
+photo: "/uploads/Portrait_Placeholder-2.png"
+
 ---
 ## Biography
 
