@@ -10,8 +10,8 @@ theme = "infinity-hugo"
     title          = "PRIMA Congress 2021"
     subtitle       = "The Pacific Rim Mathematical Association Congress 2021 will take place in Vancouver, Canada in the summer of 2021. Mathematicians from around the Pacific Rim will converge to discuss the latest developments in Mathematics."
     countdownYear  = "2021"
-    countdownMonth = "06"
-    countdownDay   = "4"
+    countdownMonth = "12"
+    countdownDay   = "6"
 
   [params.navigation]
     logo           = "images/prima_logo_24.png"
