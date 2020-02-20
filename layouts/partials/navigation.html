@@ -28,20 +28,6 @@
                         </a>
                     </li>
                 {{ end }}
-                {{ if .Site.Params.registration.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#registration">
-                            {{ with .Site.Params.navigation.registration }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.sponsors.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#sponsors">
-                            {{ with .Site.Params.navigation.sponsors }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
                 {{ if .Site.Params.speakers.enable }}
                     <li class="nav-item">
                       {{ if .IsHome }}
@@ -59,6 +45,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#organizers">
                             {{ with .Site.Params.navigation.organizers }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+                {{ if .Site.Params.registration.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#registration">
+                            {{ with .Site.Params.navigation.registration }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+                {{ if .Site.Params.sponsors.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#sponsors">
+                            {{ with .Site.Params.navigation.sponsors }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
