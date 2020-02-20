@@ -17,9 +17,9 @@ theme = "infinity-hugo"
     logo           = "images/prima_logo_24.png"
     home           = "Home"
     about          = "About"
-    speakers       = "Speakers"
-    registration   = "Registration"
     organizers     = "Organizers"
+    registration   = "Registration"
+    sponsors       = "Sponsors"
     contact        = "Contact"
 
   [params.about]
