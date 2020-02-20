@@ -6,7 +6,7 @@ theme = "infinity-hugo"
 [params]
   [params.hero]
     enable         = true
-    bg             = "images/vancouver-winter-1900x1250-dark.jpg"
+    bg             = "images/vancouver-winter-1900x1250-dark.webp"
     title          = "PRIMA Congress 2021"
     subtitle       = "The Pacific Rim Mathematical Association Congress 2021 will take place in Vancouver, Canada between December 5-10, 2021. Mathematicians from around the Pacific Rim will converge to discuss the latest developments in Mathematics."
     countdownYear  = "2021"
@@ -27,19 +27,19 @@ theme = "infinity-hugo"
     heading        = "PRIMA 2021 - Vancouver"
     description    = "PRIMA is an association of mathematical science institutes, departments and societies from around the Pacific Rim, founded in 2005 to promote and facilitate the development of the mathematical sciences throughout the pacific rim region. The PRIMA congress is a triennial meeting of these groups which showcases recent developments in mathematics and brings together the pacific rim mathematical community."
     [[params.about.sliderItem]]
-      image   = "images/1_sm.jpg"
+      image   = "images/1_sm.webp"
       credit  = 'Tourism Vancouver / Clayton Perry'
     [[params.about.sliderItem]]
-      image   = "images/2_sm.jpg"
+      image   = "images/2_sm.webp"
       credit  = 'Tourism Vancouver / Kazutoshi Yoshimura'
     [[params.about.sliderItem]]
-      image   = "images/3_sm.jpg"
+      image   = "images/3_sm.webp"
       credit  = 'Tourism Vancouver / Albert Normandin'
     [[params.about.sliderItem]]
-      image   = 'images/4_sm.jpg'
+      image   = 'images/4_sm.webp'
       credit  = 'Tourism Vancouver / Clayton Perry'
     [[params.about.sliderItem]]
-      image   = 'images/5_sm.jpg'
+      image   = 'images/5_sm.webp'
       credit  = 'Tourism Vancouver / Avision Photography by Chris Collacott'
 
   [params.registration]
