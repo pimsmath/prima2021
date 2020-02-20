@@ -1,0 +1,24 @@
+{{ if .Site.Params.sponsors.enable }}
+  {{"<!-- Sponsor Section -->" | safeHTML}}
+  <section id="sponsor" class="sponsor section bg-gray">
+    <div class="container">
+      <div class="row">
+        <div class="heading wow fadeInUp">
+          {{ with .Site.Params.sponsors.title }}
+            <h2>{{ . }}</h2>
+          {{ end }}
+          {{ with .Site.Params.sponsors.subtitle }}
+            <p>{{ . }}</p>
+          {{ end }}
+        </div>
+        {{ range .Site.Params.sponsor.sponsorItem }}
+        <div class="col-sm-6 col-md-6 wow fadeInLeft text-center" data-wow-delay="{{ .Params.delay }}">
+          <div class="block">
+             <a href="{{ .url }}"><img class="wow zoomIn" src="{{ .image }}" /></a>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

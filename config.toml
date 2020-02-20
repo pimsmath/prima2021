@@ -28,22 +28,22 @@ theme = "infinity-hugo"
     description    = "PRIMA is an association of mathematical science institutes, departments and societies from around the Pacific Rim, founded in 2005 to promote and facilitate the development of the mathematical sciences throughout the pacific rim region. The PRIMA congress is a triennial meeting of these groups which showcases recent developments in mathematics and brings together the pacific rim mathematical community."
     [[params.about.sliderItem]]
       image   = "images/1_sm.jpg"
+      credit  = 'Tourism Vancouver / Clayton Perry'
     [[params.about.sliderItem]]
       image   = "images/2_sm.jpg"
+      credit  = 'Tourism Vancouver / Kazutoshi Yoshimura'
     [[params.about.sliderItem]]
       image   = "images/3_sm.jpg"
+      credit  = 'Tourism Vancouver / Albert Normandin'
+    [[params.about.sliderItem]]
+      image   = 'images/4_sm.jpg'
+      credit  = 'Tourism Vancouver / Clayton Perry'
 
   [params.registration]
     enable         = true
     heading        = "Registration"
     description    = "links to the registration site will be posted here when available."
   
-  [params.speakers]
-    enable         = true
-    title          = "Speakers"
-    subtitle       = "The program for this event is still being developed"
-    more           = "See all speakers"
-
   [params.organizers]
     enable         = true
     title          = "Organizing Committee"
@@ -55,3 +55,13 @@ theme = "infinity-hugo"
     title          = "Get in Touch"
     subtitle       = "If you have questions about PRIMA 2021, please get in touch with the organizing committee via the form below."
 
+  [params.sponsors]
+  enable = true
+  title  = "Sponsors"
+  subtitle = "PRIMA 2021 gratefully acknowledges the following sponors"
+  [[params.sponsor.sponsorItem]]
+  image = "images/sponsor/CMS-logo.png"
+  url   = 'https://cms.math.ca/'
+  [[params.sponsor.sponsorItem]]
+  image = "images/sponsor/PIMS-logo.png"
+  url   = 'https://www.pims.math.ca'
