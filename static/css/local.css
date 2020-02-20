@@ -1,3 +1,7 @@
+body {
+  padding-top: 35px;
+}
+
 .navigation.light {
   background-color:#fff;
   box-shadow: 0 2px 7px 0px rgba(142, 142, 142, 0.15);
