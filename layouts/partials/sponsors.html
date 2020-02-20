@@ -3,7 +3,7 @@
   <section id="sponsors" class="sponsor section">
     <div class="container">
       <div class="row">
-        <div class="heading wow fadeInUp">
+        <div class="heading">
           {{ with .Site.Params.sponsors.title }}
             <h2>{{ . }}</h2>
           {{ end }}
@@ -12,9 +12,9 @@
           {{ end }}
         </div>
         {{ range .Site.Params.sponsor.sponsorItem }}
-        <div class="col-sm-6 col-md-6 wow fadeInLeft text-center" data-wow-delay="{{ .Params.delay }}">
+        <div class="col-sm-6 col-md-6 text-center">
           <div class="block">
-             <a href="{{ .url }}"><img class="wow zoomIn" src="{{ .image }}" /></a>
+             <a href="{{ .url }}"><img src="{{ .image }}" /></a>
           </div>
         </div>
         {{ end }}

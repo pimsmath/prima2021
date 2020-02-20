@@ -3,7 +3,7 @@
     <section id="organizers" class="service section">
         <div class="container">
             <div class="row">
-                <div class="heading wow fadeInUp">
+                <div class="heading">
                     {{ with .Site.Params.organizers.title }}
                         <h2>{{ . }}</h2>
                     {{ end }}
@@ -12,7 +12,7 @@
                     {{ end }}
                 </div>
                 {{ range first 8 (where .Site.RegularPages "Section" "organizers" ) }}
-                    <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .Params.delay }}">
+                    <div class="col-sm-6 col-md-3">
                         <div class="block">
                           <a href="{{ .Permalink }}"><img src="{{ .Params.photo }}" /></a>
                           <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
