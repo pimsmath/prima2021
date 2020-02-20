@@ -6,7 +6,7 @@ theme = "infinity-hugo"
 [params]
   [params.hero]
     enable         = true
-    bg             = "images/vancouver-winter-1900x1250-dark.webp"
+    bg             = "images/vancouver-winter-1900x1250-dark-reduced.jpg"
     title          = "PRIMA Congress 2021"
     subtitle       = "The Pacific Rim Mathematical Association Congress 2021 will take place in Vancouver, Canada between December 5-10, 2021. Mathematicians from around the Pacific Rim will converge to discuss the latest developments in Mathematics."
     countdownYear  = "2021"
