@@ -38,6 +38,9 @@ theme = "infinity-hugo"
     [[params.about.sliderItem]]
       image   = 'images/4_sm.jpg'
       credit  = 'Tourism Vancouver / Clayton Perry'
+    [[params.about.sliderItem]]
+      image   = 'images/5_sm.jpg'
+      credit  = 'Tourism Vancouver / Avision Photography by Chris Collacott'
 
   [params.registration]
     enable         = true
