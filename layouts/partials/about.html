@@ -19,8 +19,12 @@
                     <div class="about-slider">
                         {{ range .Site.Params.about.sliderItem }}
                             <figure id="about-carousel">
-                            <img src="{{ .image }}" alt="slider-image">
-                            <figcaption>Image credit: {{ .credit }}</figcaption>
+                              <picture>
+                                <source srcset="{{ .imageWebp }}" type="image/webp">
+                                <source srcset="{{ .imageJpeg }}" type="image/jpeg">
+                                <img src="{{ .imageJpeg }}" alt="slider-image">
+                                <figcaption>Image credit: {{ .credit }}</figcaption>
+                              </picture>
                             </figure>
                         {{ end }}
                     </div>

@@ -14,7 +14,7 @@ theme = "infinity-hugo"
     countdownDay   = "5"
 
   [params.navigation]
-    logo           = "images/prima_logo_24.webp"
+    logo           = "images/prima_logo_24.jpg"
     home           = "Home"
     about          = "About"
     organizers     = "Organizers"
@@ -27,19 +27,24 @@ theme = "infinity-hugo"
     heading        = "PRIMA 2021 - Vancouver"
     description    = "PRIMA is an association of mathematical science institutes, departments and societies from around the Pacific Rim, founded in 2005 to promote and facilitate the development of the mathematical sciences throughout the pacific rim region. The PRIMA congress is a triennial meeting of these groups which showcases recent developments in mathematics and brings together the pacific rim mathematical community."
     [[params.about.sliderItem]]
-      image   = "images/1_sm.webp"
+      imageWebp   = "images/1_sm.webp"
+      imageJpeg   = "images/1_sm.jpg"
+      credit       = 'Tourism Vancouver / Clayton Perry'
+    [[params.about.sliderItem]]
+      imageWebp   = "images/2_sm.webp"
+      imageJpeg   = "images/2_sm.jpg"
+      credit       = 'Tourism Vancouver / Kazutoshi Yoshimura'
+    [[params.about.sliderItem]]
+      imageWebp   = "images/3_sm.webp"
+      imageJpeg   = "images/3_sm.jpg"
+      credit       = 'Tourism Vancouver / Albert Normandin'
+    [[params.about.sliderItem]]
+      imageWebp   = 'images/4_sm.webp'
+      imageJpeg   = 'images/4_sm.jpg'
       credit  = 'Tourism Vancouver / Clayton Perry'
     [[params.about.sliderItem]]
-      image   = "images/2_sm.webp"
-      credit  = 'Tourism Vancouver / Kazutoshi Yoshimura'
-    [[params.about.sliderItem]]
-      image   = "images/3_sm.webp"
-      credit  = 'Tourism Vancouver / Albert Normandin'
-    [[params.about.sliderItem]]
-      image   = 'images/4_sm.webp'
-      credit  = 'Tourism Vancouver / Clayton Perry'
-    [[params.about.sliderItem]]
-      image   = 'images/5_sm.webp'
+      imageWebp   = 'images/5_sm.webp'
+      imageJpeg   = 'images/5_sm.jpg'
       credit  = 'Tourism Vancouver / Avision Photography by Chris Collacott'
 
   [params.registration]
