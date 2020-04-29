@@ -1,8 +1,9 @@
 +++
 affiliation = "University of Washington"
 photo = "/uploads/jayadev_s_athreya.jpg"
-title = "Jayadev S. Athreya (chair)"
-
+title = "Jayadev S. Athreya"
+committees = ['Scientific', 'Local', 'Sponsorship']
+weight = 1
 +++
 ## Biography
 
