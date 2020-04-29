@@ -55,7 +55,7 @@ theme = "infinity-hugo"
   [params.organizers]
     enable         = true
     title          = "Organizing Committee"
-    subtitle       = "Members of the organizing committees will appear here soon."
+    subtitle       = ""
     more           = "See all organizers"
 
   [params.contact]
