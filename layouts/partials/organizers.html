@@ -4,54 +4,32 @@
         <div class="container">
           <!-- Nav tabs -->
           <ul class="nav nav-tabs" id="myTab" role="tablist">
+            {{ range $key, $taxonomy := .Site.Taxonomies.committees }}
             <li class="nav-item">
-              <a class="nav-link active" id="scientific-tab" data-toggle="tab" href="#scientific" role="tab" aria-controls="scientific" aria-selected="true">Scientific</a>
+              <a class="nav-link {{ if eq $key "scientific" }}active{{ end }}" id="{{ $key }}-tab" data-toggle="tab" href="#{{ $key }}" role="tab" aria-controls="{{ $key }}" aria-selected="true">{{ $key | humanize }}</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" id="local-tab" data-toggle="tab" href="#local" role="tab" aria-controls="local" aria-selected="false">Local</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" id="sponsorship-tab" data-toggle="tab" href="#sponsorship" role="tab" aria-controls="sponsorship" aria-selected="false">Sponsorship</a>
-            </li>
+            {{ end }}
           </ul>
           
           <!-- Tab panes -->
           <div class="tab-content">
-            <div class="tab-pane active" id="scientific" role="tabpanel" aria-labelledby="scientific-tab">
+            {{ range $key, $taxonomy := .Site.Taxonomies.committees }}
+            <div class="tab-pane {{ if eq $key "scientific" }}active{{ end }}" id="{{ $key }}" role="tabpanel" aria-labelledby="{{ $key }}-tab">
+               <h2>{{ $key | humanize }} Committee</h2>
                <div class="row auto-clear">
-                   {{ range $index, $page := first 9 (where .Site.RegularPages "Section" "organizers" ) }}
-                       <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                           <div class="block">
-                             <a href="{{ .Permalink }}"><img class="rounded-circle" src="{{ .Params.photo }}" /></a>
-                             <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
-                             <p>{{ .Params.affiliation }}</p>
-                           </div>
-                       </div>
-                   {{ end }}
+                 {{ range $taxonomy.Pages }}
+                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                   <div class="block">
+                     <a href="{{ .Permalink }}"><img class="rounded-circle" src="{{ .Params.photo }}" /></a>
+                     <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+                     <p>{{ .Params.affiliation }}</p>
+                   </div>
+                 </div>
+                 {{ end }}
                </div>
             </div>
-            <div class="tab-pane" id="local" role="tabpanel" aria-labelledby="local-tab">2</div>
-            <div class="tab-pane" id="sponsorship" role="tabpanel" aria-labelledby="sponsorship-tab">3</div>
+            {{ end }}
           </div> 
-           <div class="heading">
-               {{ with .Site.Params.organizers.title }}
-                   <h2>{{ . }}</h2>
-               {{ end }}
-               {{ with .Site.Params.organizers.subtitle }}
-                   <p>{{ . }}</p>
-               {{ end }}
-           </div>
-           <div class="row auto-clear">
-               {{ range $index, $page := first 9 (where .Site.RegularPages "Section" "organizers" ) }}
-                   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                       <div class="block">
-                         <a href="{{ .Permalink }}"><img class="rounded-circle" src="{{ .Params.photo }}" /></a>
-                         <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
-                         <p>{{ .Params.affiliation }}</p>
-                       </div>
-                   </div>
-               {{ end }}
-           </div>
         </div>
     </section>
 {{ end }}
