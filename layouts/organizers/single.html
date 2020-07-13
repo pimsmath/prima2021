@@ -16,7 +16,7 @@
           {{ $photoFileName := strings.TrimPrefix "/uploads/" . }}
           {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch $photoFileName }}
           {{ $imageResized := $imageResource.Fill "200x200" }}
-        <img src="{{ $imageResized.RelPermalink }}" alt="{{ $.Title }} photo">
+        <img class="rounded-circle" src="{{ $imageResized.RelPermalink }}" alt="{{ $.Title }} photo">
        {{ end }}
       </div>
     </div>

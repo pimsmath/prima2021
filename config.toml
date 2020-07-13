@@ -73,3 +73,8 @@ theme = "infinity-hugo"
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/PIMS-logo.png"
   url   = 'https://www.pims.math.ca'
+
+[taxonomies]
+  category = "categories"
+  tags = "tags"
+  committees = "committees"

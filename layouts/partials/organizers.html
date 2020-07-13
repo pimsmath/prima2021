@@ -2,32 +2,25 @@
     {{"<!-- Speakers Section -->" | safeHTML}}
     <section id="organizers" class="service section">
         <div class="container">
-            <div class="row">
-                <div class="heading">
-                    {{ with .Site.Params.organizers.title }}
-                        <h2>{{ . }}</h2>
-                    {{ end }}
-                    {{ with .Site.Params.organizers.subtitle }}
-                        <p>{{ . }}</p>
-                    {{ end }}
-                </div>
-                {{ range first 8 (where .Site.RegularPages "Section" "organizers" ) }}
-                    <div class="col-sm-6 col-md-3">
-                        <div class="block">
-                          <a href="{{ .Permalink }}"><img src="{{ .Params.photo }}" /></a>
-                          <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
-                          <p>{{ .Params.affiliation }}</p>
-                        </div>
-                    </div>
-                {{ end }}
-            </div>
-            <div class="row">
-                <div class="more clearfix wow fadeInUp">
-                {{ with .Site.Params.organizers.more }}
-                  <h3><a href="./organizers">{{ . }}</a></h3>
-                {{ end }}
-                </div>
-            </div>
+           <div class="heading">
+               {{ with .Site.Params.organizers.title }}
+                   <h2>{{ . }}</h2>
+               {{ end }}
+               {{ with .Site.Params.organizers.subtitle }}
+                   <p>{{ . }}</p>
+               {{ end }}
+           </div>
+           <div class="row auto-clear">
+               {{ range $index, $page := first 9 (where .Site.RegularPages "Section" "organizers" ) }}
+                   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                       <div class="block">
+                         <a href="{{ .Permalink }}"><img class="rounded-circle" src="{{ .Params.photo }}" /></a>
+                         <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
+                         <p>{{ .Params.affiliation }}</p>
+                       </div>
+                   </div>
+               {{ end }}
+           </div>
         </div>
     </section>
 {{ end }}

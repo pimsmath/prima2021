@@ -1,1 +1,18 @@
-List
+{{ partial "header" . }}
+
+{{ partial "preloader" . }}
+
+{{ partial "breadcrumb" . }}
+<ul>
+   {{ range (.GetTerms "committees") }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+   {{ end }}
+</ul>
+<ul>
+    {{ range .Pages }}
+        <li>
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </li>
+    {{ end }}
+</ul>
+{{ partial "footer" . }}

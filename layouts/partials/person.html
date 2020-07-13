@@ -4,7 +4,7 @@
 
 {{ partial "breadcrumb" . }}
 
-<section id="service" class="service section">
+<section id="people" class="people section">
   <div id="content">
     <div class="container">
       <div class="row">
@@ -15,17 +15,20 @@
     </div>
     {{ .Content }}
     <div class="container">
-      <div class="row">
-        {{ range .Pages }}
-        <div class="col-sm-6 col-md-3 wow fadeInLeft" data-wow-delay="{{ .Params.delay }}">
+      {{ range $key, $taxonomy := .Site.Taxonomies.committees }}
+        <h2>{{ $key | humanize }} Committee</h2>
+      <div class="row auto-clear">
+        {{ range $taxonomy.Pages }}
+        <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4" data-wow-delay="{{ .Params.delay }}">
           <div class="block">
-            <a href="{{ .Permalink }}"><img src="{{ .Params.photo }}" /></a>
+            <a href="{{ .Permalink }}"><img class="rounded-circle" src="{{ .Params.photo }}" /></a>
             <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
             <p>{{ .Params.affiliation }}</p>
           </div>
         </div>
         {{ end }}
       </div>
+      {{ end }}
     </div>
   </div>
 </section>
