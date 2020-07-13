@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.link {
+  stroke: #ccc;
+}
+
+.node {
+  fill: steelblue;
+}
+
+svg {
+  background-image: url('images/triangle-3040131_960_720.png');
+  background-repeat: no-repeat;
+}
+
+</style>
+<body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script>
+
+var width = 1200,
+ height = 800,
+ length = 200,
+ imgwidth = 80,
+ imgheight = 80
+ xoffset = 80,
+ yoffset = 80;
+
+var data = {
+   nodes: [{
+     name: "Jayadev Athrea",
+     x: xoffset + length / 2,
+     y: yoffset + 0,
+     link: 'https://prima2021.primamath.org/organizers/jayadevathrea/',
+     image: 'images/jayadev_s_athreya.jpg'
+   }, {
+     name: "Bobby Wilson",
+     x: xoffset + 3 * length / 2,
+     y: yoffset + 0,
+     link: 'https://prima2021.primamath.org/organizers/bobbywilson/',
+     image: 'images/BobbyWilson.jpg'
+   }, {
+     name: "Koji Fukiwara",
+     x: xoffset + length, 
+     y: yoffset + length / 2,
+     link: 'https://prima2021.primamath.org/organizers/kojifujiwara/',
+     image: 'images/KojiFujiwara.jpg'
+   }, {
+     name: "Paul Norbury",
+     x: xoffset + 0,
+     y: yoffset + length,
+     link: 'https://prima2021.primamath.org/organizers/paulnorbury/',
+     image: 'images/PaulNorbury.jpg'
+     
+   }, {
+     name: "Rafe Mazzeo",
+     x: xoffset + length,
+     y: yoffset + length,
+     link: 'https://prima2021.primamath.org/organizers/rafemazzeo/',
+     image: 'images/RafeMazzeo.jpg'
+   }, {
+     name: "Rita Jiminez Rolland",
+     x: xoffset + 2 * length,
+     y: yoffset + length,
+     link: 'https://prima2021.primamath.org/organizers/ritajimenezrolland/',
+     image: 'images/RitaJimenezRolland.jpg'
+   }, {
+     name: "Romyar Sharifi",
+     x: xoffset + length,
+     y: yoffset + 3 * length / 2,
+     link: 'https://prima2021.primamath.org/organizers/romyarsharifi/',
+     image: 'images/RomyarSharifi.jpg'
+   }, {
+     name: "Seonhee Lim",
+     x: xoffset + length/2,
+     y: yoffset + 2 * length,
+     link: 'https://prima2021.primamath.org/organizers/seonheelim/',
+     image: 'images/SeonheeLim.jpg'
+   }, {
+     name: "Not Sure",
+     x: xoffset + 3 * length / 2,
+     y: yoffset + 2 * length,
+     link: 'https://prima2021.primamath.org/organizers/notsure/',
+     image: 'images/Portrait_Placeholder.jpg'
+   }
+   ],
+   links: [{
+     source: 0,
+     target: 1
+   }, {
+     source: 0,
+     target: 2
+   }, {
+     source: 0,
+     target: 3
+   }, {
+     source: 1,
+     target: 2
+   }, {
+     source: 1,
+     target: 5
+   }, {
+     source: 2,
+     target: 3
+   }, {
+     source: 2,
+     target: 4
+   }, {
+     source: 2,
+     target: 5
+   }, {
+     source: 3,
+     target: 4
+   }, {
+     source: 3,
+     target: 6
+   }, {
+     source: 3,
+     target: 7
+   }, {
+     source: 4,
+     target: 5
+   }, {
+     source: 4,
+     target: 6
+   }, {
+     source: 5,
+     target: 6
+   }, {
+     source: 5,
+     target: 8
+   }, {
+     source: 6,
+     target: 7
+   }, {
+     source: 6,
+     target: 8
+   }, {
+     source: 7,
+     target: 8
+   }]
+ };
+
+ var svg = d3.select("body")
+   .append("svg")
+   .attr("width", width)
+   .attr("height", height);
+
+ var links = svg.selectAll("link")
+   .data(data.links)
+   .enter()
+   .append("line")
+   .attr("class", "link")
+   .attr("x1", function(l) {
+     var sourceNode = data.nodes.filter(function(d, i) {
+       return i == l.source
+     })[0];
+     d3.select(this).attr("y1", sourceNode.y);
+     return sourceNode.x;
+   })
+   .attr("x2", function(l) {
+     var targetNode = data.nodes.filter(function(d, i) {
+       return i == l.target
+     })[0];
+     d3.select(this).attr("y2", targetNode.y);
+     return targetNode.x;
+   })
+   .attr("stroke-dasharray", "6,3")
+   .style("stroke", "darkgreen")
+   .style("stroke-width", 2);
+
+ var node = svg.selectAll("node")
+   .data(data.nodes)
+   .enter().append("g")
+   .attr("class", "node")
+   .attr("transform", function(d) {
+     return "translate(" + d.x + "," + d.y + ")";
+   })
+   .on('mouseover', function(d){
+     d3.select(this).select("image").transition()
+     .duration(250)
+     .attr("transform-origin", "'" + imgwidth/2 + " " + imgheight/2 +"'")
+     .attr("transform", 'scale(1.25)');
+     d3.select(this).select("text").transition()
+     .duration(250)
+     .style({opacity:'1.0'});
+   })
+   .on('mouseout', function(d){
+     d3.select(this).select("image").transition()
+     .duration(250)
+     .attr("transform", 'scale(1.0)');
+     d3.select(this).select("text").transition()
+     .duration(250)
+     .style({opacity:'0.0'});
+   });
+
+ node.append("image")
+ .attr("xlink:href", function(d) { return d.image; })
+ .attr("x", -imgwidth/2)
+ .attr("y", -imgheight/2)
+ .attr("width", imgwidth)
+ .attr("height", imgheight)
+ .style('clip-path','circle(50% at center)');
+
+ node.append("text")
+ .text(function(d) { return d.name })
+ .attr('font-family', 'sans-serif')
+ .attr('font-size', '1.25em')
+ .attr('text-anchor', 'middle')
+ .attr('dy', 9*imgheight/10)
+ .attr('fill', 'white')
+ .style({opacity:'0.0'})
+
+</script>
