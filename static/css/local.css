@@ -77,4 +77,6 @@ ul.nav-fill.nav-justified {
   background-color: #1bafb4;
   color: #fff;
 }
-
+.tab-pane.fade {
+    transition: opacity .5s linear;
+}
