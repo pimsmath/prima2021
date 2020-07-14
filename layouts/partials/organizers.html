@@ -3,7 +3,7 @@
     <section id="organizers" class="service section">
         <div class="container">
           <!-- Nav tabs -->
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
+          <ul class="nav nav-pills nav-fill nav-justified" id="committeTabs" role="tablist">
             {{ range $key, $taxonomy := .Site.Taxonomies.committees }}
             <li class="nav-item">
               <a class="nav-link {{ if eq $key "scientific" }}active{{ end }}" id="{{ $key }}-tab" data-toggle="tab" href="#{{ $key }}" role="tab" aria-controls="{{ $key }}" aria-selected="true">{{ $key | humanize }}</a>

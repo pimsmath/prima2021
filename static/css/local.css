@@ -59,3 +59,21 @@ section#about p {
     text-align: justify;
     font-size: 130%;
 }
+
+ul.nav-fill.nav-justified {
+    display: inline-flex;
+    margin-bottom: 2em;
+}
+
+.nav-pills .nav-link {
+  font-size: 120%;
+  line-height: 1.6em;
+  width: 100%;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  color: #1bafb4;
+}
+.nav-pills .nav-link.active {
+  background-color: #1bafb4;
+  color: #fff;
+}
