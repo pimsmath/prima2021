@@ -2,6 +2,9 @@
     {{"<!-- Organizers Section -->" | safeHTML}}
     <section id="organizers" class="service section">
         <div class="container">
+          <div class="sub-heading">
+            <h2>Organizing Committees</h2>
+          </div>
           <!-- Nav tabs -->
           <ul class="nav nav-pills nav-fill nav-justified" id="committeTabs" role="tablist">
             {{ range $key, $taxonomy := .Site.Taxonomies.committees }}
@@ -15,7 +18,6 @@
           <div class="tab-content">
             {{ range $key, $taxonomy := .Site.Taxonomies.committees }}
             <div class="tab-pane {{ if eq $key "scientific" }}active{{ end }}" id="{{ $key }}" role="tabpanel" aria-labelledby="{{ $key }}-tab">
-               <h2>{{ $key | humanize }} Committee</h2>
                <div class="row auto-clear">
                  {{ range $taxonomy.Pages }}
                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">

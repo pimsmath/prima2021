@@ -73,7 +73,8 @@ ul.nav-fill.nav-justified {
   margin-top: 10px;
   color: #1bafb4;
 }
-.nav-pills .nav-link.active {
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:focus {
   background-color: #1bafb4;
   color: #fff;
 }
+
