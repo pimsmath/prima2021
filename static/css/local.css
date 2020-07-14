@@ -46,9 +46,10 @@ body {
 }
 
 section#organizers, section#speaker, section#people {
-    background: url('/images/triangle-60.png');
+    background: url('/images/trianglify.svg');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
 }
 section#organizers div.transbox {
     background-color: #ffffff;
