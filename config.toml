@@ -14,7 +14,7 @@ theme = "infinity-hugo"
     countdownDay   = "5"
 
   [params.navigation]
-    logo           = "images/prima_logo_24.png"
+    logo           = "images/prima_logo_45.png"
     home           = "Home"
     about          = "About"
     organizers     = "Organizers"
@@ -55,7 +55,7 @@ theme = "infinity-hugo"
   [params.organizers]
     enable         = true
     title          = "Organizing Committee"
-    subtitle       = "Members of the organizing committees will appear here soon."
+    subtitle       = ""
     more           = "See all organizers"
 
   [params.contact]
@@ -73,3 +73,8 @@ theme = "infinity-hugo"
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/PIMS-logo.png"
   url   = 'https://www.pims.math.ca'
+
+[taxonomies]
+  category = "categories"
+  tags = "tags"
+  committees = "committees"
