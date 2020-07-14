@@ -46,7 +46,7 @@ body {
 }
 
 section#organizers, section#speaker, section#people {
-    background: url('/images/trianglify.svg.png');
+    background: url('/images/triangle.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
