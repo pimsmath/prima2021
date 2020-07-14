@@ -55,10 +55,6 @@ section#organizers div.transbox {
     opacity: 0.6;
 }
 
-section#about p {
-    text-align: justify;
-    font-size: 130%;
-}
 
 ul.nav-fill.nav-justified {
     display: inline-flex;
@@ -80,3 +76,19 @@ ul.nav-fill.nav-justified {
 .tab-pane.fade {
     transition: opacity .5s linear;
 }
+
+section#about p {
+    text-align: justify;
+    font-size: 130%;
+}
+
+section#about img {
+    border-radius: 0.24rem;
+}
+
+section#about figcaption {
+    color: #444;
+    font-style: italic;
+}
+
+
