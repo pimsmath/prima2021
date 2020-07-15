@@ -14,7 +14,7 @@ theme = "infinity-hugo"
     countdownDay   = "5"
 
   [params.navigation]
-    logo           = "images/prima_logo_45.png"
+    logo           = "images/prima_logo_24.png"
     home           = "Home"
     about          = "About"
     organizers     = "Organizers"
