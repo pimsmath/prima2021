@@ -2,7 +2,7 @@
 affiliation = "Pacific Institute for the Mathematical Sciences"
 photo = "/uploads/MarniMishna.jpg"
 title = "Marni Mishna"
-committees = ['Local', 'Scientific']
+committees = ['Local']
 
 +++
 ## Biography
