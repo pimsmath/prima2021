@@ -2,7 +2,7 @@
 affiliation = "Pacific Institute for the Mathematical Sciences"
 photo = "/uploads/JamesColliander.jpg"
 title = "James Colliander"
-committees = ['Local']
+committees = ['Local', 'Scientific']
 
 +++
 ## Biography
