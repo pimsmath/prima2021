@@ -17,6 +17,7 @@ theme = "infinity-hugo"
     logo           = "images/prima_logo_24.png"
     home           = "Home"
     about          = "About"
+    speakers       = "Speakers"
     organizers     = "Organizers"
     registration   = "Registration"
     sponsors       = "Sponsors"
@@ -52,6 +53,12 @@ theme = "infinity-hugo"
     heading        = "Registration"
     description    = "links to the registration site will be posted here when available."
   
+  [params.speakers]
+    enable         = true
+    title          = "Speakers"
+    subtitle       = ""
+    more           = "See all speakers"
+
   [params.organizers]
     enable         = true
     title          = "Organizing Committee"
@@ -78,3 +85,4 @@ theme = "infinity-hugo"
   category = "categories"
   tags = "tags"
   committees = "committees"
+  speakers = "speakers"
