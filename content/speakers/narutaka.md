@@ -1,7 +1,7 @@
 +++
 affiliation = "Kyoto University"
 photo = "/uploads/NarutakaOzawa.jpg"
-title = "Ozawa Narutaka"
+title = "Narutaka Ozawa"
 speakers = ['Plenary']
 +++
 ## Biography
