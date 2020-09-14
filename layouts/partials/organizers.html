@@ -22,7 +22,13 @@
                  {{ range $taxonomy.Pages }}
                  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
                    <div class="block">
-                     <a href="{{ .Permalink }}"><img class="rounded-circle" src="{{ .Params.photo }}" /></a>
+                   {{ $link := .Permalink }}
+                   {{ with .Params.photo }}
+                     {{ $photoFileName := strings.TrimPrefix "/uploads/" . }}
+                     {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch $photoFileName }}
+                     {{ $imageResized  := $imageResource.Fill "200x200" }}
+                     <a href="{{ $link }}"><img class="rounded-circle" src="{{ $imageResized.RelPermalink }}" /></a>
+                   {{ end }}
                      <a href="{{ .Permalink }}"><h3>{{ .Title }}</h3></a>
                      <p>{{ .Params.affiliation }}</p>
                    </div>

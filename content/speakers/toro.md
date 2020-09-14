@@ -1,6 +1,6 @@
 +++
 affiliation = "University of Washington"
-photo = "/uploads/TatianaToro.jpg"
+photo = "/uploads/Tatiana_Toro3.jpg"
 title = "Tatiana Toro"
 speakers = ['Plenary']
 +++
