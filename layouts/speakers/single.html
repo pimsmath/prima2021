@@ -2,24 +2,57 @@
 
 {{ partial "preloader" . }}
 
-{{ partial "breadcrumb" . }}
+{{ partial "navigation" . }}
 
 <section id="speaker" class="section">
   <div class="container">
     <div class="row">
-      <div class="col-md-7 col-sm-12 wow fadeInDown">
-        <h2>{{ .Title }}</h2>
-        <strong>{{ .Params.affiliation }}</strong>
+      <div class="col-md-4 col-sm-12 wow fadeinDown">
+        <div id="profile">
+          {{ with .Params.Photo }}
+            {{ $photoFileName := strings.TrimPrefix "/uploads/" . }}
+            {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch $photoFileName }}
+            {{ $imageResized := $imageResource.Fill "200x200 Center" }}
+            {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
+          <img class="avatar avatar-circle" src="{{ $imageResized.RelPermalink }}" alt="{{ $.Title }} photo">
+          {{ end }}
+          <h2>{{ .Title }}</h2>
+          {{ $link := .Params.website }}
+          {{ $scheme := (urls.Parse $link).Scheme }}
+          {{ $target := "" }}
+          {{ if not $scheme }}
+            {{ $link = .Params.website | relLangURL }}
+          {{ else if in (slice "http" "https") $scheme }}
+            {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
+          {{ end }}
+          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}><h3>{{ .Params.affiliation }}</h3></a>
+        </div> 
       </div>
-      <div class="col-md-5 col-sm-12 wow fadeinDown">
-        {{ with .Params.Photo }}
-          {{ $photoFileName := strings.TrimPrefix "/uploads/" . }}
-          {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch $photoFileName }}
-          {{ $imageResized := $imageResource.Fill "200x200" }}
-        <img src="{{ $imageResized.RelPermalink }}" alt="{{ $.Title }} photo">
-       {{ end }}
+      <div class="col-md-4 col-sm-12 wow fadeInDown">
+        <div id="research-interests">
+          <h3>Research Interests</h3>
+          <ul class="profile">
+          {{ range .Params.interests }}
+          <li>{{ . }}</li>
+          {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4 col-sm-12 wow fadeInDown">
+        <div id="education">
+          <h3>Education</h3>
+          <ul class="profile">
+            {{ range .Params.courses }} 
+            <li>
+              <p class="course">{{ .course }}</p>
+              <p class="institution">{{ .institution }}</p>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
       </div>
     </div>
+    <hr>
     <div class="row">
       <div class="col-md-12 col-sm-12">
         <div class="content">
