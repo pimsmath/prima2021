@@ -16,7 +16,7 @@
             {{ $avatar_shape := site.Params.avatar.shape | default "circle" }}
           <img class="avatar avatar-circle" src="{{ $imageResized.RelPermalink }}" alt="{{ $.Title }} photo">
           {{ end }}
-          <h2>{{ .Title }}</h2>
+          <h2>{{ with .Params.role_title }}{{ . }} {{ end }}{{ .Title }}</h2>
           {{ $link := .Params.website }}
           {{ $scheme := (urls.Parse $link).Scheme }}
           {{ $target := "" }}

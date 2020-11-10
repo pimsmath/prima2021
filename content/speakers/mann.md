@@ -2,6 +2,7 @@
 affiliation: Cornell University
 photo: /uploads/KathrynMann.jpg
 title: Kathryn Mann
+role_title: Prof.
 email: k.mann@cornell.edu
 speakers:
   - Plenary

@@ -2,6 +2,7 @@
 affiliation: Stanford University
 photo: /uploads/CiprianManolescu.jpg
 title: Ciprian Manolescu
+role_title: Prof.
 email: cm5@stanford.edu
 speakers:
 - Plenary
