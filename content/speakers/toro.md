@@ -1,19 +1,23 @@
 ---
 affiliation: University of Washington
-photo: /uploads/TatianaToro4.jpg
+photo: "/uploads/TatianaToro4.jpg"
 title: Tatiana Toro
 speakers:
- - Plenary
+- Plenary
 role_title: Prof.
 email: toro@uw.edu
 courses:
-  - course: Ph.D 1992
-    institution: Stanford University
+- course: Ph.D 1992
+  institution: Stanford University
 interests:
-  - Geometric Measure Theory
-  - Partial Differential Equations
-  - Harmonic Analysis.
+- Geometric Measure Theory
+- Partial Differential Equations
+- Harmonic Analysis.
 website: http://sites.math.washington.edu/~toro/
+coures:
+- course: Ph.D 1992
+  institution: Stanford University
+
 ---
 ## Biography
 Professor Toro was born in Bogotá, Colombia. She received her
