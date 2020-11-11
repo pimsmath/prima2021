@@ -30,7 +30,7 @@ fields:
     required: false
   label: Website
   description: URL of speaker's website
-- name: coures
+- name: courses
   type: field_group_list
   fields:
   - name: course
