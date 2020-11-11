@@ -15,5 +15,33 @@ fields:
 - name: photo
   type: file
   config:
-    maxSize: 250
+    maxSize: 5
   label: Photo
+- name: speakers
+  type: select
+  default: Plenary
+  config:
+    required: false
+    options:
+    - Plenary
+    - Public
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: Speaker Roles
+  description: Please select the role(s) for this speaker
+- name: role_title
+  type: text
+  config:
+    required: false
+  label: Role Title
+  description: Title to be added prefixed to speaker name (e.g. Prof. or Dr.)
+  default: Prof.
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
+  description: URL of speaker's website
