@@ -1,8 +1,9 @@
-+++
-affiliation = "Universidad Nacional Autónoma de México"
-photo = "/uploads/IsabelHubardEscalera.jpg"
-title = "Isabel Hubard"
-speakers = ['Plenary']
+---
+affiliation: "Universidad Nacional Autónoma de México"
+photo: "/uploads/IsabelHubardEscalera.jpg"
+title: "Isabel Hubard"
+speakers:
+  - Plenary
 role_title: Prof.
 email: isahubard@im.unam.mx
 speakers:
@@ -14,7 +15,7 @@ interests:
 - Symmetries of discrete objects
 - Abstract polytopes
 - Discrete geometry - Maps on surfaces
-+++
+---
 ## Biography
 Originally from Mexico City, Isabel Hubard obtained her BS from the National University of Mexico, and her Masters and PhD from York University. Later she held postdoctoral positions at the University of Auckland and the Université Libre de Bruxelles. 
 
