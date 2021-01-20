@@ -2,6 +2,13 @@
 label: Speakers
 hide_body: false
 fields:
+- name: role_title
+  type: text
+  config:
+    required: false
+  label: Role Title
+  description: Title to be added prefixed to speaker name (e.g. Prof. or Dr.)
+  default: Prof.
 - name: title
   type: text
   config:
@@ -15,8 +22,40 @@ fields:
 - name: photo
   type: file
   config:
-    maxSize: 250
+    maxSize: 5
   label: Photo
-pages:
-- content/speakers/speaker-1.md
-- content/organizers/organizer-1.md
+- name: speakers
+  type: tag_list
+  default: []
+  label: Speaker roles
+  description: Please include all of the roles for this speaker, e.g. Plenary, Public
+- name: interests
+  type: tag_list
+  default: []
+  label: Interests
+- name: courses
+  type: field_group_list
+  fields:
+  - name: course
+    type: text
+    config:
+      required: false
+    label: Course
+    description: e.g. Ph.D Mathematics, 2020
+  - name: institution
+    type: text
+    config:
+      required: false
+    label: Institution
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Coures
+  description: Courses completed by the speaker
+- name: website
+  type: text
+  config:
+    required: false
+  label: Website
+  description: URL of speaker's website
