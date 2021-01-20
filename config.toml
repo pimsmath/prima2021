@@ -82,7 +82,7 @@ theme = "infinity-hugo"
   url   = 'https://www.pims.math.ca'
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/MSRI-logo.png"
-  urk   = 'https://www.msri.org/'
+  url   = 'https://www.msri.org/'
 
 [taxonomies]
   category = "categories"
