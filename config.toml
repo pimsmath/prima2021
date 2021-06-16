@@ -1,17 +1,17 @@
-baseURL = "https://prima2021.primamath.org/"
+baseURL = "https://prima2022.primamath.org/"
 languageCode = "en-us"
-title = "Pacific Rim Mathematical Association Congress 2021"
+title = "Pacific Rim Mathematical Association Congress 2022"
 theme = "infinity-hugo"
 
 [params]
   [params.hero]
     enable         = true
     bg             = "images/vancouver-winter-1900x1250-dark-reduced.jpg"
-    title          = "PRIMA Congress 2021"
-    subtitle       = "The Pacific Rim Mathematical Association Congress 2021 will take place in Vancouver, Canada between December 6-11, 2021. Mathematicians from around the Pacific Rim will converge to discuss the latest developments in Mathematics."
-    countdownYear  = "2021"
+    title          = "PRIMA Congress 2022"
+    subtitle       = "The Pacific Rim Mathematical Association Congress 2022 will take place in Vancouver, Canada between December 4-9, 2022. Mathematicians from around the Pacific Rim will converge to discuss the latest developments in Mathematics."
+    countdownYear  = "2022"
     countdownMonth = "12"
-    countdownDay   = "6"
+    countdownDay   = "4"
 
   [params.navigation]
     logo           = "images/prima_logo_24.png"
@@ -25,7 +25,7 @@ theme = "infinity-hugo"
 
   [params.about]
     enable         = true
-    heading        = "PRIMA 2021 - Vancouver"
+    heading        = "PRIMA 2022 - Vancouver"
     description    = "PRIMA is an association of mathematical science institutes, departments and societies from around the Pacific Rim, founded in 2005 to promote and facilitate the development of the mathematical sciences throughout the pacific rim region. The PRIMA congress is a triennial meeting of these groups which showcases recent developments in mathematics and brings together the pacific rim mathematical community."
     [[params.about.sliderItem]]
       imageWebp   = "images/1_sm.webp"
@@ -68,12 +68,12 @@ theme = "infinity-hugo"
   [params.contact]
     enable         = true
     title          = "Get in Touch"
-    subtitle       = "If you have questions about PRIMA 2021, please get in touch with the organizing committee via the form below."
+    subtitle       = "If you have questions about PRIMA 2022, please get in touch with the organizing committee via the form below."
 
   [params.sponsors]
   enable = true
   title  = "Sponsors"
-  subtitle = "PRIMA 2021 gratefully acknowledges the following sponors"
+  subtitle = "PRIMA 2022 gratefully acknowledges the following sponors"
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/CMS-logo.png"
   url   = 'https://cms.math.ca/'
