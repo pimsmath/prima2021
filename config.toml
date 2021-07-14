@@ -17,14 +17,20 @@ theme = "infinity-hugo"
     logo           = "images/prima_logo_24.png"
     home           = "Home"
     about          = "About"
+    schools        = "Summer Schools"
     speakers       = "Speakers"
     organizers     = "Organizers"
     registration   = "Registration"
     sponsors       = "Sponsors"
     contact        = "Contact"
 
-  [params.about]
+  [params.schools]
     enable         = true
+    heading        = "PRIMA 2022 Summer Schools"
+    description    = "In advance of PRIMA 2022, a number of summer schools will take place prior to the main event at the end of the year. The first summer school on [Arithmetic Geometry: Theory and Computation](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) will take place August 2-4th, 2021. Please see the [event webpage](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) for more information and to register"
+
+  [params.about]
+    enable         = false
     heading        = "PRIMA 2022 - Vancouver"
     description    = "PRIMA is an association of mathematical science institutes, departments and societies from around the Pacific Rim, founded in 2005 to promote and facilitate the development of the mathematical sciences throughout the pacific rim region. The PRIMA congress is a triennial meeting of these groups which showcases recent developments in mathematics and brings together the pacific rim mathematical community."
     [[params.about.sliderItem]]

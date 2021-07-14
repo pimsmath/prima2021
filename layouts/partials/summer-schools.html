@@ -1,0 +1,27 @@
+{{ if .Site.Params.schools.enable }}
+    {{"<!-- About Section -->" | safeHTML}}
+    <section id="summer-schools" class="section schools bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="content">
+                        <div class="sub-heading">
+                        {{ with .Site.Params.schools.heading }}
+                            <h3>{{ . }}</h3>
+                        {{ end }}
+                        </div>
+                        {{ with .Site.Params.schools.description }}
+                            <p>{{ . | markdownify }}</p>
+                        {{ end }}
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                    <div class="school">
+                        {{ range .Site.Params.schools.sliderItem }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}

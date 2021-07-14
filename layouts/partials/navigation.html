@@ -28,6 +28,13 @@
                         </a>
                     </li>
                 {{ end }}
+                {{ if .Site.Params.schools.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#summer-schools">
+                            {{ with .Site.Params.navigation.schools }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
                 {{ if .Site.Params.speakers.enable }}
                     <li class="nav-item">
                       <a class="nav-link" href="{{ .Site.BaseURL }}#speakers">
