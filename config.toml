@@ -20,6 +20,7 @@ theme = "infinity-hugo"
     schools        = "Summer Schools"
     speakers       = "Speakers"
     organizers     = "Organizers"
+    sessions       = "Sessions"
     registration   = "Registration"
     sponsors       = "Sponsors"
     contact        = "Contact"
@@ -27,7 +28,15 @@ theme = "infinity-hugo"
   [params.schools]
     enable         = true
     heading        = "PRIMA 2022 Summer Schools"
-    description    = "In advance of PRIMA 2022, a number of summer schools will take place prior to the main event at the end of the year. The first summer school on [Arithmetic Geometry: Theory and Computation](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) will take place August 2-4th, 2021. Please see the [event webpage](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) for more information and to register"
+    description    = """
+In advance of PRIMA 2022, a number of summer schools will take place prior to
+the main event at the end of the year. The first summer school on [Arithmetic
+Geometry: Theory and
+Computation](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) will
+take place August 2-4th, 2021. Please see the [event
+webpage](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) for more
+information and to register.
+"""
 
   [params.about]
     enable         = false
@@ -58,7 +67,29 @@ theme = "infinity-hugo"
     enable         = true
     heading        = "Registration"
     description    = "links to the registration site will be posted here when available."
-  
+
+  [params.sessions]
+    enable         = true
+    title          = "Special Sessions"
+    description    = """
+PRIMA 2021 will include special sessions in the following areas
+
+  * Arithmetic Geometry: Theory and Gomputation
+  * Harmonic Functions and Laplace Eigenfunctions
+  * Algebraic Number Theory and Arithmetic Geometry
+  * Enumerative Algebraic Geometry
+  * New Trends in Geometry and Mathematical Physics
+  * Hyperbolic and Parabolic Dynamics
+  * Optimal Transport and Applications
+  * Low Dimensional Topology
+  * Geometric Group Theory
+  * Representation Theory and Applications
+  * Geometric Analysis
+  * Moduli Spaces in Algebraic Geometry
+  * Graph Theory and Coombinatorics
+  * A celebration of Indigenous mathematicians
+"""
+
   [params.speakers]
     enable         = true
     title          = "Speakers"

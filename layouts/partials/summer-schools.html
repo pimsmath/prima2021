@@ -1,6 +1,6 @@
 {{ if .Site.Params.schools.enable }}
     {{"<!-- About Section -->" | safeHTML}}
-    <section id="summer-schools" class="section schools bg-gray">
+    <section id="summer-schools" class="about section schools">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-sm-12">
@@ -11,7 +11,7 @@
                         {{ end }}
                         </div>
                         {{ with .Site.Params.schools.description }}
-                            <p>{{ . | markdownify }}</p>
+                            {{ . | markdownify }}
                         {{ end }}
                     </div>
                 </div>
