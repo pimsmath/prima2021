@@ -74,20 +74,75 @@ information and to register.
     description    = """
 PRIMA 2022 will include special sessions in the following areas
 
-  * Arithmetic Geometry: Theory and Gomputation
-  * Harmonic Functions and Laplace Eigenfunctions
-  * Algebraic Number Theory and Arithmetic Geometry
-  * Enumerative Algebraic Geometry
-  * New Trends in Geometry and Mathematical Physics
-  * Hyperbolic and Parabolic Dynamics
-  * Optimal Transport and Applications
-  * Low Dimensional Topology
-  * Geometric Group Theory
-  * Representation Theory and Applications
-  * Geometric Analysis
-  * Moduli Spaces in Algebraic Geometry
-  * Graph Theory and Coombinatorics
-  * A celebration of Indigenous mathematicians
+  * **Arithmetic Geometry: Theory and Computation** 
+
+      _Organizers: Bianca Viray, University of Washington_
+
+  * **Harmonic Functions and Laplace Eigenfunctions**
+
+      _Organizers: Eugenia Malinnikova, Stanford University; Bobby Wilson,
+      University of Washington; Zihui Zhao, University of Chicago_
+
+  * **Algebraic Number Theory and Arithmetic Geometry** 
+
+      _Organizers: Zihui Zhao, University of Chicago; Sug Woo Shin, Berkeley;
+      Liang Xiao, Peking University_
+
+  * **Enumerative Algebraic Geometry**
+
+      _Organizers: Huai-Liang Chang, Hong Kong University of Science and
+      Technology; Wei-Ping LI, Hong Kong University of Science and Technology;
+      Junwu Tu, Shanghai Tech_
+
+  * **New Trends in Geometry and Mathematical Physics**
+
+      _Organizers: Vincent Bouchard, University of Alberta; Norman Do, Monash
+      University; Steven Rayan, University of Saskatchewan_
+
+  * **Hyperbolic and Parabolic Dynamics** 
+
+      _Organizers: Anthony Quas, University of Victoria; Cheung Yitwah, Tsinghua
+      University; Jana Rodriguez-Hertz, Southern University of Science and
+      Technology; Cecilia Gonzalez-Tokman, University of Queensland_
+
+  * **Optimal Transport and Applications**
+
+      _Organizers: Shibing Chen, University of Science and Technology of China;
+      Young-Heon Kim, University of British Columbia; Soumik Pal, University of
+      Washington; Brendan Pass, University of Alberta; Asuka Takatsu, Tokyo
+      Metropolitan University_
+
+  * **Low Dimensional Topology** 
+
+      _Organizers: Jianfeng Lin, University of California - San Diego; Ciprian Manolescu,
+      Stanford University; Liam Watson, University of British Columbia_
+
+  * **Geometric Group Theory**
+
+      _Organizers: Mladen Bestvina, University of Utah; Rita Jimenez Rolland, Universidad
+      Nacional Autónoma de México; Koji Fujiwara, Kyoto University_
+
+  * **Representation Theory and Applications**
+
+     _Organizers: Robert M. Guralnick, University of South Carolina; Arun Ram, University
+     of Melbourne; Pham H. Tiep, Rutgers University_
+
+  * **Geometric Analysis**
+
+      _Organizers: Otis Chodosh, Stanford University; Mariel Saez , Universidad Católica de
+      Chile; Yoshi Tonegawa, Tokyo Institute of Technology; Raquel Perales,
+      Universidad Nacional Autónoma de México_
+
+  * **Moduli Spaces in Algebraic Geometry**
+
+      _Organizers: Alexander Polishchuk, University of Oregon; Nicolas Addington,
+      University of Oregon_
+
+  * **Graph Theory and Coombinatorics**
+
+      _Organizers: Bojan Mohar, Simon Fraser University; Karen Meagher, University of
+      Regina; Karen Gunderson, University of Manitoba; Joy Morris, University
+      of Lethbridge_
 """
 
   [params.speakers]
