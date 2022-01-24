@@ -2,7 +2,7 @@
 affiliation: University of Washington
 photo: "/uploads/TatianaToro4.jpg"
 title: Tatiana Toro
-speakers:
+speakertype:
 - Plenary
 role_title: Prof.
 email: toro@uw.edu

@@ -3,7 +3,7 @@ affiliation: Universidad de Santiago de Chile
 photo: /uploads/AndresNavas3.jpg
 role_title: Prof.
 title: Andres Navas
-speakers:
+speakertype:
   - Plenary
 email: andres.navas@usach.cl
 courses:

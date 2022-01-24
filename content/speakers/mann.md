@@ -4,7 +4,7 @@ photo: /uploads/KathrynMann.jpg
 title: Kathryn Mann
 role_title: Prof.
 email: k.mann@cornell.edu
-speakers:
+speakertype:
   - Plenary
 courses:
 - course: Ph.D, 2014
