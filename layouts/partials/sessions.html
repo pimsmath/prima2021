@@ -1,21 +1,21 @@
 {{ if .Site.Params.sessions.enable }}
-    {{"<!-- Registration Section -->" | safeHTML}}
-    <section id="sessions" class="section about bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-sm-12">
-                    <div class="content">
-                        <div class="sub-heading">
-                        {{ with .Site.Params.sessions.title }}
-                            <h3>{{ . }}</h3>
-                        {{ end }}
-                        </div>
-                        {{ with .Site.Params.sessions.description }}
-                            {{ . | markdownify }}
-                        {{ end }}
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+  {{"<!-- Special Sessions Section -->" | safeHTML}} 
+  <section id="sessions" class="section about bg-gray">
+      <div class="container">
+         <div class="heading">
+         {{ with .Site.Params.sessions.title }}
+             <h2>{{ . }}</h2>
+         {{ end }}
+         </div>
+         <div class="row">
+             <div class="col-md-12 col-sm-12">
+                 <div class="content">
+                     {{ with .Site.Params.sessions.description }}
+                         {{ . | markdownify }}
+                     {{ end }}
+                 </div>
+             </div>
+         </div>
+      </div>
+  </section>
 {{ end }}

@@ -2,14 +2,14 @@
     {{"<!-- About Section -->" | safeHTML}}
     <section id="summer-schools" class="about section schools">
         <div class="container">
+           <div class="heading">
+           {{ with .Site.Params.schools.heading }}
+               <h2>{{ . }}</h2>
+           {{ end }}
+           </div>
             <div class="row">
                 <div class="col-md-12 col-sm-12">
                     <div class="content">
-                        <div class="sub-heading">
-                        {{ with .Site.Params.schools.heading }}
-                            <h3>{{ . }}</h3>
-                        {{ end }}
-                        </div>
                         {{ with .Site.Params.schools.description }}
                             {{ . | markdownify }}
                         {{ end }}

@@ -10,35 +10,10 @@
         </button>
         <div class="collapse navbar-toggleable-md" id="navbarResponsive">
             <ul class="nav navbar-nav menu float-lg-right">
-                <li class="nav-item active">
-                  {{ if .IsHome }}
-                    <a class="nav-link" href="#">
-                        {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
-                    </a>
-                  {{ else }}
-                    <a class="nav-link" href="{{ .Site.BaseURL }}">
-                        {{ with .Site.Params.navigation.home }} {{ . }} {{ end }}
-                    </a>
-                  {{ end }}
-                </li>
                 {{ if .Site.Params.about.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#about">
                             {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.schools.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#summer-schools">
-                            {{ with .Site.Params.navigation.schools }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.sessions.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#sessions">
-                            {{ with .Site.Params.navigation.sessions }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
@@ -49,9 +24,16 @@
                       </a>
                     </li>
                 {{ end }}
+                {{ if .Site.Params.sessions.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#sessions">
+                            {{ with .Site.Params.navigation.sessions }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
                 {{ if .Site.Params.organizers.enable }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#organizers">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#conference-organizers">
                             {{ with .Site.Params.navigation.organizers }} {{ . }} {{ end }}
                         </a>
                     </li>
