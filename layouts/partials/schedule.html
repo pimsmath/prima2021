@@ -19,11 +19,16 @@
           {{ range .Pages.GroupByDate "2006-01-02" "asc" }}
           {{ $date := .Key }}
             <div class="tab-pane fade{{ if eq .Key "2022-12-04"}} in active{{ end }}" id="schedule-{{ .Key }}" role="tabpanel" aria-labelledby="{{ .Key }}-tab">
-              <ul>
+              <ul class="mt-5 time-table pl-0 list-unstyled">
                 {{ $date := printf "%sT00:00:00" .Key | time }}
                 {{ range .Pages }}
-                <li>
-                {{ .Title }} {{ $date.Format "Jan 2" }}
+                <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
+                  <h4 class="time">TIME</h3>
+                  <div class="content">
+                    <h3>{{ .Title }}</h3>
+                    <h6>Speaker</h3>
+                    <p>CONTENT GOES HERE</p>
+                  </div>
                 </li>
                 {{ end }}
               </ul>
