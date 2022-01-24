@@ -72,8 +72,6 @@ information and to register.
     enable         = true
     title          = "Special Sessions"
     description    = """
-PRIMA 2022 will include special sessions in the following areas:
-
 
 #### Arithmetic Geometry: Theory and Computation
 
@@ -176,6 +174,8 @@ PRIMA 2022 will include special sessions in the following areas:
   * Joy Morris, _University of Lethbridge_
 
 #### Indigenous Mathematicians
+
+##### Organizers
   *  Kamuela Yong, _University of Hawai'i - West O'ahu_
 """
 
