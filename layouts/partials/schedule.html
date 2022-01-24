@@ -1,0 +1,28 @@
+{{ if .Site.Params.schedule.enable }}
+    {{"<!-- Schedule Section -->" | safeHTML}}
+    <section id="schedule" class="service section">
+        <div class="container">
+          <div class="sub-heading">
+            <h2>Schedule</h2>
+          </div>
+          <!-- Nav tabs -->
+          <ul class="nav nav-pills nav-fill nav-justified" id="scheduleTabs" role="tablist">
+            {{ range .Pages.GroupByDate "2006-01-01" }}
+            <li class="nav-item">
+              <a class="nav-link {{ if eq .Key "first" }}active{{ end }}" id="{{ .Key }}-tab" data-toggle="tab" href="#{{ .Key }}" role="tab" aria-controls="{{ .Key }}" aria-selected="true">{{ .Key | humanize }}</a>
+            </li>
+            {{ end }}
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            {{ range .Pages.GroupByDate "2006-01-01" }}
+            <div class="tab-pane fade{{ if eq .Key "first" }} in active{{ end }}" id="{{ .Key }}" role="tabpanel" aria-labelledby="{{ .Key }}-tab">
+               <div class="row auto-clear">
+               </div>
+            </div>
+            {{ end }}
+          </div> 
+        </div>
+    </section>
+{{ end }}

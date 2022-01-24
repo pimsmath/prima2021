@@ -63,6 +63,13 @@
                         </a>
                     </li>
                 {{ end }}
+                {{ if .Site.Params.schedule.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#schedule">
+                            {{ with .Site.Params.navigation.schedule }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
                 {{ if .Site.Params.sponsors.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#sponsors">

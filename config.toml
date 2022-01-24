@@ -22,6 +22,7 @@ theme = "infinity-hugo"
     organizers     = "Organizers"
     sessions       = "Sessions"
     registration   = "Registration"
+    schedule       = "Schedule"
     sponsors       = "Sponsors"
     contact        = "Contact"
 
@@ -107,6 +108,12 @@ PRIMA 2022 will include special sessions in the following areas
     title          = "Get in Touch"
     subtitle       = "If you have questions about PRIMA 2022, please get in touch with the organizing committee via the form below."
 
+  [params.schedule]
+    enable         = true
+    title          = "Schedule"
+    subtitle       = ""
+    more           = "See complete schedule"
+
   [params.sponsors]
   enable = true
   title  = "Sponsors"
@@ -126,3 +133,4 @@ PRIMA 2022 will include special sessions in the following areas
   tags = "tags"
   committees = "committees"
   speakers = "speakers"
+  schedule = "schedule"
