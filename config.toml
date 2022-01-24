@@ -72,81 +72,111 @@ information and to register.
     enable         = true
     title          = "Special Sessions"
     description    = """
-PRIMA 2022 will include special sessions in the following areas
+PRIMA 2022 will include special sessions in the following areas:
 
-  * **Arithmetic Geometry: Theory and Computation** 
 
-      _Organizers: Bianca Viray, University of Washington; Sho Tanimoto, Nagoya
-      University_
+#### Arithmetic Geometry: Theory and Computation
 
-  * **Harmonic Functions and Laplace Eigenfunctions**
+##### Organizers
+  * Bianca Viray, _University of Washington_
+  * Sho Tanimoto, _Nagoya University_
 
-      _Organizers: Eugenia Malinnikova, Stanford University; Bobby Wilson,
-      University of Washington; Zihui Zhao, University of Chicago_
+<br /><br />
 
-  * **Algebraic Number Theory and Arithmetic Geometry** 
+#### Harmonic Functions and Laplace Eigenfunctions
 
-      _Organizers: Ellen Eischen, University of Oregon; Sug Woo Shin, Berkeley;
-      Liang Xiao, Peking University_
+##### Organizers
+  * Eugenia Malinnikova, _Stanford University_
+  * Bobby Wilson, _University of Washington_
+  * Zihui Zhao, _University of Chicago_
 
-  * **Enumerative Algebraic Geometry**
 
-      _Organizers: Huai-Liang Chang, Hong Kong University of Science and
-      Technology; Wei-Ping LI, Hong Kong University of Science and Technology;
-      Junwu Tu, Shanghai Tech_
+#### Algebraic Number Theory and Arithmetic Geometry
 
-  * **New Trends in Geometry and Mathematical Physics**
+##### Organizers
+  * Ellen Eischen, _University of Oregon_
+  * Sug Woo Shin, _University of California - Berkeley_
+  * Liang Xiao, _Peking University_
 
-      _Organizers: Vincent Bouchard, University of Alberta; Norman Do, Monash
-      University; Steven Rayan, University of Saskatchewan; Thomas Creutzig,
-      University of Alberta_
+#### Enumerative Algebraic Geometry
 
-  * **Hyperbolic and Parabolic Dynamics** 
+##### Organizers
+  * Huai-Liang Chang, _Hong Kong University of Science and Technology_
+  * Wei-Ping Li, _Hong Kong University of Science and Technology_
+  * Junwu Tu, _Shanghai Tech University_
 
-      _Organizers: Anthony Quas, University of Victoria; Cheung Yitwah, Tsinghua
-      University; Jana Rodriguez-Hertz, Southern University of Science and
-      Technology; Cecilia Gonzalez-Tokman, University of Queensland_
+#### New Trends in Geometry and Mathematical Physics
 
-  * **Optimal Transport and Applications**
+##### Organizers
+  * Vincent Bouchard, _University of Alberta_
+  * Norman Do, _Monash University_
+  * Steven Rayan _University of Saskatchewan_
+  * Thomas Creutzig, _University of Alberta_
 
-      _Organizers: Shibing Chen, University of Science and Technology of China;
-      Young-Heon Kim, University of British Columbia; Soumik Pal, University of
-      Washington; Brendan Pass, University of Alberta; Asuka Takatsu, Tokyo
-      Metropolitan University_
+#### Hyperbolic and Parabolic Dynamics
 
-  * **Low Dimensional Topology** 
+##### Organizers
+  * Anthony Quas, _University of Victoria_
+  * Cheung Yitwah, _Tsinghua University_
+  * Jana Rodriguez-Hertz, _Southern University of Science and Technology_
+  * Cecilia Gonzalez-Tokman, _University of Queensland_
 
-      _Organizers: Jianfeng Lin, University of California - San Diego; Ciprian Manolescu,
-      Stanford University; Liam Watson, University of British Columbia_
+#### Optimal Transport and Applications
 
-  * **Geometric Group Theory**
+##### Organizers
+  * Shibing Chen, _University of Science and Technology of China_
+  * Young-Heon Kim, _University of British Columbia_
+  * Soumik Pal, _University of Washington_
+  * Brendan Pass, _University of Alberta_
+  * Asuka Takatsu, _Tokyo Metropolitan University_
 
-      _Organizers: Mladen Bestvina, University of Utah; Rita Jimenez Rolland, Universidad
-      Nacional Autónoma de México; Koji Fujiwara, Kyoto University, Priyam
-      Patel University of Utah; Jesus Hernandez Hernandez, Universidad Nacional
-      Autónoma de México_
+#### Low Dimensional Topology
 
-  * **Representation Theory and Applications**
+##### Organizers
+  * Jianfeng Lin, _University of California - San Diego_
+  * Ciprian Manolescu, _Stanford University_
+  * Liam Watson, _University of British Columbia_
 
-     _Organizers: Robert M. Guralnick, University of South Carolina; Arun Ram, University
-     of Melbourne; Pham H. Tiep, Rutgers University_
+#### Geometric Group Theory
 
-  * **Geometric Analysis**
+##### Organizers
+  * Mladen Bestvina, _University of Utah_
+  * Rita Jimenez Rolland, _Universidad Nacional Autónoma de México_
+  * Koji Fujiwara, _Kyoto University_
+  * Priyam Patel, _University of Utah_
+  * Jesus Hernandez Hernandez _Universidad Nacional Autónoma de México_
 
-      _Organizers: Otis Chodosh, Stanford University; Mariel Saez , Universidad Católica de
-      Chile; Yoshi Tonegawa, Tokyo Institute of Technology; Raquel Perales,
-      Universidad Nacional Autónoma de México_
+#### Representation Theory and Applications
 
-  * **Moduli Spaces in Algebraic Geometry**
+##### Organizers
+  * Robert M. Guralnick, _University of South Carolina_
+  * Arun Ram, _University of Melbourne_
+  * Pham H. Tiep _Rutgers University_
 
-      _Organizers: Alexander Polishchuk, University of Oregon; Nicolas Addington,
-      University of Oregon_
+#### Geometric Analysis
 
-  * **Graph Theory and Coombinatorics**
+##### Organizers
+  * Otis Chodosh, _Stanford University_
+  * Mariel Saez, _Universidad Católica de Chile_
+  * Yoshi Tonegawa, _Tokyo Institute of Technology_
+  * Raquel Perales, _Universidad Nacional Autónoma de México_
 
-      _Organizers: Bojan Mohar, Simon Fraser University; Karen Meagher, University of
-      Regina; Karen Gunderson, University of Manitoba; Joy Morris, University
-      of Lethbridge_
+#### Moduli Spaces in Algebraic Geometry
+
+##### Organizers
+  * Alexander Polishchuk, _University of Oregon_
+  * Nicolas Addington, _University of Oregon_
+
+#### Graph Theory and Coombinatorics
+
+##### Organizers
+  * Bojan Mohar, _Simon Fraser University_
+  * Karen Meagher, _University of Regina_
+  * Karen Gunderson _University of Manitoba_
+  * Joy Morris, _University of Lethbridge_
+
+#### Indigenous Mathematicians
+  *  Kamuela Yong, _University of Hawai'i - West O'ahu_
 """
 
   [params.speakers]
