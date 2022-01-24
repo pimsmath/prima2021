@@ -45,13 +45,13 @@ body {
     text-align: center;
 }
 
-section#speakers, section#organizers, section#speaker, section#people {
+section#speakers, section#conference-organizers, section#speaker, section#people {
     background: url('/images/trianglify.svg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
-section#speakers div.transbox, section#organizers div.transbox {
+section#speakers div.transbox, section#conference-organizers div.transbox {
     background-color: #ffffff;
     opacity: 0.6;
 }
@@ -120,3 +120,18 @@ ul.profile {
     padding-left: 2rem;
 }
 
+div.content ul {
+    padding-left: 2rem;
+    margin-top: 0.75rem;
+    list-style: disc;
+}
+
+div.content li {
+    font-size: 16px;
+}
+
+section#sessions h4 {
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
