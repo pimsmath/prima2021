@@ -214,4 +214,4 @@ information and to register.
   category = "categories"
   tags = "tags"
   committees = "committees"
-  speakers = "speakers"
+  speakertype = "speakertype"

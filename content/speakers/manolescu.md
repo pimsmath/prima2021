@@ -4,7 +4,7 @@ photo: /uploads/CiprianManolescu.jpg
 title: Ciprian Manolescu
 role_title: Prof.
 email: cm5@stanford.edu
-speakers:
+speakertype:
 - Plenary
 courses:
 - course: Ph.D, 2004

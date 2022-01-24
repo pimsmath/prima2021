@@ -2,7 +2,7 @@
 affiliation: "Universidad Nacional Autónoma de México"
 photo: "/uploads/IsabelHubardEscalera.jpg"
 title: "Isabel Hubard"
-speakers:
+speakertype:
   - Plenary
 role_title: Prof.
 email: isahubard@im.unam.mx
