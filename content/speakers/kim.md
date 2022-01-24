@@ -2,7 +2,7 @@
 affiliation = "University of Warwick"
 photo = "/uploads/MinhyongKim.jpg"
 title = "Minhyong Kim"
-speakers = ['Public']
+speakertype = ['Public']
 +++
 ## Biography
 
