@@ -1,7 +1,7 @@
 ---
-title: "The only lecture on December 4th"
+title: "The first lecture on Dec 5th"
 speakers:
-  - hubard
+  - navas
 abstract: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -13,7 +13,7 @@ abstract: |
 tags:
   - plenary
 
-date: 2022-12-04T09:00:00-08:00
+date: 2022-12-05T09:00:00-08:00
 featured: false
 draft: false
 ---

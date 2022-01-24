@@ -8,26 +8,28 @@
           </div>
           <!-- Nav tabs -->
           <ul class="nav nav-pills nav-fill nav-justified" id="scheduleTabs" role="tablist">
-            {{ range .Pages.GroupByDate "2006-01-01" "asc" }}
-
-              {{ range .Pages.ByTitle }}
-              {{ $date := .Date.Format "Mon, Jan 2" }}
+            {{ range .Pages.GroupByDate "2006-01-02" "asc" }}
+              {{ $date := printf "%sT00:00:00" .Key | time }}
               <li class="nav-item">
-                <a class="nav-link" id="{{ $date }}-tab" data-toggle="tab" href="#{{ $date }}" role="tab" aria-controls="{{ $date }}" aria-selected="true">{{ $date }}</a>
+                <a class="nav-link {{ if eq .Key "2022-12-04" }}active{{ end }}" id="{{ .Key }}-tab" data-toggle="tab" href="#schedule-{{ .Key }}" role="tab" aria-controls="{{ .Key }}" aria-selected="true">{{ $date.Format "Jan 2" }}</a>
               </li>
-              {{ end }}
             {{ end }}
           </ul>
-          
-          <!-- Tab panes -->
           <div class="tab-content">
-            {{ range .Pages.GroupByDate "2006-01-01" }}
-            <div class="tab-pane fade{{ if eq .Key "first" }} in active{{ end }}" id="{{ .Key }}" role="tabpanel" aria-labelledby="{{ .Key }}-tab">
-               <div class="row auto-clear">
-               </div>
+          {{ range .Pages.GroupByDate "2006-01-02" "asc" }}
+          {{ $date := .Key }}
+            <div class="tab-pane fade{{ if eq .Key "2022-12-04"}} in active{{ end }}" id="schedule-{{ .Key }}" role="tabpanel" aria-labelledby="{{ .Key }}-tab">
+              <ul>
+                {{ $date := printf "%sT00:00:00" .Key | time }}
+                {{ range .Pages }}
+                <li>
+                {{ .Title }} {{ $date.Format "Jan 2" }}
+                </li>
+                {{ end }}
+              </ul>
             </div>
-            {{ end }}
-          </div> 
+          {{ end }}
+          </div>
         </div>
     </section>
     {{ end }}
