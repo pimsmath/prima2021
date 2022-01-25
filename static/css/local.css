@@ -135,3 +135,41 @@ section#sessions h4 {
     margin-bottom: 1rem;
     font-weight: 600;
 }
+
+.time-table {
+    text-align: left;
+}
+
+.time-table li {
+    box-shadow: 0 15px 38px 0 rgb(0 0 0/ 10%);
+}
+
+.time-table .time {
+    flex-basis: 20%;
+    font-weight: 700;
+}
+
+.time-table .content {
+    flex-basis: 80%;
+}
+
+.d-md-flex {
+    display: flex!important;
+}
+
+.p-4 {
+    padding: 1.5rem!important;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+.text-color {
+  color: #1bafb4;
+}
+
+.time-table h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}

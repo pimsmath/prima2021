@@ -3,6 +3,7 @@
     {{"<!-- Schedule Section -->" | safeHTML}}
     <section id="schedule" class="service section">
         <div class="container">
+
           <div class="sub-heading">
             <h2>Schedule</h2>
           </div>
@@ -19,19 +20,27 @@
           {{ range .Pages.GroupByDate "2006-01-02" "asc" }}
           {{ $date := .Key }}
             <div class="tab-pane fade{{ if eq .Key "2022-12-04"}} in active{{ end }}" id="schedule-{{ .Key }}" role="tabpanel" aria-labelledby="{{ .Key }}-tab">
+<div class="row">
+  <div class="col-lg-12">
               <ul class="mt-5 time-table pl-0 list-unstyled">
                 {{ $date := printf "%sT00:00:00" .Key | time }}
                 {{ range .Pages }}
                 <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
-                  <h4 class="time">TIME</h3>
+                  {{ with .Params.Date | time.Format ":time_long" }}
+                  <h4 class="time text-color">{{ . }}</h3>
+                  {{ end }}
                   <div class="content">
                     <h3>{{ .Title }}</h3>
-                    <h6>Speaker</h3>
+                    {{ with .Params.speakers }}
+                    <h6>{{ . }}</h3>
+                    {{ end }}
                     <p>CONTENT GOES HERE</p>
                   </div>
                 </li>
                 {{ end }}
               </ul>
+  </div>
+</div>
             </div>
           {{ end }}
           </div>
