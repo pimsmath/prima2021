@@ -1,7 +1,7 @@
 ---
-title: "The second lecture on Dec 5th"
+title: "Title of the second lecture on Dec 5th goes here"
 speakers:
-  - name: navas
+  - user: mann
     affiliation: University of a Third Place
 abstract: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

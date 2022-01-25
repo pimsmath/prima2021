@@ -33,7 +33,9 @@
                     <h3>{{ .Title }}</h3>
                     {{ with .Params.speakers }}
                     {{ range . }}
-                    <h6>{{ .name }} <em>({{ .affiliation }})</em></h6>
+                    {{ $author_page := site.GetPage (printf "/%s/%s" "speakers" .user) }}
+                    <h6><a href="{{ $author_page.RelPermalink }}">{{ $author_page.Title }} <em>({{ $author_page.Params.affiliation }})</em></a></h6>
+
                     {{ end }}
                     {{ end }}
                     <p>{{ .Params.abstract | markdownify }}</p>

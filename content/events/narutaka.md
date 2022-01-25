@@ -1,7 +1,7 @@
 ---
-title: "The only lecture on December 4th"
+title: "Title of the only lecture on December 4th goes here"
 speakers:
-  - name: Name of First Speaker
+  - user: narutaka
     affiliation: University of Somewhere
 abstract: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor

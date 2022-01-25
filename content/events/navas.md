@@ -1,7 +1,7 @@
 ---
-title: "The first lecture on Dec 5th"
+title: "Title of the first lecture on Dec 5th goes here"
 speakers:
-  - name: navas
+  - user: navas
     affiliation: University of Somewhere Else
 abstract: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
