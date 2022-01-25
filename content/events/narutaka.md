@@ -1,7 +1,8 @@
 ---
 title: "The only lecture on December 4th"
 speakers:
-  - hubard
+  - name: Name of First Speaker
+    affiliation: University of Somewhere
 abstract: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis

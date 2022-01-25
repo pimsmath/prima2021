@@ -1,7 +1,8 @@
 ---
 title: "The first lecture on Dec 5th"
 speakers:
-  - navas
+  - name: navas
+    affiliation: University of Somewhere Else
 abstract: |
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
   incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis

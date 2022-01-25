@@ -25,16 +25,18 @@
               <ul class="mt-5 time-table pl-0 list-unstyled">
                 {{ $date := printf "%sT00:00:00" .Key | time }}
                 {{ range .Pages }}
-                <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-3">
+                <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-1">
                   {{ with .Params.Date | time.Format ":time_long" }}
                   <h4 class="time text-color">{{ . }}</h3>
                   {{ end }}
                   <div class="content">
                     <h3>{{ .Title }}</h3>
                     {{ with .Params.speakers }}
-                    <h6>{{ . }}</h3>
+                    {{ range . }}
+                    <h6>{{ .name }} <em>({{ .affiliation }})</em></h6>
                     {{ end }}
-                    <p>CONTENT GOES HERE</p>
+                    {{ end }}
+                    <p>{{ .Params.abstract | markdownify }}</p>
                   </div>
                 </li>
                 {{ end }}
