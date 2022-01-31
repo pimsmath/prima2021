@@ -130,7 +130,7 @@ div.content li {
     font-size: 16px;
 }
 
-section#sessions h4 {
+section#sessions h2, section#sessions h3, section#sessions h4 {
     margin-top: 2.5rem;
     margin-bottom: 1rem;
     font-weight: 600;
