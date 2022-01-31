@@ -29,13 +29,6 @@ theme = "infinity-hugo"
     enable         = true
     heading        = "PRIMA 2022 Summer Schools"
     description    = """
-In advance of PRIMA 2022, a number of summer schools will take place prior to
-the main event at the end of the year. The first summer school on [Arithmetic
-Geometry: Theory and
-Computation](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) will
-take place August 2-4th, 2021. Please see the [event
-webpage](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) for more
-information and to register.
 """
 
   [params.about]
@@ -66,7 +59,7 @@ information and to register.
   [params.registration]
     enable         = true
     heading        = "Registration"
-    description    = "links to the registration site will be posted here when available."
+    description    = "Links to the registration site will be posted here when available."
 
   [params.sessions]
     enable         = true
@@ -191,6 +184,24 @@ Presentations cannot highlight open or exploratory material. Please fill in the
 
 ##### Organizers
   *  Kamuela Yong, _University of Hawai'i - West O'ahu_
+
+
+## Summer Schools
+
+A number of summer schools will be run in advance of PRIMA 2022, please see the
+individual summer school pages for more details and to register.
+
+#### Summer School in Arithmetic Geometry: Theory and Computation
+
+##### August 2nd-4th, 2021
+
+In advance of PRIMA 2022, a number of summer schools will take place prior to
+the main event at the end of the year. The first summer school on [Arithmetic
+Geometry: Theory and
+Computation](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) will
+take place **August 2-4th, 2021**. Please see the [event
+webpage](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) for more
+information and to register.
 """
 
   [params.speakers]

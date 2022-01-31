@@ -130,10 +130,19 @@ div.content li {
     font-size: 16px;
 }
 
-section#sessions h2, section#sessions h3, section#sessions h4 {
-    margin-top: 2.5rem;
+section#sessions h3, section#sessions h4 {
+    margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: 600;
+}
+section#sessions h2 {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+section#sessions h5 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 section#sponsors img {
