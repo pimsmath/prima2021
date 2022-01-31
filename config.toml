@@ -201,7 +201,7 @@ information and to register.
   title  = "Sponsors"
   subtitle = "PRIMA 2022 gratefully acknowledges the following sponors"
   [[params.sponsor.sponsorItem]]
-  image = "images/sponsor/PIMS-logo-full.png"
+  image = "images/sponsor/PIMS-logo-full.svg"
   url   = 'https://www.pims.math.ca'
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/CMS-logo.png"
