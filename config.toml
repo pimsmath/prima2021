@@ -209,6 +209,10 @@ information and to register.
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/MSRI-logo.png"
   url   = 'https://www.msri.org/'
+  [[params.sponsor.sponsorItem]]
+  image = "images/sponsor/Simons.png"
+  url   = 'https://www.simonsfoundation.org/'
+ 
 
 [taxonomies]
   category = "categories"
