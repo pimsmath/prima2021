@@ -135,3 +135,8 @@ section#sessions h2, section#sessions h3, section#sessions h4 {
     margin-bottom: 1rem;
     font-weight: 600;
 }
+
+section#sponsors img {
+    max-width: 100%;
+}
+
