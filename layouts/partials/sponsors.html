@@ -11,14 +11,22 @@
             <p>{{ . }}</p>
           {{ end }}
         </div>
-        {{ range .Site.Params.sponsor.sponsorItem }}
-        <div class="col-sm-4 col-md-4 text-center">
+      </div>
+      {{ range $i,$p := .Site.Params.sponsor.sponsorItem }}
+      {{ if (modBool $i 2) }}
+      <div class="row pb-3">
+        <div class="col-sm-1 col-md-1 text-center"></div>
+      {{ end }}
+        <div class="col-sm-5 col-md-5 text-center">
           <div class="block">
              <a href="{{ .url }}"><img src="{{ .image }}" /></a>
           </div>
         </div>
-        {{ end }}
+      {{ if not (modBool $i 2) }}
+        <div class="col-sm-1 col-md-1 text-center"></div>
       </div>
+      {{ end }}
+      {{ end }}
     </div>
   </section>
 {{ end }}
