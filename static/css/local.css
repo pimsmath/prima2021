@@ -149,3 +149,8 @@ section#sponsors img {
     max-width: 100%;
 }
 
+.hero-area p a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #fff;
+}

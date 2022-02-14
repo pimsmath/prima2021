@@ -3,6 +3,7 @@ affiliation = "University of Colorado"
 photo = "/uploads/KatherinStange2.jpg"
 title = "Katherine Stange"
 speakertype = ['Public']
+weight = 180
 +++
 ## Biography
 
