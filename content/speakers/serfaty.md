@@ -14,7 +14,7 @@ interests:
 - Mathematical Physics
 - Statistical Mechanics
 website: https://cims.nyu.edu/people/profiles/SERFATY_Sylvia.html
-
+weight: 180
 ---
 ## Biography
 

@@ -3,7 +3,7 @@ affiliation = "UNAM"
 photo = "/uploads/RitaJimenezRolland.jpg"
 title = "Rita Jiménez Rolland"
 committees = ['Scientific']
-
+weight = 170
 +++
 ## Biography
 

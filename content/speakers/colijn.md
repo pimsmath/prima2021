@@ -17,6 +17,7 @@ interests:
 - Computational techniques
 - Mathematical Biology
 - Evolution
+weight: 30
 ---
 
 ## Biography

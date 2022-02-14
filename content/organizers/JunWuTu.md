@@ -4,7 +4,7 @@ photo = "/uploads/JunWuTu.jpg"
 title = "JunWu Tu"
 committees = ["Scientific"]
 tags = []
-weight = 1
+weight = 190
 +++
 ## Biography
 

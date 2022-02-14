@@ -3,7 +3,7 @@ affiliation = "Seoul National University"
 photo = "/uploads/SeonheeLim.jpg"
 title = "Seonhee Lim"
 committees = ['Scientific']
-
+weight = 110
 +++
 ## Biography
 
