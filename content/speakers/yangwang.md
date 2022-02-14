@@ -18,6 +18,7 @@ interests:
 - Signal processing
 - Data analysis using machine learning
 - Wavelets and analysis
+weight: 240
 ---
 
 ## Biography

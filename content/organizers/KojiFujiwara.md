@@ -3,7 +3,7 @@ affiliation = "Kyoto University"
 photo = "/uploads/KojiFujiwara.jpg"
 title = "Koji Fujiwara"
 committees = ['Scientific']
-
+weight = 50
 +++
 ## Biography
 

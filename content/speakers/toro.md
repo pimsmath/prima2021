@@ -17,7 +17,7 @@ website: http://sites.math.washington.edu/~toro/
 coures:
 - course: Ph.D 1992
   institution: Stanford University
-
+weight: 190
 ---
 ## Biography
 Professor Toro was born in Bogotá, Colombia. She received her

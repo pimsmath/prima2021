@@ -8,7 +8,7 @@ theme = "infinity-hugo"
     enable         = true
     bg             = "images/vancouver-winter-1900x1250-dark-reduced.jpg"
     title          = "PRIMA Congress 2022"
-    subtitle       = "The Pacific Rim Mathematical Association Congress 2022 will take place in Vancouver, Canada between December 4-9, 2022. Mathematical Scientists from around the Pacific Rim will converge to discuss the latest developments in Mathematics."
+    subtitle       = "The Pacific Rim Mathematical Association Congress 2022 will be hosted by the [Pacific Institute for the Mathematical Sciences](https://www.pims.math.ca) and will take place in Vancouver, Canada between December 4-9, 2022. Mathematical Scientists from around the Pacific Rim will converge to discuss the latest developments in Mathematics"
     countdownYear  = "2022"
     countdownMonth = "12"
     countdownDay   = "4"
@@ -80,21 +80,6 @@ Presentations cannot highlight open or exploratory material. Please fill in the
 
 ## Scientific Sessions
 
-#### Arithmetic Geometry: Theory and Computation
-
-##### Organizers
-  * Bianca Viray, _University of Washington_
-  * Sho Tanimoto, _Nagoya University_
-
-<br /><br />
-
-#### Harmonic Functions and Laplace Eigenfunctions
-
-##### Organizers
-  * Eugenia Malinnikova, _Stanford University_
-  * Bobby Wilson, _University of Washington_
-  * Zihui Zhao, _University of Chicago_
-
 
 #### Algebraic Number Theory and Arithmetic Geometry
 
@@ -103,6 +88,14 @@ Presentations cannot highlight open or exploratory material. Please fill in the
   * Sug Woo Shin, _University of California - Berkeley_
   * Liang Xiao, _Peking University_
 
+
+#### Arithmetic Geometry: Theory and Computation
+
+##### Organizers
+  * Bianca Viray, _University of Washington_
+  * Sho Tanimoto, _Nagoya University_
+
+
 #### Enumerative Algebraic Geometry
 
 ##### Organizers
@@ -110,30 +103,14 @@ Presentations cannot highlight open or exploratory material. Please fill in the
   * Wei-Ping Li, _Hong Kong University of Science and Technology_
   * Junwu Tu, _Shanghai Tech University_
 
-#### New Trends in Geometry and Mathematical Physics
+
+#### Geometric Analysis
 
 ##### Organizers
-  * Vincent Bouchard, _University of Alberta_
-  * Norman Do, _Monash University_
-  * Steven Rayan _University of Saskatchewan_
-  * Thomas Creutzig, _University of Alberta_
-
-#### Hyperbolic and Parabolic Dynamics
-
-##### Organizers
-  * Anthony Quas, _University of Victoria_
-  * Cheung Yitwah, _Tsinghua University_
-  * Jana Rodriguez-Hertz, _Southern University of Science and Technology_
-  * Cecilia Gonzalez-Tokman, _University of Queensland_
-
-#### Optimal Transport and Applications
-
-##### Organizers
-  * Shibing Chen, _University of Science and Technology of China_
-  * Young-Heon Kim, _University of British Columbia_
-  * Soumik Pal, _University of Washington_
-  * Brendan Pass, _University of Alberta_
-  * Asuka Takatsu, _Tokyo Metropolitan University_
+  * Otis Chodosh, _Stanford University_
+  * Mariel Saez, _Universidad Católica de Chile_
+  * Yoshi Tonegawa, _Tokyo Institute of Technology_
+  * Raquel Perales, _Universidad Nacional Autónoma de México_
 
 
 #### Geometric Group Theory
@@ -145,26 +122,6 @@ Presentations cannot highlight open or exploratory material. Please fill in the
   * Priyam Patel, _University of Utah_
   * Jesus Hernandez Hernandez _Universidad Nacional Autónoma de México_
 
-#### Representation Theory and Applications
-
-##### Organizers
-  * Robert M. Guralnick, _University of South Carolina_
-  * Arun Ram, _University of Melbourne_
-  * Pham H. Tiep _Rutgers University_
-
-#### Geometric Analysis
-
-##### Organizers
-  * Otis Chodosh, _Stanford University_
-  * Mariel Saez, _Universidad Católica de Chile_
-  * Yoshi Tonegawa, _Tokyo Institute of Technology_
-  * Raquel Perales, _Universidad Nacional Autónoma de México_
-
-#### Moduli Spaces in Algebraic Geometry
-
-##### Organizers
-  * Alexander Polishchuk, _University of Oregon_
-  * Nicolas Addington, _University of Oregon_
 
 #### Graph Theory and Combinatorics
 
@@ -174,10 +131,77 @@ Presentations cannot highlight open or exploratory material. Please fill in the
   * Karen Gunderson _University of Manitoba_
   * Joy Morris, _University of Lethbridge_
 
+
+#### Harmonic Functions and Laplace Eigenfunctions
+
+##### Organizers
+  * Eugenia Malinnikova, _Stanford University_
+  * Bobby Wilson, _University of Washington_
+  * Zihui Zhao, _University of Chicago_
+
+
+#### Hyperbolic and Parabolic Dynamics
+
+##### Organizers
+  * Anthony Quas, _University of Victoria_
+  * Cheung Yitwah, _Tsinghua University_
+  * Jana Rodriguez-Hertz, _Southern University of Science and Technology_
+  * Cecilia Gonzalez-Tokman, _University of Queensland_
+
+
 #### Indigenous Mathematicians
 
 ##### Organizers
   *  Kamuela Yong, _University of Hawai'i - West O'ahu_
+
+
+#### Mathematics of Infectious Disease Modelling
+
+##### Organizers
+  * Caroline Colijn, _Simon Fraser University_
+  * Siva Athreya, _Indian Statistical Institute_
+
+
+#### Mathematics of Information
+
+##### Organizers
+  * Rayan Saab, _University of California, San Diego_
+  * Mark Iwen, _Michigan State University_
+
+
+#### Moduli Spaces in Algebraic Geometry
+
+##### Organizers
+  * Alexander Polishchuk, _University of Oregon_
+  * Nicolas Addington, _University of Oregon_
+
+
+#### New Trends in Geometry and Mathematical Physics
+
+##### Organizers
+  * Vincent Bouchard, _University of Alberta_
+  * Norman Do, _Monash University_
+  * Steven Rayan _University of Saskatchewan_
+  * Thomas Creutzig, _University of Alberta_
+
+
+#### Optimal Transport and Applications
+
+##### Organizers
+  * Shibing Chen, _University of Science and Technology of China_
+  * Young-Heon Kim, _University of British Columbia_
+  * Soumik Pal, _University of Washington_
+  * Brendan Pass, _University of Alberta_
+  * Asuka Takatsu, _Tokyo Metropolitan University_
+
+
+#### Representation Theory and Applications
+
+##### Organizers
+  * Robert M. Guralnick, _University of South Carolina_
+  * Arun Ram, _University of Melbourne_
+  * Pham H. Tiep _Rutgers University_
+
 
 
 ## Summer Schools
