@@ -8,7 +8,7 @@ theme = "infinity-hugo"
     enable         = true
     bg             = "images/vancouver-winter-1900x1250-dark-reduced.jpg"
     title          = "PRIMA Congress 2022"
-    subtitle       = "The Pacific Rim Mathematical Association Congress 2022 will be hosted by the [Pacific Institute for the Mathematical Sciences](https://www.pims.math.ca) and will take place in Vancouver, Canada between December 4-9, 2022. Mathematicians from around the Pacific Rim will converge to discuss the latest developments in Mathematics"
+    subtitle       = "The Pacific Rim Mathematical Association Congress 2022 will be hosted by the [Pacific Institute for the Mathematical Sciences](https://www.pims.math.ca) and will take place in Vancouver, Canada between December 4-9, 2022. Mathematical Scientists from around the Pacific Rim will converge to discuss the latest developments in Mathematics"
     countdownYear  = "2022"
     countdownMonth = "12"
     countdownDay   = "4"
@@ -153,6 +153,20 @@ Presentations cannot highlight open or exploratory material. Please fill in the
 
 ##### Organizers
   *  Kamuela Yong, _University of Hawai'i - West O'ahu_
+
+
+#### Mathematics of Infectious Disease Modelling
+
+##### Organizers
+  * Caroline Colijn, _Simon Fraser University_
+  * Siva Athreya, _Indian Statistical Institute_
+
+
+#### Mathematics of Information
+
+##### Organizers
+  * Rayan Saab, _University of California, San Diego_
+  * Mark Iwen, _Michigan State University_
 
 
 #### Moduli Spaces in Algebraic Geometry
