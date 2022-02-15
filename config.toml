@@ -235,9 +235,13 @@ information and to register.
     more           = "See all organizers"
 
   [params.contact]
-    enable         = true
-    title          = "Get in Touch"
-    subtitle       = "If you have questions about PRIMA 2022, please get in touch with the organizing committee via the form below."
+    enable             = true
+    title              = "Contact"
+    title_mailchimp    = "Mailing List"
+    subtitle_mailchimp = "To receive the latest updates from PRIMA 2022, including registration details, please sign up for our newsletter."
+    title_form         = "Have a question?"
+    subtitle_form      = "If you have questions about PRIMA 2022, please get in touch with the organizing committee via the form below."
+
 
   [params.sponsors]
   enable = true
