@@ -1,4 +1,3 @@
-@media (min-width:1200px){
     .auto-clear .col-lg-1:nth-child(12n+1){clear:left;}
     .auto-clear .col-lg-2:nth-child(6n+1){clear:left;}
     .auto-clear .col-lg-3:nth-child(4n+1){clear:left;}
@@ -153,4 +152,52 @@ section#sponsors img {
     font-weight: 600;
     text-decoration: underline;
     color: #fff;
+}
+
+.btn {
+    line-height: 1.5rem;
+}
+
+section#contact div.sub-heading {
+    text-align: center;
+    color: #777777;
+    padding-bottom: 15px;
+    padding-top: 35px;
+}
+
+section#contact div.sub-heading h2 {
+    text-align: center;
+    color: #3c3c3c;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 35px;
+}
+
+section#contact div.sub-heading p {
+    text-align: left;
+}
+
+#mc_embed_signup .input-field .form-control {
+    display: block;
+    box-shadow: none;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 0.25rem;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-image: none;
+    background-clip: padding-box;
+}
+
+#mc_embed_signup .input-field .form-control input {
+    border: 1px solid #999;
+    -webkit-appearance: none;
 }
