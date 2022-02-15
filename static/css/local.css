@@ -161,8 +161,6 @@ section#sponsors img {
 section#contact div.sub-heading {
     text-align: center;
     color: #777777;
-    padding-bottom: 15px;
-    padding-top: 35px;
 }
 
 section#contact div.sub-heading h2 {
@@ -172,7 +170,7 @@ section#contact div.sub-heading h2 {
     font-weight: 600;
     font-size: 40px;
     line-height: 40px;
-    padding-top: 35px;
+    padding-top: 15px;
 }
 
 section#contact div.sub-heading p {
@@ -200,4 +198,9 @@ section#contact div.sub-heading p {
 #mc_embed_signup .input-field .form-control input {
     border: 1px solid #999;
     -webkit-appearance: none;
+}
+
+hr {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
 }
