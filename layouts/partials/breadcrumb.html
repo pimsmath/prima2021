@@ -1,7 +1,7 @@
 {{ define "breadcrumb" }}
   {{ with .Parent }}
     {{ template "breadcrumb" . }}
-    <a href="{{ .URL }}">{{ if .IsHome }}Home{{ else }}{{.Title}}{{ end }}</a> >
+    <a href="{{ .Params.url }}">{{ if .IsHome }}Home{{ else }}{{.Title}}{{ end }}</a> >
   {{ end }}
 {{ end }}
 {{ if not .IsHome }}
