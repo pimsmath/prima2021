@@ -70,7 +70,7 @@ impact on our economic, social, and cultural development."""
   [params.registration]
     enable         = true
     heading        = "Registration"
-    description    = "Links to the registration site will be posted here when available."
+    description    = "Registration details will appear here shortly. PRIMA 2022 is being hosted by the Pacific Institute for the Mathematical Sciences (PIMS) and all participants are expected to follow the [PIMS code of conduct](https://www.pims.math.ca/pims-glance/code-conduct)."
 
   [params.sessions]
     enable         = true
