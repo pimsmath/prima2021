@@ -5,10 +5,10 @@
       <div class="row">
         <div class="heading">
           {{ with .Site.Params.sponsors.title }}
-            <h2>{{ . }}</h2>
+            <h2>{{ . | markdownify }}</h2>
           {{ end }}
           {{ with .Site.Params.sponsors.subtitle }}
-            <p>{{ . }}</p>
+            <p>{{ . | markdownify }}</p>
           {{ end }}
         </div>
       </div>
@@ -27,6 +27,11 @@
       </div>
       {{ end }}
       {{ end }}
+      {{ with .Site.Params.sponsors.content }}
+      <div class="row pt-3 text-center">
+        <p>{{ . | markdownify }}</p>
+      </div>
+    {{ end }}
     </div>
   </section>
 {{ end }}
