@@ -1,5 +1,5 @@
 +++
-affiliation = "Pacific Institute for the Mathematical Sciences"
+affiliation = "University of British Columbia"
 photo = "/uploads/GuodongGai.jpg"
 title = "Guodong Gai"
 committees = ['Local']

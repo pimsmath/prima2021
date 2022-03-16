@@ -1,5 +1,5 @@
 +++
-affiliation = "Pacific Institute for the Mathematical Sciences"
+affiliation = "Simon Fraser University"
 photo = "/uploads/MattSpragge.jpg"
 title = "Matt Spragge"
 committees = ['Local']
