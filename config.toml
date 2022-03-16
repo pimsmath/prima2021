@@ -258,7 +258,7 @@ information and to register.
   [params.sponsors]
   enable = true
   title  = "Sponsors"
-  subtitle = "PRIMA 2022 gratefully acknowledges the following sponors. To lear more about sponsorship opportunities, please see our [Sponsor Package](uploads/PRIMA2022SponsorPackage.pdf)."
+  subtitle = "PRIMA 2022 gratefully acknowledges the following sponsors. To learn more about sponsorship opportunities, please see our [Sponsor Package](uploads/PRIMA2022SponsorPackage.pdf), or contact us directly at events@pims.math.ca"
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/PIMS-logo-full.svg"
   url   = 'https://www.pims.math.ca'
