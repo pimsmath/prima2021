@@ -208,3 +208,8 @@ hr {
 .hero-area p {
     margin-top: 1rem;
 }
+
+.sub-heading {
+    text-align: center;
+    padding-bottom: 35px;
+}
