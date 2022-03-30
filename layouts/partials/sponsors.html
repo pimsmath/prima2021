@@ -21,7 +21,7 @@
       {{ range $i, $p := where .Site.Params.sponsor.sponsorItem "title_sponsor" "eq" true }}
       <div class="row pb-3">
         <div class="col-sm-6 col-md-6 offset-md-3 text-center">
-           <a href="{{ .url }}"><img width="80%" src="{{ .image }}" /></a>
+           <a href="{{ .url }}"><img width="65%" src="{{ .image }}" /></a>
         </div>
       </div>
       {{ end }}
