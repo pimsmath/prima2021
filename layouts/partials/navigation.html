@@ -45,6 +45,13 @@
                         </a>
                     </li>
                 {{ end }}
+                {{ if .Site.Params.localinfo.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#localinfo">
+                            {{ with .Site.Params.navigation.localinfo }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
                 {{ if .Site.Params.sponsors.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#sponsors">

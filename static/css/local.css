@@ -129,6 +129,12 @@ div.content li {
     font-size: 16px;
 }
 
+h3, h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
 section#sessions h3, section#sessions h4 {
     margin-top: 2rem;
     margin-bottom: 1rem;

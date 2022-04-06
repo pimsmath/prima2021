@@ -33,6 +33,7 @@ impact on our economic, social, and cultural development."""
     organizers     = "Organizers"
     sessions       = "Sessions"
     registration   = "Registration"
+    localinfo      = "Local Information"
     sponsors       = "Sponsors"
     contact        = "Contact"
 
@@ -71,6 +72,28 @@ impact on our economic, social, and cultural development."""
     enable         = true
     heading        = "Registration"
     description    = "Registration details will appear here shortly. PRIMA 2022 is being hosted by the Pacific Institute for the Mathematical Sciences (PIMS) and all participants are expected to follow the [PIMS code of conduct](https://www.pims.math.ca/pims-glance/code-conduct)."
+  
+  [params.localinfo]
+    enable         = true
+    heading        = "Local Information"
+    content    = """\
+PRIMA 2022 should be a safe and enjoyable for all participants. As such, we
+will be following guidance and restrictions from the Province of British
+Columbia and the Federal Government of Canada around COVID-19.
+
+
+#### Restrictions
+  * We encourage participants to be fully vaccinated prior to PRIMA 2022
+  * We encourage particpants to wear masks in all indoor shared spaces
+  * The Canadian Government requires that **_ALL_** international participants **_must_** complete the [ArriveCan](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/arrivecan.html) process prior to arriving in Canada. This restriction applies at all border crossings, including the land crossing from the United States.
+
+#### Additional Information
+  * [Canadian Federal Government COVID 19 Travel Information](https://travel.gc.ca/travel-covid).  Please note, _**ALL**_ international participants **_must_** complete the [ArriveCan](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/arrivecan.html) process prior to travelling to Canada.
+  * [Public Health Agency of Canada](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html) - Information from the Canadian Federal Government about COVID-19
+  * [BC Centre for Disease Control](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/event-planning) - Information from the BC Center for Disease Control about indoor events
+  * [BC Provincial Health Officer](https://www2.gov.bc.ca/gov/content/health/about-bc-s-health-care-system/office-of-the-provincial-health-officer/current-health-topics/covid-19-novel-coronavirus) - Information about the Province of British Columbia's COVID-19 response and restrictions.
+"""
+
 
   [params.sessions]
     enable         = true
