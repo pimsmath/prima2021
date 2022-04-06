@@ -129,6 +129,12 @@ div.content li {
     font-size: 16px;
 }
 
+h3, h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
 section#sessions h3, section#sessions h4 {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -207,4 +213,9 @@ hr {
 
 .hero-area p {
     margin-top: 1rem;
+}
+
+.sub-heading {
+    text-align: center;
+    padding-bottom: 35px;
 }

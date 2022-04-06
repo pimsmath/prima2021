@@ -1,0 +1,21 @@
+{{ if .Site.Params.localinfo.enable }}
+    {{"<!-- Registration Section -->" | safeHTML}}
+    <section id="registration" class="section about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="content">
+                        <div class="heading">
+                        {{ with .Site.Params.localinfo.heading }}
+                            <h2>{{ . }}</h2>
+                        {{ end }}
+                        </div>
+                        {{ with .Site.Params.localinfo.content }}
+                            {{ . | markdownify }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+{{ end }}
