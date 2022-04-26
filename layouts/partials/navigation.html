@@ -38,6 +38,13 @@
                         </a>
                     </li>
                 {{ end }}
+                {{ if .Site.Params.calendar.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#calendar">
+                            {{ with .Site.Params.navigation.calendar }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
                 {{ if .Site.Params.registration.enable }}
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#registration">

@@ -32,6 +32,7 @@ impact on our economic, social, and cultural development."""
     speakers       = "Speakers"
     organizers     = "Organizers"
     sessions       = "Sessions"
+    calendar       = "Calenadar"
     registration   = "Registration"
     localinfo      = "Local Information"
     sponsors       = "Sponsors"
@@ -68,11 +69,19 @@ impact on our economic, social, and cultural development."""
       imageJpeg   = 'images/5_sm.jpg'
       credit  = 'Tourism Vancouver / Avision Photography by Chris Collacott'
 
+  [params.calendar]
+    enable         = true
+    heading        = "Calendar"
+    description    = """\
+            <div>                <div title="Whova event and conference app" id="whova-agendawidget">                    <p id="whova-loading">Loading...</p>                </div>                <script src="https://whova.com/static/frontend/xems/js/embed/embedagenda.js?eid=ADY6gBK9ICX6pYBVpBvTmrvfl1jm1IzkgYsX7t2QmxE%3D&host=https://whova.com" type="text/javascript"  id="embeded-agenda-script">                </script>                <div id="whova-wrap">                    Powered By                     <a class="brandlink" target="_blank" href="https://whova.com/blog/event-registration-software-price-comparison/">                        <b>Whova</b>                    </a>                    <br/>                    <a id="whova-emslink" class="brandanchorlink" target="_blank" href="https://whova.com/blog/event-registration-software-price-comparison/">                        Online conference registration                    </a>                </div>            </div>
+"""
   [params.registration]
     enable         = true
     heading        = "Registration"
-    description    = "Registration details will appear here shortly. PRIMA 2022 is being hosted by the Pacific Institute for the Mathematical Sciences (PIMS) and all participants are expected to follow the [PIMS code of conduct](https://www.pims.math.ca/pims-glance/code-conduct)."
-  
+    description    = """\
+<div id="whova-regform-widget"></div><script src="https://whova.com/static/frontend/xems/js/whova-regform-widget.js?eid=prima_202204&host=https://whova.com&registration=exhibitor" type="text/javascript" id="whova-embeded-regform-script"></script>
+"""
+
   [params.localinfo]
     enable         = true
     heading        = "Local Information"
@@ -297,3 +306,7 @@ information and to register.
   committees = "committees"
   speakertype = "speakertype"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
