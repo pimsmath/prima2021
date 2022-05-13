@@ -72,19 +72,20 @@ impact on our economic, social, and cultural development."""
     enable         = true
     heading        = "Registration"
     description    = """\
-**Registration for PRIMA 2022 is now open!**. Please visit the [registration
-page](https://events.eply.com/PRIMA2022) to register for PRIMA 2022. Discounted
-rates are available in the following periods
+**Registration for PRIMA 2022 is now open!**.  Discounted rates are available
+in the following periods:
 
-  * Early registration: **May 5th - June 30th**
-  * Regular registration: **June 30th - October 15th**
-  * Late registration: **October 15th - December 4th**
+| | May 5th - June 30th | June 30th - October 15th | October 15th - December 4th |
+| ---: | :---: | :---: | :---: |
+| **Faculty/Other**| 390 | 410 | 500 |
+| **Postdoctoral Researcher** | 200 | 240 | 270 |
+| **Graduate Students** | 100 | 120 | 150 |
+| **Special Session Speaker** | 380 | 380 | 380 |
+| **Guest: Dinner Only** | 135 | 135 | 135 |
 
-
-Special rates are also available for Postdoctoral Researchers and Graduate
-Students. Graduate students at the PIMS UA, UBC and UC sites may also be
-eligible for a $50 discount, please contact events@pims.math.ca for more
-details.
+_N.B. Graduate students at the University of Victoria, University of British
+Columbia and University of Manitoba sites may also be eligible for a $50
+discount, please contact your PIMS Site administrator for more details._
 """
     [params.registration.button]
       text  = "Register"
