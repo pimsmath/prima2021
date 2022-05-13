@@ -71,8 +71,25 @@ impact on our economic, social, and cultural development."""
   [params.registration]
     enable         = true
     heading        = "Registration"
-    description    = "Registration details will appear here shortly. PRIMA 2022 is being hosted by the Pacific Institute for the Mathematical Sciences (PIMS) and all participants are expected to follow the [PIMS code of conduct](https://www.pims.math.ca/pims-glance/code-conduct)."
-  
+    description    = """\
+**Registration for PRIMA 2022 is now open!**. Please visit the [registration
+page](https://events.eply.com/PRIMA2022) to register for PRIMA 2022. Discounted
+rates are available in the following periods
+
+  * Early registration: **May 5th - June 30th**
+  * Regular registration: **June 30th - October 15th**
+  * Late registration: **October 15th - December 4th**
+
+
+Special rates are also available for Postdoctoral Researchers and Graduate
+Students. Graduate students at the PIMS UA, UBC and UC sites may also be
+eligible for a $50 discount, please contact events@pims.math.ca for more
+details.
+"""
+    [params.registration.button]
+      text  = "Register"
+      url   = "https://events.eply.com/PRIMA2022"
+
   [params.localinfo]
     enable         = true
     heading        = "Local Information"
