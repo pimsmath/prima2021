@@ -6,4 +6,4 @@ committees = ['Local']
 weight = 16
 +++
 ## Biography
-Ruth is the Technology Manager for the Pacific Institute for the Mathematical Sciences. Prior to joining PIMS he was a computational physicist.
+Ian is the Technology Manager for the Pacific Institute for the Mathematical Sciences. Prior to joining PIMS he was a computational physicist.
