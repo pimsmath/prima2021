@@ -3,7 +3,7 @@ affiliation = "University of Melborne"
 photo = "/uploads/PaulNorbury.jpg"
 title = "Paul Norbury"
 committees = ['Scientific']
-
+weight = 130
 +++
 ## Biography
 

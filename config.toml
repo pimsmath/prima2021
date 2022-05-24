@@ -8,7 +8,18 @@ theme = "infinity-hugo"
     enable         = true
     bg             = "images/vancouver-winter-1900x1250-dark-reduced.jpg"
     title          = "PRIMA Congress 2022"
-    subtitle       = "The Pacific Rim Mathematical Association Congress 2022 will take place in Vancouver, Canada between December 4-9, 2022. Mathematicians from around the Pacific Rim will converge to discuss the latest developments in Mathematics."
+    subtitle       = """The 2022 Pacific Rim Mathematical Association Congress will
+be take place in Vancouver, Canada, between December 4-9, 2022. The fourth
+meeting will be hosted by the [Pacific Institute for the Mathematical
+Sciences (PIMS)](https://www.pims.math.ca).
+
+
+Every four years, mathematical scientists from around the Pacific Rim converge
+to discuss the latest developments in Mathematics. The Pacific Rim Mathematical
+Association (PRIMA) was established to bring a well coordinated and concerted
+effort among our institutions and countries to stimulate a vibrant and
+interconnected mathematical community whose activities have an unprecedented
+impact on our economic, social, and cultural development."""
     countdownYear  = "2022"
     countdownMonth = "12"
     countdownDay   = "4"
@@ -23,6 +34,7 @@ theme = "infinity-hugo"
     sessions       = "Sessions"
     registration   = "Registration"
     schedule       = "Schedule"
+    localinfo      = "Local Information"
     sponsors       = "Sponsors"
     contact        = "Contact"
 
@@ -30,13 +42,6 @@ theme = "infinity-hugo"
     enable         = true
     heading        = "PRIMA 2022 Summer Schools"
     description    = """
-In advance of PRIMA 2022, a number of summer schools will take place prior to
-the main event at the end of the year. The first summer school on [Arithmetic
-Geometry: Theory and
-Computation](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) will
-take place August 2-4th, 2021. Please see the [event
-webpage](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) for more
-information and to register.
 """
 
   [params.about]
@@ -67,27 +72,61 @@ information and to register.
   [params.registration]
     enable         = true
     heading        = "Registration"
-    description    = "links to the registration site will be posted here when available."
+    description    = "Registration details will appear here shortly. PRIMA 2022 is being hosted by the Pacific Institute for the Mathematical Sciences (PIMS) and all participants are expected to follow the [PIMS code of conduct](https://www.pims.math.ca/pims-glance/code-conduct)."
+  
+  [params.localinfo]
+    enable         = true
+    heading        = "Local Information"
+    content    = """\
+PRIMA 2022 should be a safe and enjoyable for all participants. As such, we
+will be following guidance and restrictions from the Province of British
+Columbia and the Federal Government of Canada around COVID-19.
+
+#### Conference Accommodation
+The Sheraton Wall Center (the PRIMA conference venue) is offering a special
+group rate of $179 (CAD) per night for stays between **December 1st and 15th,
+2022**, This offer is available until **November 11th**. [Book your group rate
+room for PRIMA2022](https://www.marriott.com/events/start.mi?id=1649201221857&key=GRP).
+
+#### Restrictions
+  * We encourage participants to be fully vaccinated prior to PRIMA 2022
+  * We encourage particpants to wear masks in all indoor shared spaces
+  * The Canadian Government requires that **_ALL_** international participants **_must_** complete the [ArriveCan](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/arrivecan.html) process prior to arriving in Canada. This restriction applies at all border crossings, including the land crossing from the United States.
+
+#### Additional Information
+  * [Canadian Federal Government COVID 19 Travel Information](https://travel.gc.ca/travel-covid).  Please note, _**ALL**_ international participants **_must_** complete the [ArriveCan](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19/arrivecan.html) process prior to travelling to Canada.
+  * [Public Health Agency of Canada](https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html) - Information from the Canadian Federal Government about COVID-19
+  * [BC Centre for Disease Control](http://www.bccdc.ca/health-info/diseases-conditions/covid-19/event-planning) - Information from the BC Center for Disease Control about indoor events
+  * [BC Provincial Health Officer](https://www2.gov.bc.ca/gov/content/health/about-bc-s-health-care-system/office-of-the-provincial-health-officer/current-health-topics/covid-19-novel-coronavirus) - Information about the Province of British Columbia's COVID-19 response and restrictions.
+
+#### Online Security
+PIMS will _never_ contact you regarding travel reservations or accommodation
+payments. Please be vigilant should you receive any emails, calls or text
+messages claiming to assist you in making reservations for a PIMS sponsored
+events, including PRIMA. Do not provide any personal information such as a
+social insurance number, credit card number, bank account number, or passport
+number as these requests are fraudulent in nature.
+"""
+
 
   [params.sessions]
     enable         = true
     title          = "Special Sessions"
     description    = """
 
-#### Arithmetic Geometry: Theory and Computation
+## Early Career Research Showcase
 
-##### Organizers
-  * Bianca Viray, _University of Washington_
-  * Sho Tanimoto, _Nagoya University_
+The PRIMA Early Career Researcher's Showcase is a short session for early career
+participants (undergraduate, graduate and postdoctoral scholars) to highlight
+their areas of research. This can be done either through the poster session, or
+a 10 minute presentation.
 
-<br /><br />
+Research topics are open, but should focus on the presenters area of research.
+Presentations cannot highlight open or exploratory material. Please fill in the
+[application form](https://ubc.ca1.qualtrics.com/jfe/form/SV_3qLmqRb4Je6a8Pc) with the poster/ talk details. Submissions close **June 30th, 2022**.
 
-#### Harmonic Functions and Laplace Eigenfunctions
 
-##### Organizers
-  * Eugenia Malinnikova, _Stanford University_
-  * Bobby Wilson, _University of Washington_
-  * Zihui Zhao, _University of Chicago_
+## Scientific Sessions
 
 
 #### Algebraic Number Theory and Arithmetic Geometry
@@ -97,6 +136,14 @@ information and to register.
   * Sug Woo Shin, _University of California - Berkeley_
   * Liang Xiao, _Peking University_
 
+
+#### Arithmetic Geometry: Theory and Computation
+
+##### Organizers
+  * Bianca Viray, _University of Washington_
+  * Sho Tanimoto, _Nagoya University_
+
+
 #### Enumerative Algebraic Geometry
 
 ##### Organizers
@@ -104,37 +151,15 @@ information and to register.
   * Wei-Ping Li, _Hong Kong University of Science and Technology_
   * Junwu Tu, _Shanghai Tech University_
 
-#### New Trends in Geometry and Mathematical Physics
+
+#### Geometric Analysis
 
 ##### Organizers
-  * Vincent Bouchard, _University of Alberta_
-  * Norman Do, _Monash University_
-  * Steven Rayan _University of Saskatchewan_
-  * Thomas Creutzig, _University of Alberta_
+  * Otis Chodosh, _Stanford University_
+  * Mariel Saez, _Universidad Católica de Chile_
+  * Yoshi Tonegawa, _Tokyo Institute of Technology_
+  * Raquel Perales, _Universidad Nacional Autónoma de México_
 
-#### Hyperbolic and Parabolic Dynamics
-
-##### Organizers
-  * Anthony Quas, _University of Victoria_
-  * Cheung Yitwah, _Tsinghua University_
-  * Jana Rodriguez-Hertz, _Southern University of Science and Technology_
-  * Cecilia Gonzalez-Tokman, _University of Queensland_
-
-#### Optimal Transport and Applications
-
-##### Organizers
-  * Shibing Chen, _University of Science and Technology of China_
-  * Young-Heon Kim, _University of British Columbia_
-  * Soumik Pal, _University of Washington_
-  * Brendan Pass, _University of Alberta_
-  * Asuka Takatsu, _Tokyo Metropolitan University_
-
-#### Low Dimensional Topology
-
-##### Organizers
-  * Jianfeng Lin, _University of California - San Diego_
-  * Ciprian Manolescu, _Stanford University_
-  * Liam Watson, _University of British Columbia_
 
 #### Geometric Group Theory
 
@@ -145,28 +170,8 @@ information and to register.
   * Priyam Patel, _University of Utah_
   * Jesus Hernandez Hernandez _Universidad Nacional Autónoma de México_
 
-#### Representation Theory and Applications
 
-##### Organizers
-  * Robert M. Guralnick, _University of South Carolina_
-  * Arun Ram, _University of Melbourne_
-  * Pham H. Tiep _Rutgers University_
-
-#### Geometric Analysis
-
-##### Organizers
-  * Otis Chodosh, _Stanford University_
-  * Mariel Saez, _Universidad Católica de Chile_
-  * Yoshi Tonegawa, _Tokyo Institute of Technology_
-  * Raquel Perales, _Universidad Nacional Autónoma de México_
-
-#### Moduli Spaces in Algebraic Geometry
-
-##### Organizers
-  * Alexander Polishchuk, _University of Oregon_
-  * Nicolas Addington, _University of Oregon_
-
-#### Graph Theory and Coombinatorics
+#### Graph Theory and Combinatorics
 
 ##### Organizers
   * Bojan Mohar, _Simon Fraser University_
@@ -174,10 +179,87 @@ information and to register.
   * Karen Gunderson _University of Manitoba_
   * Joy Morris, _University of Lethbridge_
 
-#### Indigenous Mathematicians
+
+#### Harmonic Functions and Laplace Eigenfunctions
+
+##### Organizers
+  * Eugenia Malinnikova, _Stanford University_
+  * Bobby Wilson, _University of Washington_
+  * Zihui Zhao, _University of Chicago_
+
+
+#### Indigenous Mathematical Scientists
 
 ##### Organizers
   *  Kamuela Yong, _University of Hawai'i - West O'ahu_
+
+
+#### Mathematics of Infectious Disease Modelling
+
+##### Organizers
+  * Caroline Colijn, _Simon Fraser University_
+  * Siva Athreya, _Indian Statistical Institute_
+  * Abraham D. Flaxman, _University of Washington_
+
+
+#### Mathematics of Information
+
+##### Organizers
+  * Rayan Saab, _University of California, San Diego_
+  * Mark Iwen, _Michigan State University_
+
+
+#### Moduli Spaces in Algebraic Geometry
+
+##### Organizers
+  * Alexander Polishchuk, _University of Oregon_
+  * Nicolas Addington, _University of Oregon_
+
+
+#### New Trends in Geometry and Mathematical Physics
+
+##### Organizers
+  * Vincent Bouchard, _University of Alberta_
+  * Norman Do, _Monash University_
+  * Steven Rayan _University of Saskatchewan_
+  * Thomas Creutzig, _University of Alberta_
+
+
+#### Optimal Transport and Applications
+
+##### Organizers
+  * Shibing Chen, _University of Science and Technology of China_
+  * Young-Heon Kim, _University of British Columbia_
+  * Soumik Pal, _University of Washington_
+  * Brendan Pass, _University of Alberta_
+  * Asuka Takatsu, _Tokyo Metropolitan University_
+
+
+#### Representation Theory and Applications
+
+##### Organizers
+  * Robert M. Guralnick, _University of South Carolina_
+  * Arun Ram, _University of Melbourne_
+  * Pham H. Tiep _Rutgers University_
+
+
+
+## Summer Schools
+
+A number of summer schools will be run in advance of PRIMA 2022, please see the
+individual summer school pages for more details and to register.
+
+#### Summer School in Arithmetic Geometry: Theory and Computation
+
+##### August 2nd-4th, 2021
+
+In advance of PRIMA 2022, a number of summer schools will take place prior to
+the main event at the end of the year. The first summer school on [Arithmetic
+Geometry: Theory and
+Computation](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) will
+take place **August 2-4th, 2021**. Please see the [event
+webpage](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) for more
+information and to register.
 """
 
   [params.speakers]
@@ -193,9 +275,13 @@ information and to register.
     more           = "See all organizers"
 
   [params.contact]
-    enable         = true
-    title          = "Get in Touch"
-    subtitle       = "If you have questions about PRIMA 2022, please get in touch with the organizing committee via the form below."
+    enable             = true
+    title              = "Contact"
+    title_mailchimp    = "Mailing List"
+    subtitle_mailchimp = "To receive the latest updates from PRIMA 2022, including registration details, please sign up for our newsletter."
+    title_form         = "Have a question?"
+    subtitle_form      = "If you have questions about PRIMA 2022, please get in touch with the organizing committee via the form below."
+
 
   [params.schedule]
     enable         = true
@@ -206,16 +292,24 @@ information and to register.
   [params.sponsors]
   enable = true
   title  = "Sponsors"
-  subtitle = "PRIMA 2022 gratefully acknowledges the following sponors"
+  subtitle = "PRIMA 2022 gratefully acknowledges the following sponsors. To learn more about sponsorship opportunities, please see our [Sponsor Package](uploads/PRIMA2022SponsorPackage.pdf), or contact us directly at events@pims.math.ca"
+  [[params.sponsor.sponsorItem]]
+  image = "images/sponsor/QAI.svg"
+  url = 'https://quantumalgorithms.ca/'
+  title_sponsor = true
+  [[params.sponsor.sponsorItem]]
+  image = "images/sponsor/PIMS-logo-full.svg"
+  url   = 'https://www.pims.math.ca'
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/CMS-logo.png"
   url   = 'https://cms.math.ca/'
   [[params.sponsor.sponsorItem]]
-  image = "images/sponsor/PIMS-logo.png"
-  url   = 'https://www.pims.math.ca'
-  [[params.sponsor.sponsorItem]]
   image = "images/sponsor/MSRI-logo.png"
   url   = 'https://www.msri.org/'
+  [[params.sponsor.sponsorItem]]
+  image = "images/sponsor/Simons.png"
+  url   = 'https://www.simonsfoundation.org/'
+ 
 
 [taxonomies]
   category = "categories"

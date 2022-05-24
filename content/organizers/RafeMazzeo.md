@@ -3,7 +3,7 @@ affiliation = "Stanford University"
 photo = "/uploads/RafeMazzeo.jpg"
 title = "Rafe Mazzeo"
 committees = ['Scientific']
-
+weight = 120
 +++
 ## Biography
 

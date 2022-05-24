@@ -15,6 +15,7 @@ interests:
 - Symmetries of discrete objects
 - Abstract polytopes
 - Discrete geometry - Maps on surfaces
+weight: 70
 ---
 ## Biography
 Originally from Mexico City, Isabel Hubard obtained her BS from the National University of Mexico, and her Masters and PhD from York University. Later she held postdoctoral positions at the University of Auckland and the Université Libre de Bruxelles. 

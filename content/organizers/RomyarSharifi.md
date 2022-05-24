@@ -3,7 +3,7 @@ affiliation = "UCLA"
 photo = "/uploads/RomyarSharifi.jpg"
 title = "Romyar Sharifi"
 committees = ['Scientific']
-
+weight = 180
 +++
 ## Biography
 

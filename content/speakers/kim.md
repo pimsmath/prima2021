@@ -3,6 +3,7 @@ affiliation = "University of Warwick"
 photo = "/uploads/MinhyongKim.jpg"
 title = "Minhyong Kim"
 speakertype = ['Public']
+weight = 100
 +++
 ## Biography
 
