@@ -73,20 +73,20 @@ impact on our economic, social, and cultural development."""
     enable         = true
     heading        = "Schedule"
     description    = """\
-<table>
+    <div class="table-responsive">
+<table class="table">
     <thead>
         <tr>
-            <th></th>
-            <th>Sun Dec 4th</th>
-            <th>Mon Dec 5th</th>
-            <th>Tue Dec 6th</th>
-            <th>Wed Dec 7th</th>
-            <th>Thu Dec 8th</th>
-            <th>Fri Dec 9th</th>
+            <th scope="col"></th>
+            <th scope="col">Sun Dec 4th</th>
+            <th scope="col">Mon Dec 5th</th>
+            <th scope="col">Tue Dec 6th</th>
+            <th scope="col">Wed Dec 7th</th>
+            <th scope="col">Thu Dec 8th</th>
+            <th scope="col">Fri Dec 9th</th>
         </tr>
     </thead>
     <tbody style="text-align: center">
-        <tr>
         <tr>
             <th>9:00</th>
             <td class="empty"rowspan=6></td>
@@ -126,7 +126,7 @@ impact on our economic, social, and cultural development."""
         </tr>
         <tr>
             <th>14:00</th>
-            <td class="registration" rowspan=3>Registration and Package Pickup: Sheraton Hotel Grand Ball Room</td>
+            <td class="registration" rowspan=3>Registration and Package Pickup: Sheraton Hotel Grand Ball Room.<br><i>*Please note, registration will also be available throughout the conference at the front desk.</i></td>
             <td class="plenary">Plenary Lecture <strong>Ciprian Manolescu</strong></td>
             <td class="plenary">Plenary Lecture <strong>Yang Wang</strong></td>
             <td class="plenary">Plenary Lecture <strong>Isabel Hubard</strong></td>
@@ -159,7 +159,7 @@ impact on our economic, social, and cultural development."""
             <td class="banquet" rowspan=3>Conference Banquet</td>
             <td class="public">Public Lecture <strong>Katherine Stange</strong></td>
             <td class="empty" rowspan=3"></td>
-o       </tr>
+        </tr>
         <tr>
             <th>19:00</th>
             <td class="empty" rowspan=2></td>
@@ -172,6 +172,7 @@ o       </tr>
         </tr>
     </tbody>
 </table>
+</div>
 """
 
   [params.registration]
