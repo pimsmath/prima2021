@@ -142,7 +142,7 @@ impact on our economic, social, and cultural development."""
             <th>15:30</th>
             <td class="sessions">Scientific Sessions</td>
             <td class="sessions">Scientific Sessions</td>
-            <td class="empty"></td>
+            <td class="empty" rowspan=2></td>
             <td class="sessions">Scientific Sessions</td>
         </tr>
         <tr>
@@ -150,7 +150,6 @@ impact on our economic, social, and cultural development."""
             <td class="organizers" rowspan=3>PRIMA Scientific Organizers Meeting</td>
             <td class="break">Break</td>
             <td class="break">Break</td>
-            <td class="empty"></td>
             <td class="break">Break</td>
         </tr>
         <tr>
