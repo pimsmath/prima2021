@@ -260,9 +260,9 @@ td.empty {
 background: repeating-linear-gradient(
   45deg,
   white,
-  #EEE 10px,
   #FFF 10px,
-  #FFF 11px
+  #DDD 12px
 );
+
 }
 

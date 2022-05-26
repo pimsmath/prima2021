@@ -142,6 +142,7 @@ impact on our economic, social, and cultural development."""
             <th>15:30</th>
             <td class="sessions">Scientific Sessions</td>
             <td class="sessions">Scientific Sessions</td>
+            <td class="empty"></td>
             <td class="sessions">Scientific Sessions</td>
         </tr>
         <tr>
@@ -158,7 +159,8 @@ impact on our economic, social, and cultural development."""
             <td class="public">Public Lecture <strong>Minhong Kim</strong></td>
             <td class="banquet" rowspan=3>Conference Banquet</td>
             <td class="public">Public Lecture <strong>Katherine Stange</strong></td>
-        </tr>
+            <td class="empty" rowspan=3"></td>
+o       </tr>
         <tr>
             <th>19:00</th>
             <td class="empty" rowspan=2></td>
