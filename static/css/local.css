@@ -231,3 +231,28 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
+
+td.plenary {
+    background-color: rgb(223, 236, 213);
+}
+td.public {
+    background-color: rgb(104, 162, 71);
+}
+td.sessions {
+    background-color: rgb(232, 254, 254);
+}
+td.career-fair, td.showcase {
+    background-color: rgb(255, 239, 200);
+}
+td.registration {
+    background-color: rgb(170, 191, 225);
+}
+td.organizers {
+    background-color: rgb(200, 211, 225);
+}
+td.banquet {
+    background-color: rgb(224, 180, 180);
+}
+td.empty {
+background-image: linear-gradient(45deg, #f7f7f7 25%, #f0f0f0 25%, #f0f0f0 50%, #f7f7f7 50%, #f7f7f7 75%, #f0f0f0 75%, #f0f0f0 100%);
+}
