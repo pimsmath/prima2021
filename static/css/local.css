@@ -255,6 +255,7 @@ td.banquet {
 }
 td.lunch, td.break {
     background-color: #DDD;
+    font-style: italic;
 }
 td.empty {
 background: repeating-linear-gradient(
