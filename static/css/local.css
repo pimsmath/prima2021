@@ -253,6 +253,16 @@ td.organizers {
 td.banquet {
     background-color: rgb(224, 180, 180);
 }
-td.empty {
-background-image: linear-gradient(45deg, #f7f7f7 25%, #f0f0f0 25%, #f0f0f0 50%, #f7f7f7 50%, #f7f7f7 75%, #f0f0f0 75%, #f0f0f0 100%);
+td.lunch, td.break {
+    background-color: #DDD;
 }
+td.empty {
+background: repeating-linear-gradient(
+  45deg,
+  white,
+  #EEE 10px,
+  #FFF 10px,
+  #FFF 11px
+);
+}
+
