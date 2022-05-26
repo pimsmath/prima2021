@@ -33,6 +33,7 @@ impact on our economic, social, and cultural development."""
     organizers     = "Organizers"
     sessions       = "Sessions"
     registration   = "Registration"
+    schedule       = "Schedule"
     localinfo      = "Local Information"
     sponsors       = "Sponsors"
     contact        = "Contact"
@@ -67,6 +68,88 @@ impact on our economic, social, and cultural development."""
       imageWebp   = 'images/5_sm.webp'
       imageJpeg   = 'images/5_sm.jpg'
       credit  = 'Tourism Vancouver / Avision Photography by Chris Collacott'
+
+  [params.schedule]
+    enable         = true
+    heading        = "Schedule"
+    description    = """\
+<table>
+    <thead>
+        <tr>
+            <th>Sun Dec 4th</th>
+            <th>Mon Dec 5th</th>
+            <th>Tue Dec 6th</th>
+            <th>Wed Dec 7th</th>
+            <th>Thu Dec 8th</th>
+            <th>Fri Dec 9th</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        <tr>
+            <td rowspan=6></td>
+            <td>9:00-10:00 <br> Opening Remarks</td>
+            <td>9:00-10:00 Plenary Lecture <strong>André Navas</strong></td>
+            <td>9:00-10:00 Plenary Lecture <strong>Kathryn Mann</strong></td>
+            <td>9:00-10:00 Plenary Lecture <strong>Sylvia Serfaty</strong></td>
+            <td>9:00-10:00 Scientific Sessions</td>
+        </tr>
+        <tr>
+            <td colspan=5>10:00-10:30 Coffee Break</td>
+        </tr>
+        <tr>
+            <td rowspan=2>10:30-12:30 Scientific Sessions</td>
+            <td rowspan=2>10:30-12:30 Scientific Sessions</td>
+            <td>10:30-11:30 Early Research Showcase</td>
+            <td rowspan=2>10:30-12:30 Scientific Sessions</td>
+            <td rowspan=2>10:30-12:30 Scientific Sessions</td>
+        </tr>
+        <tr>
+            <td>11:30-12:30 Plenary Lecture <strong>Ozawa Narutaka</strong></td>
+        </tr>
+        <tr>
+            <td rowspan=2>12:30-14:00 Lunch</td>
+            <td rowspan=2>12:30-14:00 Lunch</td>
+            <td>12:30-13:30 Lunch</td>
+            <td rowspan=2>12:30-14:00 Lunch</td>
+            <td rowspan=2>12:30-14:00 Lunch</td>
+        </tr>
+        <tr>
+            <td rowspan=3>13:00-15:30 Industry Career Fair *Lunch at participants discretion</td>
+        </tr>
+        <tr>
+            <td rowspan=3>Registration and Package Pickup: Sheraton Hotel Grand Ball Room</td>
+            <td>14:00 - 15:00 Plenary Lecture <strong>Ciprian Manolescu</strong></td>
+            <td>14:00 - 15:00 Plenary Lecture <strong>Yang Wang</strong></td>
+            <td>14:00 - 15:00 Plenary Lecture <strong>Isabel Hubard</strong></td>
+            <td rowspan=4>14:00 - 16:00 Scientific Sessions</td>
+        </tr>
+        <tr>
+            <td>15:00 - 15:30 Break</td>
+            <td>15:00 - 15:30 Break</td>
+            <td>15:00 - 15:30 Break</td>
+        </tr>
+        <tr>
+            <td>15:30 - 17:30 Scientific Sessions</td>
+            <td>15:30 - 17:30 Scientific Sessions</td>
+            <td>15:30 - 17:30 Scientific Sessions</td>
+        </tr>
+        <tr>
+            <td rowspan=2>17:30 - 20:00 PRIMA Scientific Organizers Meeting</td>
+            <td>17:30 - 17:45 Break</td>
+            <td>17:30 - 17:45 Break</td>
+            <td></td>
+            <td>17:30 - 17:45 Break</td>
+        </tr>
+        <tr>
+            <td rowspan=2>17:45 - 19:00 Plenary Lecture <strong>Caroline Colijn</strong></td>
+            <td rowspan=2>17:45 - 19:00 Public Lecture <strong>Minhong Kim</strong></td>
+            <td>Conference Banquet</td>
+            <td rowspan=2>17:45 - 19:00 Public Lecture <strong>Katherine Stange</strong></td>
+        </tr>
+    </tbody>
+</table>
+"""
 
   [params.registration]
     enable         = true
@@ -328,3 +411,5 @@ information and to register.
   committees = "committees"
   speakertype = "speakertype"
 
+[markup.goldmark.renderer]
+  unsafe = true
