@@ -31,10 +31,10 @@
                         </a>
                     </li>
                 {{ end }}
-                {{ if .Site.Params.organizers.enable }}
+                {{ if .Site.Params.schedule.enable }}
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#conference-organizers">
-                            {{ with .Site.Params.navigation.organizers }} {{ . }} {{ end }}
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#schedule">
+                            {{ with .Site.Params.navigation.schedule }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}
@@ -49,6 +49,13 @@
                     <li class="nav-item">
                         <a class="nav-link" href="{{ .Site.BaseURL }}#localinfo">
                             {{ with .Site.Params.navigation.localinfo }} {{ . }} {{ end }}
+                        </a>
+                    </li>
+                {{ end }}
+                {{ if .Site.Params.organizers.enable }}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ .Site.BaseURL }}#conference-organizers">
+                            {{ with .Site.Params.navigation.organizers }} {{ . }} {{ end }}
                         </a>
                     </li>
                 {{ end }}

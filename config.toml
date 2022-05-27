@@ -28,12 +28,12 @@ impact on our economic, social, and cultural development."""
     logo           = "images/prima_logo_24.png"
     home           = "Home"
     about          = "About"
-    schools        = "Summer Schools"
     speakers       = "Speakers"
-    organizers     = "Organizers"
     sessions       = "Sessions"
+    schedule       = "Schedule"
     registration   = "Registration"
     localinfo      = "Local Information"
+    organizers     = "Organizers"
     sponsors       = "Sponsors"
     contact        = "Contact"
 
@@ -68,11 +68,135 @@ impact on our economic, social, and cultural development."""
       imageJpeg   = 'images/5_sm.jpg'
       credit  = 'Tourism Vancouver / Avision Photography by Chris Collacott'
 
+  [params.schedule]
+    enable         = true
+    heading        = "Schedule"
+    description    = """\
+    <div class="table-responsive">
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">Sun Dec 4th</th>
+            <th scope="col">Mon Dec 5th</th>
+            <th scope="col">Tue Dec 6th</th>
+            <th scope="col">Wed Dec 7th</th>
+            <th scope="col">Thu Dec 8th</th>
+            <th scope="col">Fri Dec 9th</th>
+        </tr>
+    </thead>
+    <tbody style="text-align: center">
+        <tr>
+            <th>9:00</th>
+            <td class="empty"rowspan=6></td>
+            <td>Opening Remarks</td>
+            <td class="plenary">Plenary Lecture <strong>André Navas</strong></td>
+            <td class="plenary">Plenary Lecture <strong>Kathryn Mann</strong></td>
+            <td class="plenary">Plenary Lecture <strong>Sylvia Serfaty</strong></td>
+            <td class="sessions">Scientific Sessions</td>
+        </tr>
+        <tr>
+            <th>10:00</th>
+            <td class="break" colspan=5>Coffee Break</td>
+        </tr>
+        <tr>
+            <th>10:30</th>
+            <td class="sessions" rowspan=2>Scientific Sessions</td>
+            <td class="sessions" rowspan=2>Scientific Sessions</td>
+            <td class="showcase">Early Research Showcase</td>
+            <td class="sessions" rowspan=2>Scientific Sessions</td>
+            <td class="sessions" rowspan=2>Scientific Sessions</td>
+        </tr>
+        <tr>
+            <th>11:30</th>
+            <td class="plenary">Plenary Lecture <strong>Ozawa Narutaka</strong></td>
+        </tr>
+        <tr>
+            <th>12:30</th>
+            <td class="lunch" rowspan=2>Lunch</td>
+            <td class="lunch" rowspan=2>Lunch</td>
+            <td class="lunch">Lunch</td>
+            <td class="lunch" rowspan=2>Lunch</td>
+            <td class="lunch" rowspan=2>Lunch</td>
+        </tr>
+        <tr>
+            <th>13:00</th>
+            <td class="career-fair" rowspan=3>Industry Career Fair<br><i>*Lunch at participants discretion</i></td>
+        </tr>
+        <tr>
+            <th>14:00</th>
+            <td class="registration" rowspan=3>Registration and Package Pickup: Sheraton Hotel Grand Ball Room.<br><i>*Please note, registration will also be available throughout the conference at the front desk.</i></td>
+            <td class="plenary">Plenary Lecture <strong>Ciprian Manolescu</strong></td>
+            <td class="plenary">Plenary Lecture <strong>Yang Wang</strong></td>
+            <td class="plenary">Plenary Lecture <strong>Isabel Hubard</strong></td>
+            <td class="sessions"rowspan=4>Scientific Sessions</td>
+        </tr>
+        <tr>
+            <th>15:00</th>
+            <td class="break">Break</td>
+            <td class="break">Break</td>
+            <td class="break">Break</td>
+        </tr>
+        <tr>
+            <th>15:30</th>
+            <td class="sessions">Scientific Sessions</td>
+            <td class="sessions">Scientific Sessions</td>
+            <td class="empty" rowspan=2></td>
+            <td class="sessions">Scientific Sessions</td>
+        </tr>
+        <tr>
+            <th>17:30</th>
+            <td class="organizers" rowspan=3>PRIMA Scientific Organizers Meeting</td>
+            <td class="break">Break</td>
+            <td class="break">Break</td>
+            <td class="break">Break</td>
+        </tr>
+        <tr>
+            <th>17:45</th>
+            <td class="plenary">Plenary Lecture <strong>Caroline Colijn</strong></td>
+            <td class="public">Public Lecture <strong>Minhyong Kim</strong></td>
+            <td class="banquet" rowspan=3>Conference Banquet</td>
+            <td class="public">Public Lecture <strong>Katherine Stange</strong></td>
+            <td class="empty" rowspan=3"></td>
+        </tr>
+        <tr>
+            <th>19:00</th>
+            <td class="empty" rowspan=2></td>
+            <td class="empty" rowspan=2></td>
+            <td class="empty" rowspan=2></td>
+        </tr>
+        <tr>
+            <th>20:00</th>
+            <td class="empty"></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+"""
+
   [params.registration]
     enable         = true
     heading        = "Registration"
-    description    = "Registration details will appear here shortly. PRIMA 2022 is being hosted by the Pacific Institute for the Mathematical Sciences (PIMS) and all participants are expected to follow the [PIMS code of conduct](https://www.pims.math.ca/pims-glance/code-conduct)."
-  
+    description    = """\
+**Registration for PRIMA 2022 is now open!**.  Discounted rates are available
+in the following periods:
+
+| | May 5th - June 30th | June 30th - October 15th | October 15th - December 4th |
+| ---: | :---: | :---: | :---: |
+| **Faculty/Other**| 350 | 380 | 420 |
+| **Postdoctoral Researcher** | 175 | 200 | 225 |
+| **Graduate Students** | 75 | 100 | 125 |
+| **Special Session Speaker** | 300 | 300 | 300 |
+| **Conference Dinner/Banquet** | 75 | 75 | 75 |
+
+_N.B. Graduate students at the University of Victoria, University of British
+Columbia and University of Manitoba sites may also be eligible for a $50
+discount, please contact your PIMS Site administrator for more details._
+"""
+    [params.registration.button]
+      text  = "Register"
+      url   = "https://events.eply.com/PRIMA2022"
+
   [params.localinfo]
     enable         = true
     heading        = "Local Information"
@@ -310,3 +434,5 @@ information and to register.
   committees = "committees"
   speakertype = "speakertype"
 
+[markup.goldmark.renderer]
+  unsafe = true

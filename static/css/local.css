@@ -122,6 +122,7 @@ ul.profile {
 div.content ul {
     padding-left: 2rem;
     margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
     list-style: disc;
 }
 
@@ -219,3 +220,50 @@ hr {
     text-align: center;
     padding-bottom: 35px;
 }
+
+table, th, td {
+    border: 1px solid grey;
+    padding: 1em;
+}
+table {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td.plenary {
+    background-color: rgb(223, 236, 213);
+}
+td.public {
+    background-color: rgb(104, 162, 71);
+}
+td.sessions {
+    background-color: rgb(232, 254, 254);
+}
+td.career-fair, td.showcase {
+    background-color: rgb(255, 239, 200);
+}
+td.registration {
+    background-color: rgb(170, 191, 225);
+}
+td.organizers {
+    background-color: rgb(200, 211, 225);
+}
+td.banquet {
+    background-color: rgb(224, 180, 180);
+}
+td.lunch, td.break {
+    background-color: #DDD;
+    font-style: italic;
+}
+td.empty {
+background: repeating-linear-gradient(
+  45deg,
+  white,
+  #FFF 10px,
+  #DDD 12px
+);
+
+}
+

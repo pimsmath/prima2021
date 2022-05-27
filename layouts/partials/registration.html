@@ -14,6 +14,11 @@
                             <p>{{ . | markdownify }}</p>
                         {{ end }}
                     </div>
+                    {{ with .Site.Params.registration.button }}
+                      <div class="col-md-6 offset-md-3 pt-3">
+                        <a class="btn btn-send btn-lg" href="{{ .url }}" target="_blank">{{ .text }}</a>
+                      </div>
+                    {{ end }}
                 </div>
             </div>
         </div>
