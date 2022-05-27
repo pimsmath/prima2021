@@ -3,7 +3,7 @@ affiliation = "University of Washington"
 photo = "/uploads/BobbyWilson.jpg"
 title = "Bobby Wilson"
 committees = ['Scientific']
-
+weight = 220
 +++
 ## Biography
 

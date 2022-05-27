@@ -4,7 +4,7 @@ photo = "/uploads/JayadevAthrea4.jpg"
 title = "Jayadev S. Athreya"
 committees = ["Scientific", "Local"]
 tags = ["chair"]
-weight = 1
+weight = 10
 +++
 ## Biography
 

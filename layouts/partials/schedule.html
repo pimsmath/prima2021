@@ -1,0 +1,54 @@
+{{ if .Site.Params.schedule.enable }}
+    {{ with .Site.GetPage "section" "events" }}
+    {{"<!-- Schedule Section -->" | safeHTML}}
+    <section id="schedule" class="service section">
+        <div class="container">
+
+          <div class="sub-heading">
+            <h2>Schedule</h2>
+          </div>
+          <!-- Nav tabs -->
+          <ul class="nav nav-pills nav-fill nav-justified" id="scheduleTabs" role="tablist">
+            {{ range .Pages.GroupByDate "2006-01-02" "asc" }}
+              {{ $date := printf "%sT00:00:00" .Key | time }}
+              <li class="nav-item">
+                <a class="nav-link {{ if eq .Key "2022-12-04" }}active{{ end }}" id="{{ .Key }}-tab" data-toggle="tab" href="#schedule-{{ .Key }}" role="tab" aria-controls="{{ .Key }}" aria-selected="true">{{ $date.Format "Jan 2" }}</a>
+              </li>
+            {{ end }}
+          </ul>
+          <div class="tab-content">
+          {{ range .Pages.GroupByDate "2006-01-02" "asc" }}
+          {{ $date := .Key }}
+            <div class="tab-pane fade{{ if eq .Key "2022-12-04"}} in active{{ end }}" id="schedule-{{ .Key }}" role="tabpanel" aria-labelledby="{{ .Key }}-tab">
+<div class="row">
+  <div class="col-lg-12">
+              <ul class="mt-5 time-table pl-0 list-unstyled">
+                {{ $date := printf "%sT00:00:00" .Key | time }}
+                {{ range .Pages }}
+                <li class="d-md-flex align-items-center justify-content-between bg-light p-4 mb-1">
+                  {{ with .Params.Date | time.Format ":time_long" }}
+                  <h4 class="time text-color">{{ . }}</h3>
+                  {{ end }}
+                  <div class="content">
+                    <h3>{{ .Title }}</h3>
+                    {{ with .Params.speakers }}
+                    {{ range . }}
+                    {{ $author_page := site.GetPage (printf "/%s/%s" "speakers" .user) }}
+                    <h6><a href="{{ $author_page.RelPermalink }}">{{ $author_page.Title }} <em>({{ $author_page.Params.affiliation }})</em></a></h6>
+
+                    {{ end }}
+                    {{ end }}
+                    <p>{{ .Params.abstract | markdownify }}</p>
+                  </div>
+                </li>
+                {{ end }}
+              </ul>
+  </div>
+</div>
+            </div>
+          {{ end }}
+          </div>
+        </div>
+    </section>
+    {{ end }}
+{{ end }}

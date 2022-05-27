@@ -1,4 +1,3 @@
-@media (min-width:1200px){
     .auto-clear .col-lg-1:nth-child(12n+1){clear:left;}
     .auto-clear .col-lg-2:nth-child(6n+1){clear:left;}
     .auto-clear .col-lg-3:nth-child(4n+1){clear:left;}
@@ -130,6 +129,50 @@ div.content li {
     font-size: 16px;
 }
 
+h3, h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.time-table {
+    text-align: left;
+}
+
+.time-table li {
+    box-shadow: 0 10px 10px 0 rgb(0 0 0/ 10%);
+}
+
+.time-table .time {
+    flex-basis: 20%;
+    font-weight: 700;
+}
+
+.time-table .content {
+    flex-basis: 80%;
+}
+
+.d-md-flex {
+    display: flex!important;
+}
+
+.p-4 {
+    padding: 1.5rem!important;
+}
+
+.align-items-center {
+    align-items: center!important;
+}
+
+.text-color {
+  color: #1bafb4;
+}
+
+.time-table h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: 0.7rem;
+}
+
 section#sessions h3, section#sessions h4 {
     margin-top: 2rem;
     margin-bottom: 1rem;
@@ -149,3 +192,68 @@ section#sponsors img {
     max-width: 100%;
 }
 
+.hero-area p a {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #fff;
+}
+
+.btn {
+    line-height: 1.5rem;
+}
+
+section#contact div.sub-heading {
+    text-align: center;
+    color: #777777;
+}
+
+section#contact div.sub-heading h2 {
+    text-align: center;
+    color: #3c3c3c;
+    padding-bottom: 15px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 40px;
+    padding-top: 15px;
+}
+
+section#contact div.sub-heading p {
+    text-align: left;
+}
+
+#mc_embed_signup .input-field .form-control {
+    display: block;
+    box-shadow: none;
+    background: #f5f5f5;
+    border: none;
+    border-radius: 0.25rem;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    font-weight: 500;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #55595c;
+    background-image: none;
+    background-clip: padding-box;
+}
+
+#mc_embed_signup .input-field .form-control input {
+    border: 1px solid #999;
+    -webkit-appearance: none;
+}
+
+hr {
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.hero-area p {
+    margin-top: 1rem;
+}
+
+.sub-heading {
+    text-align: center;
+    padding-bottom: 35px;
+}

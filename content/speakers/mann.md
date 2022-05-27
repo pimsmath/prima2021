@@ -13,6 +13,7 @@ interests:
 - Geometric topology
 - Low dimensional analysis
 website: https://math.cornell.edu/kathryn-mann
+weight: 120
 ---
 ## Biography
 Originally from Toronto, Kathryn Mann obtained her PhD from the University of

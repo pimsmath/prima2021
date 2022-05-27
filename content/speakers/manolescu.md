@@ -13,6 +13,7 @@ interests:
 - Gauge Theory
 - Low dimensional topology
 website: https://web.stanford.edu/~cm5/
+weight: 124
 ---
 ## Biography
 Ciprian Manolescu grew up in Romania. During high school he earned three gold medals with perfect scores at the International Mathematical Olympiad. He obtained his BA and PhD from Harvard University. He was a Clay Fellow at Princeton and IAS, and he had faculty appointments at Columbia and UCLA, before moving to Stanford in 2019.
