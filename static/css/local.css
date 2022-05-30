@@ -225,6 +225,9 @@ table, th, td {
     border: 1px solid grey;
     padding: 1em;
 }
+.table th {
+    padding-top: 0;
+}
 table {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -258,12 +261,11 @@ td.lunch, td.break {
     font-style: italic;
 }
 td.empty {
-background: repeating-linear-gradient(
-  45deg,
-  white,
-  #FFF 10px,
-  #DDD 12px
-);
-
+  background: repeating-linear-gradient(
+    45deg,
+    white,
+    #FFF 10px,
+    #DDD 12px
+  );
 }
 
