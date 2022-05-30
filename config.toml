@@ -192,10 +192,16 @@ in the following periods:
 | **Special Session Speaker** | 300 | 300 | 300 |
 | **Conference Dinner/Banquet** | 75 | 75 | 75 |
 
-All dates and times are in the Pacific/Vancouver timezone and amounts are in Canadian
-Dollars (CAD). _N.B. Graduate students at the University of Victoria, University of
-British Columbia and University of Manitoba sites may also be eligible for a
-$50 discount, please contact your PIMS Site administrator for more details._
+_*All dates and times are in the Pacific/Vancouver timezone and amounts are in Canadian
+Dollars (CAD)._
+
+#### Early Career Participant Support
+
+* Graduate students at the University of Victoria, University of British Columbia
+and University of Manitoba sites may also be eligible for a $50 discount,
+please contact your PIMS Site administrator for more details._
+
+* Limited funds area available on a first-come-first-served basis for graduate students. To apply for these funds, please complete the [application form](https://ubc.ca1.qualtrics.com/jfe/form/SV_3qLmqRb4Je6a8Pc)
 """
     [params.registration.button]
       text  = "Register"
