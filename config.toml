@@ -192,9 +192,10 @@ in the following periods:
 | **Special Session Speaker** | 300 | 300 | 300 |
 | **Conference Dinner/Banquet** | 75 | 75 | 75 |
 
-_N.B. Graduate students at the University of Victoria, University of British
-Columbia and University of Manitoba sites may also be eligible for a $50
-discount, please contact your PIMS Site administrator for more details._
+Dates and times are in the Pacific time zone and amounts are in Canadian
+Dollars ($CAD). _N.B. Graduate students at the University of Victoria, University of
+British Columbia and University of Manitoba sites may also be eligible for a
+$50 discount, please contact your PIMS Site administrator for more details._
 """
     [params.registration.button]
       text  = "Register"
