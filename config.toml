@@ -471,12 +471,6 @@ information and to register.
     url        = "/#contact"
     weight     = 100
   [[menu.main]]
-    identifier = "schedule"
-    name = "Schedule"
-    url = "/#schedule"
-    parent = "program"
-    weight = 5 
-  [[menu.main]]
     identifier = "plenary"
     name = "Plenary Speakers"
     url = "#speakers-plenary"
@@ -494,3 +488,9 @@ information and to register.
     url = "/#sessions"
     parent = "program"
     weight = 30 
+  [[menu.main]]
+    identifier = "schedule"
+    name = "Schedule"
+    url = "/#schedule"
+    parent = "program"
+    weight = 5 
