@@ -493,4 +493,4 @@ information and to register.
     name = "Schedule"
     url = "/#schedule"
     parent = "program"
-    weight = 5 
+    weight = 35 
