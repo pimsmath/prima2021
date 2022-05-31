@@ -111,7 +111,7 @@ impact on our economic, social, and cultural development."""
         </tr>
         <tr>
             <th>13:00</th>
-            <td class="career-fair" rowspan=3>Industry Career Fair<br><i>*Lunch at participants discretion</i><br>&nbsp;<br><a href="/uploads/PRIMACareerFair_IndustryBoothPackage.pdf">Career Fair Package</a></td>
+            <td class="career-fair" rowspan=3>Industry Career Fair<br></td>
         </tr>
         <tr>
             <th>14:00</th>
@@ -412,7 +412,15 @@ information and to register.
   [params.sponsors]
   enable = true
   title  = "Sponsors"
-  subtitle = "PRIMA 2022 gratefully acknowledges the following sponsors. To learn more about sponsorship opportunities, please see our [Sponsor Package](uploads/PRIMA2022SponsorPackage.pdf), or contact us directly at events@pims.math.ca"
+  content = """\
+* PRIMA 2022 gratefully acknowledges the following sponsors. To learn more
+about sponsorship opportunities, please see our [Sponsor
+Package](uploads/PRIMA2022SponsorPackage.pdf).
+* To participate in the Early Career Fair, please see the [Career Fair
+Package](https://prima2021.primamath.org/uploads/PRIMACareerFair_IndustryBoothPackage.pdf).
+* For any other information, please contact us directly at events@pims.math.ca
+"""
+
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/QAI.svg"
   url = 'https://quantumalgorithms.ca/'

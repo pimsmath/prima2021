@@ -7,14 +7,11 @@
           {{ with .Site.Params.sponsors.title }}
             <h2>{{ . | markdownify }}</h2>
           {{ end }}
-          {{ with .Site.Params.sponsors.subtitle }}
-            <p>{{ . | markdownify }}</p>
-          {{ end }}
         </div>
       </div>
       <div class="row">
         <div class="sub-heading">
-          <h3>Title Sponsors</h3>
+          <h3>Title Sponsor</h3>
         </div>
       </div>
       {{ $num_title := len (where .Site.Params.sponsor.sponsorItem "title_sponsor" "eq" true) }}
@@ -49,7 +46,7 @@
       {{ end }}
       {{ with .Site.Params.sponsors.content }}
       <div class="row pt-3 text-center">
-        <p>{{ . | markdownify }}</p>
+        {{ . | markdownify }}
       </div>
     {{ end }}
     </div>
