@@ -1,5 +1,5 @@
-<div class="container">
-  <nav class="navbar navbar-fixed-top navigation {{ default "light" .Page.Params.theme }}" id="top-nav">
+<nav class="navbar navbar-fixed-top navigation {{ default "light" .Page.Params.theme }}" id="top-nav">
+  <div class="container">
         <a class="navbar-brand float-none float-lg-left" href="#">
             {{ with .Site.Params.navigation.logo }}
             <img src="{{ . | absURL }}" alt="logo">
@@ -10,70 +10,27 @@
         </button>
         <div class="collapse navbar-toggleable-md" id="navbarResponsive">
             <ul class="nav navbar-nav menu float-lg-right">
-                {{ if .Site.Params.about.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#about">
-                            {{ with .Site.Params.navigation.about }} {{ . }} {{ end }}
-                        </a>
-                    </li>
+              {{ range .Site.Menus.main }}
+                {{ if .HasChildren }}
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">{{ .Name }}</a>
+                  <div class="dropdown-menu">
+                  {{ range .Children }}
+                    <a class="dropdown-item" href="{{ .URL }}">
+                      {{ .Name }}
+                    </a>
+                  {{ end }}
+                  </div>
+                </li>
+                {{ else }}
+                <li class="nav-item">
+                  <a class="nav-link" href="{{ .URL }}">
+                    {{ .Name }}
+                  </a>
+                </li>
                 {{ end }}
-                {{ if .Site.Params.speakers.enable }}
-                    <li class="nav-item">
-                      <a class="nav-link" href="{{ .Site.BaseURL }}#speakers">
-                          {{ with .Site.Params.navigation.speakers }} {{ . }} {{ end }}
-                      </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.sessions.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#sessions">
-                            {{ with .Site.Params.navigation.sessions }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.schedule.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#schedule">
-                            {{ with .Site.Params.navigation.schedule }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.registration.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#registration">
-                            {{ with .Site.Params.navigation.registration }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.localinfo.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#localinfo">
-                            {{ with .Site.Params.navigation.localinfo }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.organizers.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#conference-organizers">
-                            {{ with .Site.Params.navigation.organizers }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.sponsors.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#sponsors">
-                            {{ with .Site.Params.navigation.sponsors }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
-                {{ if .Site.Params.contact.enable }}
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ .Site.BaseURL }}#contact">
-                            {{ with .Site.Params.navigation.contact }} {{ . }} {{ end }}
-                        </a>
-                    </li>
-                {{ end }}
+              {{ end }}
             </ul>
         </div>
-    </nav>
-</div>
+  </div>
+</nav>
