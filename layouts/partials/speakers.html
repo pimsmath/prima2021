@@ -1,12 +1,14 @@
 {{ if .Site.Params.speakers.enable }}
     {{"<!-- Speakers Section -->" | safeHTML}}
     <section id="speakers" class="service section">
+      <a id="speakers-public"></a>
+      <a id="speakers-plenary"></a>
         <div class="container">
           <div class="heading">
             <h2>Speakers</h2>
           </div>
           <!-- Nav tabs -->
-          <ul class="nav nav-pills nav-fill nav-justified" id="speakerTabs" role="tablist">
+          <ul class="nav nav-pills nav-fill nav-justified" id="speaker-tab-buttons" role="tablist">
             {{ range $key, $taxonomy := .Site.Taxonomies.speakertype }}
             <li class="nav-item">
               <a class="nav-link {{ if eq $key "plenary" }}active{{ end }}" id="{{ $key }}-tab" data-toggle="tab" href="#{{ $key }}" role="tab" aria-controls="{{ $key }}" aria-selected="true">{{ $key | humanize }}</a>
