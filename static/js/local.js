@@ -1,7 +1,6 @@
 console.log("Selecting Speaker group");
 
 var SpeakerGroupSelect = function() {
-  console.log("Speaker group " + hash);
   var hash = window.location.hash;
   if(hash.startsWith("#speakers")){
       var speakerType = hash.split('-').pop();
