@@ -26,16 +26,6 @@ impact on our economic, social, and cultural development."""
 
   [params.navigation]
     logo           = "images/prima_logo_24.png"
-    home           = "Home"
-    about          = "About"
-    speakers       = "Speakers"
-    sessions       = "Sessions"
-    schedule       = "Schedule"
-    registration   = "Registration"
-    localinfo      = "Local Information"
-    organizers     = "Organizers"
-    sponsors       = "Sponsors"
-    contact        = "Contact"
 
   [params.schools]
     enable         = true
@@ -434,3 +424,53 @@ information and to register.
 
 [markup.goldmark.renderer]
   unsafe = true
+
+[menu]
+  [[menu.main]]
+    identifier = "schedule"
+    name       = "Schedule"
+    url        = "/#schedule"
+    weight     = 50
+  [[menu.main]]
+    identifier = "registration"
+    name       = "Registration"
+    url        = "/#registration"
+    weight     = 60
+  [[menu.main]]
+    identifier = "localinfo"
+    name       = "Local Inforamation"
+    url        = "/#localinfo"
+    weight     = 70
+  [[menu.main]]
+    identifier = "organizers"
+    name       = "Organizers"
+    url        = "/#organizers"
+    weight     = 80
+  [[menu.main]]
+    identifier = "sponsors"
+    name       = "Sponsors"
+    url        = "/#sponsors"
+    weight     = 90
+  [[menu.main]]
+    identifier = "contact"
+    name       = "Contact"
+    url        = "/#contact"
+    weight     = 100
+  [[menu.main]]
+    identifier = "plenary"
+    name = "Plenary Speakers"
+    url = "#speakers"
+    parent = "schedule"
+    weight = 10
+  [[menu.main]]
+    identifier = "public"
+    name = "Public Speakers"
+    url = "#speakers"
+    parent = "schedule"
+    weight = 20
+  [[menu.main]]
+    identifier = "sessions"
+    name = "Sessions"
+    url = "/#sessions"
+    parent = "schedule"
+    weight = 30 
