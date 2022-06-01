@@ -461,7 +461,7 @@ Package](https://prima2021.primamath.org/uploads/PRIMACareerFair_IndustryBoothPa
     weight     = 60
   [[menu.main]]
     identifier = "localinfo"
-    name       = "Local Inforamation"
+    name       = "Local Information"
     url        = "/#localinfo"
     weight     = 70
   [[menu.main]]
