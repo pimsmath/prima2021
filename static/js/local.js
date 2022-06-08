@@ -16,3 +16,10 @@ window.onhashchange = SpeakerGroupSelect;
 $(document).ready(function() {
     SpeakerGroupSelect();
 });
+
+window.MathJax = {
+      tex: {
+              inlineMath: [['$', '$'], ['\\(', '\\)']]
+            }
+};
+
