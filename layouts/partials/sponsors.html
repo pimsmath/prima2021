@@ -35,8 +35,8 @@
         <div class="col-sm-1 col-md-1 text-center"></div>
       {{ end }}
         <div class="col-sm-5 col-md-5 text-center">
-          <div class="block">
-            <a href="{{ .url }}"><img src="{{ .image }}" /></a>
+          <div class="flex sponsor-flex">
+            <a href="{{ .url }}"><img {{ with .width }}width="{{ . }}"{{ end }} src="{{ .image }}" /></a>
           </div>
         </div>
       {{ if or (not (modBool $i 2)) (eq $i (sub $num_non_title 1)) }}

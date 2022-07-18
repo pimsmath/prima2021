@@ -272,4 +272,9 @@ td.empty {
     #DDD 12px
   );
 }
-
+.sponsor-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 12em;
+}
