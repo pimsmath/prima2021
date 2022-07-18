@@ -452,12 +452,15 @@ Package](https://prima2021.primamath.org/uploads/PRIMACareerFair_IndustryBoothPa
   image = "images/sponsor/CMS-logo.png"
   url   = 'https://cms.math.ca/'
   [[params.sponsor.sponsorItem]]
+  image = "images/sponsor/NSF.png"
+  width = "50%"
+  url   = 'https://www.nsf.gov/'
+  [[params.sponsor.sponsorItem]]
   image = "images/sponsor/MSRI-logo.png"
   url   = 'https://www.msri.org/'
   [[params.sponsor.sponsorItem]]
   image = "images/sponsor/Simons.png"
   url   = 'https://www.simonsfoundation.org/'
- 
 
 [taxonomies]
   category = "categories"
