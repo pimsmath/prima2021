@@ -366,7 +366,6 @@ poster/ talk details. Submissions close **August 31st, 2022**.
 
 ##### Organizers
   * Vincent Bouchard, _University of Alberta_
-  * Thomas Creutzig, _University of Alberta_
   * Norman Do, _Monash University_
   * Steven Rayan _University of Saskatchewan_
 
@@ -406,6 +405,23 @@ Computation](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) will
 take place **August 2-4th, 2021**. Please see the [event
 webpage](https://www.pims.math.ca/scientific-event/210802-pssrcmsag) for more
 information and to register.
+
+#### Summer School on Algebraic Geometry and High Energy Physics
+
+##### August 23-26, 2021
+
+The second in a series, this four-day virtual summer school aims to provide
+early-career researchers with new perspectives on [algebraic geometry in
+high-energy
+physics](https://researchers.usask.ca/steven-rayan/research/workshops/aghep2.php).
+The summer school features four mini-courses by emerging and established
+researchers working at the interface of these two fields. The topics range from
+derived geometry, to twisted TQFTs, to N=2 supersymmetry, to BPS algebras, to
+elliptic fibrations. Please see the [event
+webpage](https://researchers.usask.ca/steven-rayan/research/workshops/aghep2.php)
+for more information and to register.
+
+
 """
 
   [params.speakers]
