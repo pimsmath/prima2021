@@ -272,9 +272,23 @@ td.empty {
     #DDD 12px
   );
 }
+div.content td ul {
+    padding-left: 0;
+}
+div.content td ul li {
+    font-size: 90%;
+    list-style: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid lightgrey;
+}
+div.content td ul li:last-child {
+    border-bottom: none;
+}
 .sponsor-flex {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 12em;
 }
+
