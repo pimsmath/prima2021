@@ -91,11 +91,58 @@ impact on our economic, social, and cultural development."""
         </tr>
         <tr>
             <th>10:30</th>
-            <td class="sessions" rowspan=2>Scientific Sessions</td>
-            <td class="sessions" rowspan=2>Scientific Sessions</td>
+            <td class="sessions" rowspan=2>
+              <!-- Monday Morning -->
+              Scientific Sessions
+              <ul>
+                <li>Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></li>
+                <li>Enumerative Algebraic Geometry<br/><em>(Finback)</em></li>
+                <li>Algebraic Number Theory and Arithmetic Geometry<br/><em>(Junior Ballroom C)</em></li>
+                <li>Representation Theory Applications<br/><em>(Junior Ballroom D)</em></li>
+                <li>Graph Theory and Combinatorics<br/><em>(Parksville)</em></li>
+                <li>Geometric Group Theory<br/><em>(Port McNeill)</em></li>
+                <li class="last">Optimal Transport and Applications<br/><em>(Port Alberni)</em></li>
+              </ul>
+            </td>
+            <td class="sessions" rowspan=2>
+              <!- Tuesday Morning -->
+              Scientific Sessions
+              <ul>
+                <li>Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></li>
+                <li>Enumerative Algebraic Geometry<br/><em>(Finback)</em></li>
+                <li>Algebraic Number Theory and Arithmetic Geometry<br/><em>(Junior Ballroom C)</em></li>
+                <li>Representation Theory Applications<br/><em>(Junior Ballroom D)</em></li>
+                <li>Graph Theory and Combinatorics<br/><em>(Parksville)</em></li>
+                <li>Geometric Group Theory<br/><em>(Port McNeill)</em></li>
+                <li class="last">Optimal Transport and Applications<br/><em>(Port Alberni)</em></li>
+              </ul>
+            </td>
             <td class="showcase">Early Research Showcase</td>
-            <td class="sessions" rowspan=2>Scientific Sessions</td>
-            <td class="sessions" rowspan=2>Scientific Sessions</td>
+            <td class="sessions" rowspan=2>
+              <!-- Thursday Morning -->
+              Scientific Sessions
+              <ul>
+                <li>Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></li>
+                <li>Moduli Spaces in Algebraic Geometry<br/><em>(Finback)</em></li>
+                <li>A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom C)</em></li>
+                <li>Arithmetic Geometry: Theory and Computation<br/><em>(Junior Ballroom D)</em></li>
+                <li>Harmonic Functions and Laplace Eigenfunctions<br/><em>(Parksville)</em></li>
+                <li>Mathematics of Information<br/><em>(Port McNeill)</em></li>
+                <li class="last">New Trends in Geometry and Mathematical Physics<br/><em>(Port Alberni)</em></li>
+              </ul>
+            </td>
+            <td class="sessions" rowspan=2>
+              <!-- Friday Morning -->
+              Scientific Sessions
+              <ul>
+                <li>Moduli Spaces in Algebraic Geometry<br/><em>(Finback)</em></li>
+                <li>A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom C)</em></li>
+                <li>Arithmetic Geometry: Theory and Computation<br/><em>(Junior Ballroom D)</em></li>
+                <li>Harmonic Functions and Laplace Eigenfunctions<br/><em>(Parksville)</em></li>
+                <li>Mathematics of Information<br/><em>(Port McNeill)</em></li>
+                <li class="last">New Trends in Geometry and Mathematical Physics<br/><em>(Port Alberni)</em></li>
+              </ul>
+            </td>
         </tr>
         <tr>
             <th>11:30</th>
@@ -119,7 +166,18 @@ impact on our economic, social, and cultural development."""
             <td class="plenary">Plenary Lecture <strong>Ciprian Manolescu</strong></td>
             <td class="plenary">Plenary Lecture <strong>Yang Wang</strong></td>
             <td class="plenary">Plenary Lecture <strong>Isabel Hubard</strong></td>
-            <td class="sessions"rowspan=3>Scientific Sessions</td>
+            <td class="sessions"rowspan=3>
+              <!-- Friday Afternoon -->
+              Scientific Sessions
+              <ul>
+                <li>Moduli Spaces in Algebraic Geometry<br/><em>(Finback)</em></li>
+                <li>A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom C)</em></li>
+                <li>Arithmetic Geometry: Theory and Computation<br/><em>(Junior Ballroom D)</em></li>
+                <li>Harmonic Functions and Laplace Eigenfunctions<br/><em>(Parksville)</em></li>
+                <li>Mathematics of Information<br/><em>(Port McNeill)</em></li>
+                <li class="last">New Trends in Geometry and Mathematical Physics<br/><em>(Port Alberni)</em></li>
+              </ul>
+            </td>
         </tr>
         <tr>
             <th>15:00</th>
@@ -129,10 +187,46 @@ impact on our economic, social, and cultural development."""
         </tr>
         <tr>
             <th>15:30</th>
-            <td rowspan=2 class="sessions">Scientific Sessions</td>
-            <td rowspan=2 class="sessions">Scientific Sessions</td>
+            <td rowspan=2 class="sessions">
+              <!-- Monday Afternoon -->
+              Scientific Sessions
+              <ul>
+                <li>Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></li>
+                <li>Enumerative Algebraic Geometry<br/><em>(Finback)</em></li>
+                <li>Algebraic Number Theory and Arithmetic Geometry<br/><em>(Junior Ballroom C)</em></li>
+                <li>Representation Theory Applications<br/><em>(Junior Ballroom D)</em></li>
+                <li>Graph Theory and Combinatorics<br/><em>(Parksville)</em></li>
+                <li>Geometric Group Theory<br/><em>(Port McNeill)</em></li>
+                <li class="last">Optimal Transport and Applications<br/><em>(Port Alberni)</em></li>
+              </ul>
+            </td>
+            <td rowspan=2 class="sessions">
+              <!-- Tuesday Afternoon -->
+              Scientific Sessions
+              <ul>
+                <li>Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></li>
+                <li>Enumerative Algebraic Geometry<br/><em>(Finback)</em></li>
+                <li>Algebraic Number Theory and Arithmetic Geometry<br/><em>(Junior Ballroom C)</em></li>
+                <li>Representation Theory Applications<br/><em>(Junior Ballroom D)</em></li>
+                <li>Graph Theory and Combinatorics<br/><em>(Parksville)</em></li>
+                <li>Geometric Group Theory<br/><em>(Port McNeill)</em></li>
+                <li class="last">Optimal Transport and Applications<br/><em>(Port Alberni)</em></li>
+              </ul>
+            </td>
             <td class="empty" rowspan=3></td>
-            <td rowspan=2 class="sessions">Scientific Sessions</td>
+            <td rowspan=2 class="sessions">
+              <!-- Thursday Afternoon -->
+              Scientific Sessions
+              <ul>
+                <li>Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></li>
+                <li>Moduli Spaces in Algebraic Geometry<br/><em>(Finback)</em></li>
+                <li>A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom C)</em></li>
+                <li>Arithmetic Geometry: Theory and Computation<br/><em>(Junior Ballroom D)</em></li>
+                <li>Harmonic Functions and Laplace Eigenfunctions<br/><em>(Parksville)</em></li>
+                <li>Mathematics of Information<br/><em>(Port McNeill)</em></li>
+                <li class="last">New Trends in Geometry and Mathematical Physics<br/><em>(Port Alberni)</em></li>
+              </ul>
+            </td>
         </tr>
         <tr>
             <th>16:00</th>
