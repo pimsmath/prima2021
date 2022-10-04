@@ -292,3 +292,6 @@ div.content td ul li:last-child {
     height: 12em;
 }
 
+.heading p {
+    text-transform: none;
+}
