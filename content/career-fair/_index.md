@@ -24,8 +24,8 @@ opportunities.  The PRIMA Career Fair is a golden opportunity for highly
 qualified personnel in the mathematical sciences to have face-to-face
 interaction with employers.  If your company is interested in participating in
 the PRIMA career fair, please get in touch via the contact form below.  Company
-booths are priced at $300 CAD [(register here <i class="fa fa-external-link" aria-hidden="true"></i>
-](https://events.eply.com/PRIMA2022))which includes a
+tables priced at $300 CAD [(register here <i class="fa fa-external-link" aria-hidden="true"></i>
+](https://events.eply.com/PRIMA2022)) which includes a
 table and two chairs for your posters and printed materials, and you are
 encouraged to speak to interested students.  For more information, please see
 the [PRIMA Career Fair
