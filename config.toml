@@ -569,12 +569,11 @@ for more information and to register.
   enable = true
   title  = "Sponsors"
   content = """\
-* PRIMA 2022 gratefully acknowledges the following sponsors. To learn more
-about sponsorship opportunities, please see our [Sponsor
+* PRIMA 2022 gratefully acknowledges our sponsors. To learn more
+about sponsorship opportunities, please see the [Sponsor
 Package](uploads/PRIMA2022SponsorPackage.pdf).
-* To participate in the Early Career Fair, please see the [Career Fair
-Package](https://docs.google.com/presentation/d/1HiDO0cJzMammA8r6pwyPq0ngWYKfso2FpzOyr25LVBY/)
-* For any other information, please contact us directly at events@pims.math.ca
+* To participate as an exhibitor in the Career Fair, please see the [Career Fair Page](/career-fair).
+* For any other information, please use the form below or email us directly at events@pims.math.ca.
 """
 
   [[params.sponsor.sponsorItem]]

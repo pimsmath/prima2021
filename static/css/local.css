@@ -295,3 +295,9 @@ div.content td ul li:last-child {
 .heading p {
     text-transform: none;
 }
+
+#sponsors ul {
+    list-style: inside;
+    font-size: 16px;
+    line-height: 3rem;
+}

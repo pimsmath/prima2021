@@ -7,7 +7,7 @@ contact:
   title: Contact - Career Fair
   description: |
     For more information, please see the [PRIMA Career Fair
-    brochure](/uploads/PRIMACareerFair_IndustryBoothPackage.pdf), or fill out
+    brochure](https://docs.google.com/presentation/d/1HiDO0cJzMammA8r6pwyPq0ngWYKfso2FpzOyr25LVBY/edit), or fill out
     the contact form
 layout: careerfair
 
