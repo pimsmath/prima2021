@@ -292,3 +292,12 @@ div.content td ul li:last-child {
     height: 12em;
 }
 
+.heading p {
+    text-transform: none;
+}
+
+#sponsors ul {
+    list-style: inside;
+    font-size: 16px;
+    line-height: 3rem;
+}
