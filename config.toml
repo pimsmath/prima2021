@@ -626,7 +626,7 @@ Package](https://prima2021.primamath.org/uploads/PRIMACareerFair_IndustryBoothPa
   [[menu.main]]
     identifier = "organizers"
     name       = "Organizers"
-    url        = "/#organizers"
+    url        = "/#conference-organizers"
     weight     = 80
   [[menu.main]]
     identifier = "sponsors"
