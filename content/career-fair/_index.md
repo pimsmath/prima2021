@@ -29,8 +29,9 @@ tables priced at $300 CAD [(register here <i class="fa fa-external-link" aria-hi
 table and two chairs for your posters and printed materials, and you are
 encouraged to speak to interested students.  For more information, please see
 the [PRIMA Career Fair
-Brochure](/uploads/PRIMACareerFair_IndustryBoothPackage.pdf), or fill out the
-contact form below to get in touch.
+Brochure <i class="fa fa-external-link"
+aria-hidden="true"></i>](https://docs.google.com/presentation/d/1HiDO0cJzMammA8r6pwyPq0ngWYKfso2FpzOyr25LVBY/edit),
+or fill out the contact form below to get in touch.
 
 
 {{< contactform title="Contact - Career Fair" >}}
