@@ -1,4 +1,4 @@
-#baseURL = "https://prima2022.primamath.org/"
+baseURL = "https://prima2022.primamath.org/"
 languageCode = "en-us"
 title = "Pacific Rim Mathematical Association Congress 2022"
 theme = "infinity-hugo"
