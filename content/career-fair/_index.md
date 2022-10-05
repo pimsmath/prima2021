@@ -7,7 +7,7 @@ contact:
   title: Contact - Career Fair
   description: |
     For more information, please see the [PRIMA Career Fair
-    brochure](https://docs.google.com/presentation/d/1HiDO0cJzMammA8r6pwyPq0ngWYKfso2FpzOyr25LVBY/edit), or fill out
+    brochure](https://docs.google.com/presentation/d/e/2PACX-1vRMjP1THLJCO1bscp-vX7I5vF6W_fhqTN_eo-FMfUR026Uz8oN4gsMZxd9nCoxKwBkwf8hbaUQIIU0b/pub?start=false&loop=false&delayms=3000), or fill out
     the contact form
 layout: careerfair
 
@@ -17,20 +17,22 @@ content:
 ---
 
 
-PRIMA is one of _the_ premier conferences in the mathematical sciences in the
-Pacific Rim region. Highly trained personnel from all areas of the mathematical
-sciences will gather to discuss advances in their fields and explore new
-opportunities.  The PRIMA Career Fair is a golden opportunity for highly
-qualified personnel in the mathematical sciences to have face-to-face
+PRIMA is the premier conference in the mathematical sciences representing the
+entire Pacific Rim region.  Highly trained personnel from all areas of the
+mathematical sciences will gather to discuss advances in their fields and
+explore new opportunities.  The PRIMA Career Fair is a golden opportunity for
+highly qualified personnel in the mathematical sciences to have face-to-face
 interaction with employers.  If your company is interested in participating in
 the PRIMA career fair, please get in touch via the contact form below.  Company
-tables priced at $300 CAD [(register here <i class="fa fa-external-link" aria-hidden="true"></i>
-](https://events.eply.com/PRIMA2022)) which includes a
-table and two chairs for your posters and printed materials, and you are
-encouraged to speak to interested students.  For more information, please see
-the [PRIMA Career Fair
-Brochure <i class="fa fa-external-link"
-aria-hidden="true"></i>](https://docs.google.com/presentation/d/1HiDO0cJzMammA8r6pwyPq0ngWYKfso2FpzOyr25LVBY/edit),
+tables are priced at $300 CAD [(register here <i class="fa fa-external-link"
+aria-hidden="true"></i> ](https://events.eply.com/PRIMA2022)). A company table
+includes a table and two chairs for you to display your posters and printed
+materials.  You are encouraged to engage with interested students during the
+career fair.
+
+For more information, please see the [PRIMA Career Fair Brochure <i class="fa
+fa-external-link"
+aria-hidden="true"></i>](https://docs.google.com/presentation/d/e/2PACX-1vRMjP1THLJCO1bscp-vX7I5vF6W_fhqTN_eo-FMfUR026Uz8oN4gsMZxd9nCoxKwBkwf8hbaUQIIU0b/pub?start=false&loop=false&delayms=3000),
 or fill out the contact form below to get in touch.
 
 
