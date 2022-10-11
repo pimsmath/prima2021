@@ -1,36 +1,36 @@
-<nav class="navbar navbar-fixed-top navigation {{ default "light" .Page.Params.theme }}" id="top-nav">
+<nav class="navbar fixed-top navbar-expand-lg navigation {{ default "navbar-light" .Page.Params.theme }}" id="top-nav">
   <div class="container">
-        <a class="navbar-brand float-none float-lg-left" href="/#">
-            {{ with .Site.Params.navigation.logo }}
-            <img src="{{ . | absURL }}" alt="logo">
-            {{ end }}
-        </a>
-        <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-            <i class="tf-ion-android-menu"></i>
-        </button>
-        <div class="collapse navbar-toggleable-md" id="navbarResponsive">
-            <ul class="nav navbar-nav menu float-lg-right">
-              {{ range .Site.Menus.main }}
-                {{ if .HasChildren }}
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">{{ .Name }}</a>
-                  <div class="dropdown-menu">
-                  {{ range .Children }}
-                    <a class="dropdown-item" href="{{ .URL }}">
-                      {{ .Name }}
-                    </a>
-                  {{ end }}
-                  </div>
-                </li>
-                {{ else }}
-                <li class="nav-item">
-                  <a class="nav-link" href="{{ .URL }}">
-                    {{ .Name }}
-                  </a>
-                </li>
-                {{ end }}
-              {{ end }}
-            </ul>
-        </div>
+     <a class="navbar-brand float-none float-lg-left" href="/#">
+         {{ with .Site.Params.navigation.logo }}
+         <img src="{{ . | absURL }}" alt="logo">
+         {{ end }}
+     </a>
+     <button class="navbar-toggler hidden-lg-up float-lg-right" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+         <i class="tf-ion-android-menu"></i>
+     </button>
+     <div class="navbar-collapse collapse navbar-expand-md" id="navbarResponsive">
+         <ul class="nav navbar-nav menu ml-auto">
+           {{ range .Site.Menus.main }}
+             {{ if .HasChildren }}
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">{{ .Name }}</a>
+               <div class="dropdown-menu">
+               {{ range .Children }}
+                 <a class="dropdown-item" href="{{ .URL }}">
+                   {{ .Name }}
+                 </a>
+               {{ end }}
+               </div>
+             </li>
+             {{ else }}
+             <li class="nav-item">
+               <a class="nav-link" href="{{ .URL }}">
+                 {{ .Name }}
+               </a>
+             </li>
+             {{ end }}
+           {{ end }}
+         </ul>
+     </div>
   </div>
 </nav>

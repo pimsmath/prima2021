@@ -1,9 +1,8 @@
-console.log("Selecting Speaker group");
-
 var SpeakerGroupSelect = function() {
   var hash = window.location.hash;
   if(hash.startsWith("#speakers")){
       var speakerType = hash.split('-').pop();
+      console.log('Showing speakers : ' + speakerType);
       $("ul#speaker-tab-pills > li > a.nav-link").removeClass("active");
       $("ul#speaker-tab-pills > li > a.nav-link" + "#" + speakerType + "-tab-pill").addClass("active");
   
