@@ -301,3 +301,20 @@ div.content td ul li:last-child {
     font-size: 16px;
     line-height: 3rem;
 }
+
+@media(max-width:767px){
+.hero-area .col-sm-12 .counter {
+    padding: 0;
+}
+
+.hero-area .col-sm-12 .counter ul li {
+    padding: 0;
+    width: 24%;
+}
+
+.hero-area .col-sm-12 .counter ul li .digit {
+    font-size: 25px;
+    height: 30px;
+    line-height: 35px;
+}
+}
