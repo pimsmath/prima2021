@@ -570,12 +570,11 @@ for more information and to register.
   enable = true
   title  = "Sponsors"
   content = """\
-* PRIMA 2022 gratefully acknowledges the following sponsors. To learn more
-about sponsorship opportunities, please see our [Sponsor
+* PRIMA 2022 gratefully acknowledges our sponsors. To learn more
+about sponsorship opportunities, please see the [Sponsor
 Package](uploads/PRIMA2022SponsorPackage.pdf).
-* To participate in the Early Career Fair, please see the [Career Fair
-Package](https://prima2021.primamath.org/uploads/PRIMACareerFair_IndustryBoothPackage.pdf).
-* For any other information, please contact us directly at events@pims.math.ca
+* To participate as an exhibitor in the Career Fair, please see the [Career Fair Page](/career-fair).
+* For any other information, please use the form below or email us directly at events@pims.math.ca.
 """
 
   [[params.sponsor.sponsorItem]]
@@ -612,7 +611,7 @@ Package](https://prima2021.primamath.org/uploads/PRIMACareerFair_IndustryBoothPa
   [[menu.main]]
     identifier = "program"
     name       = "Program"
-    url        = '#'
+    url        = '/#'
     weight     = 50
   [[menu.main]]
     identifier = "registration"
@@ -642,13 +641,13 @@ Package](https://prima2021.primamath.org/uploads/PRIMACareerFair_IndustryBoothPa
   [[menu.main]]
     identifier = "plenary"
     name = "Plenary Speakers"
-    url = "#speakers-plenary"
+    url = "/#speakers-plenary"
     parent = "program"
     weight = 10
   [[menu.main]]
     identifier = "public"
     name = "Public Speakers"
-    url = "#speakers-public"
+    url = "/#speakers-public"
     parent = "program"
     weight = 20
   [[menu.main]]
@@ -663,3 +662,9 @@ Package](https://prima2021.primamath.org/uploads/PRIMACareerFair_IndustryBoothPa
     url = "/#schedule"
     parent = "program"
     weight = 35 
+  [[menu.main]]
+    identifier = "career-fair"
+    name = "Career fair"
+    url = "/career-fair"
+    parent = "program"
+    weight = 37
