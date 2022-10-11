@@ -65,7 +65,7 @@ impact on our economic, social, and cultural development.
     description    = """\
     <div class="table-responsive">
 <table class="table">
-    <thead>
+    <thead class="table-dark">
         <tr>
             <th scope="col"></th>
             <th scope="col">Sun Dec 4th</th>
