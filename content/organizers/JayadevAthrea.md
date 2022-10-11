@@ -8,6 +8,6 @@ weight = 10
 +++
 ## Biography
 
-Jayadev Athreya is the director of the [Washington Experimental Mathematics
-Lab](http://www.math.washington.edu/wxml) and a professor of Mathematics at the
-University of Washington.
+Prof. Jayadev Athreya is Co-Director (International) at the Pacific Institute for the Mathematical Sciences (PIMS) and a professor of Mathematics at the University of Washington. He is also the director of the [Washington Experimental Mathematics
+Lab](http://www.math.washington.edu/wxml).
+

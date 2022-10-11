@@ -1,0 +1,23 @@
+{{ partial "header.html" . }}
+
+{{ partial "preloader.html" . }}
+        
+{{ partial "navigation.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 col-sm-12">
+        <div class="content">
+          <div class="heading">
+            <h2>{{ .Title }}</h2>
+            <h4>{{ .Params.subtitle }}</h4>
+          </div>
+          {{ .Content }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
