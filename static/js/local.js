@@ -10,6 +10,10 @@ var SpeakerGroupSelect = function() {
       $("#speaker-tabs div.tab-pane" + "#" + speakerType + "-tab").addClass("active in");
   }
 }
+$('.navbar-collapse a').not('.dropdown-toggle').click(function (e) {
+
+  $('.navbar-collapse').collapse('toggle');
+});
 
 window.onhashchange = SpeakerGroupSelect;
 $(document).ready(function() {
