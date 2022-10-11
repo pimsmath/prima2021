@@ -6,8 +6,8 @@ var SpeakerGroupSelect = function() {
       $("ul#speaker-tab-pills > li > a.nav-link").removeClass("active");
       $("ul#speaker-tab-pills > li > a.nav-link" + "#" + speakerType + "-tab-pill").addClass("active");
   
-      $("#speaker-tabs div.tab-pane").removeClass("active in");
-      $("#speaker-tabs div.tab-pane" + "#" + speakerType + "-tab").addClass("active in");
+      $("#speaker-tabs div.tab-pane").removeClass("active in show");
+      $("#speaker-tabs div.tab-pane" + "#" + speakerType + "-tab").addClass("active in show");
   }
 }
 $('.navbar-collapse a').not('.dropdown-toggle').click(function (e) {
