@@ -607,6 +607,8 @@ Package](uploads/PRIMA2022SponsorPackage.pdf).
   tags = "tags"
   committees = "committees"
   speakertype = "speakertype"
+  session = "sessions"
+  location = "locations"
 
 [markup.goldmark.renderer]
   unsafe = true

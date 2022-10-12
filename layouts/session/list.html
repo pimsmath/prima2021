@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+{{ partial "preloader.html" . }}
+        
+{{ partial "navigation.html" . }}
+
+<section class="location section">
+  <div class="container">
+    <div class="row">
+      <div class="heading">
+        <h2>{{ .Title }}</h2>
+        {{ with .Params.subtitle }}
+          <h4>{{ . }}</h4>
+        {{ end }}
+      </div>
+    </div>
+    <div>
+      <ul>
+        {{ range $key, $taxonomy := .Site.Taxonomies.locations }}
+        <ul>
+            {{ range $taxonomy.Pages }}
+            <li hugo-nav="{{ .RelPermalink}}"><a href="{{ .Permalink}}">{{ .LinkTitle }}</a></li>
+            {{ end }}
+        </ul>
+        {{ end }}
+      </ul>
+    </div>
+  </div>
+
+</section>
+
+{{ partial "footer.html" . }}
+
