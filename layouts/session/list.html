@@ -35,7 +35,7 @@
       <a href="{{ .Permalink }}" class="summary-link">
         {{ with $summary }}
         <div class="article-style">
-          {{ . }}
+          {{ . | markdownify }}
         </div>
         {{ end }} 
       </a>
