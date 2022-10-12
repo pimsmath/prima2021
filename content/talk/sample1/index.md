@@ -2,12 +2,14 @@
 title: A sample talk about something or other
 sessions:
   - Algebraic Number Theory and Arithmetic Geometry
-speaker: John Doe
+speakers:
+  - name: John Doe
+    affiliation: University of Nowhere
 locations:
   - Junior Ballroom C
 tags: ['']
 categories: ['special-session']
-date: 2022-09-29T10:00:00-07:00
+date: 2022-12-06T10:00:00-08:00
 featured: false
 draft: false
 abstract: |

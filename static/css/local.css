@@ -328,3 +328,119 @@ div.content td ul li:last-child {
     font-size: 1.125rem;
     line-height: 150%;
 }
+
+.media.stream-item .article-title {
+    font-size: 1.6rem;
+}
+.section-subheading {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.article-title a {
+    color: #151515;
+    transition: color .6s ease;
+}
+.article-style { 
+    margin-top: 1rem;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.media-body a {
+    color: #151515;
+}
+
+.media-body a:hover {
+    text-decoration: none;
+}
+
+.media.stream-item {
+    margin-top: 2px;
+    margin-bottom: 2rem;
+    color: none;
+}
+
+.article-metadata {
+    overflow: hidden;
+    letter-spacing: 0.03rem;
+    color: rgba(0,0,0,.54);
+}
+
+.author-highlighted {
+    font-weight: 700;
+}
+
+.middot-divider {
+    padding-left: 0.45rem;
+    padding-right: 0.45rem;
+    font-size: 15px;
+}
+
+.middot-divider:after {
+    content: '\00B7';
+}
+
+.stream-meta {
+    margin-top: 12px;
+}
+time.icon
+{
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 7em;
+  height: 7em;
+  background-color: #fff;
+  margin: 2em auto;
+  border-radius: 0.6em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 10%;
+  transform-origin: 50% 10%;
+}
+
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon .calendar-day
+{
+  position: absolute;
+  top: 0;
+  padding: 0.4em 0;
+  color: #fff;
+  background-color: #fd9f1b;
+  border-bottom: 1px dashed #f37302;
+  box-shadow: 0 2px 0 #fd9f1b;
+}
+
+time.icon .calendar-month
+{
+  position: absolute;
+  bottom: 0.3em;
+  color: #fd9f1b;
+}
+
+time.icon .calendar-day-number
+{
+  width: 100%;
+  font-size: 2.8em;
+  letter-spacing: -0.05em;
+  padding-top: 1.2em;
+  color: #2f2f2f;
+}
+
+.calendar-day-time {
+    font-weight: 700;
+    font-size: 1.0rem;
+    letter-spacing: -0.05rem;
+}
