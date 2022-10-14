@@ -445,3 +445,7 @@ time.icon .calendar-day-number
     letter-spacing: -0.05rem;
     text-align: center;
 }
+
+section.location a.badge {
+    background-color: #fff;
+}

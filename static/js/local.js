@@ -26,3 +26,7 @@ window.MathJax = {
             }
 };
 
+mediumZoom('[data-zoomable]', {
+      background: '#eee',
+      scrollOffset: 10,
+})
