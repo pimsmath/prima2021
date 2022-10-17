@@ -4,35 +4,33 @@ PRODID:-//prima-2022//speaker calendar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VTIMEZOME
-  TZID:America/Vancouver
-  X-LIC-LOCATION:America/Vancouver
-  BEGIN:DAYLIGHT
-    TZOFFSETFROM:-0800
-    TZOFFSETTO:+0700
-    TZNAME:PDT
-    DTSTART:20070311T020000
-    RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
-  END:DAYLIGHT
-  BEGIN:STANDARD
-    TZOFFSETFROM:-0700
-    TZOFFSETTO:-0800
-    RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
-    TZNAME:PST
-    DTSTART:20071104T020000
-  END:STANDARD
+TZID:America/Vancouver
+TZURL:http://tzurl.org/zoneinfo-outlook/America/Vancouver
+X-LIC-LOCATION:America/Vancouver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0800
+TZOFFSETTO:-0700
+TZNAME:PDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0800
+TZNAME:PST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+DTSTAMP;TZID=America/Vancouver:{{dateFormat "20060102T150405" .Date}}
+DTSTART;TZID=America/Vancouver:{{dateFormat "20060102T150405" .Date}}
+{{ with .Params.end }}DTEND;TZID=America/Vancouver:{{dateFormat "20060102T150405" .}}{{ end }}
 {{ with .Params.organizer}}ORGANIZER;CN="{{ .name }}":mailto:{{ .email }}{{ end }}
+UID:{{dateFormat "20060102T150405" .Date}}@prima2022.primamath.org
 SUMMARY:{{.Title}}
-DESCRIPTION:{{.Params.summary}}
-UID:{{dateFormat "20060102T150405" .Date}}@yoursite
-SEQUENCE:0
+DESCRIPTION:{{.Params.abstract}}
 STATUS:CONFIRMED
-DTSTAMP:{{dateFormat "20060102T150405" .Date}}
-DTSTART:{{dateFormat "20060102T150405" .Date}}
-{{ with .Params.recurring}}RRULE:FREQ=WEEKLY;BYDAY=MO{{ end}}
-{{ with .Params.end }}DTEND:{{dateFormat "20060102T150405" .}}{{ end }}
-LOCATION:{{with .Params.location}}{{.}}{{else}}TBD{{end}}
-URL:{{.Permalink}}
+LOCATION:{{with .Params.locations}}{{ delimit . ";" }}{{else}}TBD{{end}}
 END:VEVENT
 END:VCALENDAR
