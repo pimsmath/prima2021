@@ -8,6 +8,9 @@ speakers:
 locations:
   - Junior Ballroom C
 tags: ['']
+outputs:
+- HTML
+- Calendar
 categories: ['special-session']
 date: 2022-12-06T11:00:00-08:00
 featured: false

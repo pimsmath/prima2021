@@ -273,6 +273,16 @@ td.empty {
     #DDD 12px
   );
 }
+section#schedule tr a {
+    display: block;
+    text-decoration: none;
+    color: #3b4045;
+}
+
+section#schedule tr li:hover {
+    background-color: rgba(0,0,0,.075);
+}
+
 div.content td ul {
     padding-left: 0;
 }

@@ -674,3 +674,6 @@ Package](uploads/PRIMA2022SponsorPackage.pdf).
     url = "/career-fair"
     parent = "program"
     weight = 37
+
+[outputs]
+  talk = ["HTML", "Calendar"]

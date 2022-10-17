@@ -59,6 +59,9 @@
         <div class="calendar-day-number">{{ .Date | time.Format "2" }}</div>
       </time>
       <div class="calendar-day-time">{{ .Date | time.Format "15:04 (MST)" }}</div>
+      {{ with .OutputFormats.Get "Calendar" -}}
+      <a href="{{ .Permalink | safeURL }}">Add to my calendar</a>
+      {{ end }}
     </div>
   </div>
   {{ end }}
