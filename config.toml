@@ -677,3 +677,6 @@ Package](uploads/PRIMA2022SponsorPackage.pdf).
 
 [outputs]
   talk = ["HTML", "Calendar"]
+
+[outputFormats.Calendar]
+  protocol = "https://"
