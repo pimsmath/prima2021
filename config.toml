@@ -680,3 +680,4 @@ Package](uploads/PRIMA2022SponsorPackage.pdf).
 
 [outputFormats.Calendar]
   protocol = "https://"
+  basename = "prima-session"
