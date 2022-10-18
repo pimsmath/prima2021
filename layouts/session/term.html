@@ -40,16 +40,21 @@
                     <span class="author-highlighted">{{ .name }}, <em>{{ .affiliation }}</em></span>
                     {{ end }}
                     <div>
+                      {{ if .Site.Params.sessions.showTimes }}
                       <span class="article-date">{{ .Date }}</span>
+                      {{ end }}
+                      {{ if .Site.Params.sessions.showLocation }}
                       <span class="middot-divider"></span>
                       {{ range .Params.locations }}
                       <span class="article-location"><a class="badge badge-light" href="{{ "/locations/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></span>
+                      {{ end }}
                       {{ end }}
                     </div>
                   </div>
                 </div>
               </div>
               <div class="col-4">
+                {{ if .Site.Params.sessions.showTimes }}
                 <time datetime="{{ .Date | time.Format "2006-01-06" }}" class="icon">
                   {{ with .OutputFormats.Get "Calendar" -}}
                   <a href="{{ .Permalink | safeURL }}" data-toggle="tooltip" title="Add to my calender">
@@ -63,6 +68,7 @@
                   </a>
                   {{ end }}
                 </time>
+                {{ end }}
               </div>
             </div>
             <div class="abstract mt-3">
