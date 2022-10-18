@@ -15,13 +15,30 @@
                  <h2>Scientific Sessions</h2>
                  {{ range (where .Site.Pages "Section" $section ) }}
                    {{ if eq .Kind "term" }}
-                   <h4>{{ .Title }}</h4>
-                   <h5>Organizers</h5>
-                   <ul>
-                     {{ range .Params.organizers }}
-                     <li>{{ .name}}, <em>{{ .affiliation }}</em></li>
-                     {{ end }}
-                   </ul>
+                   <div class="card">
+                     <div class="card-body">
+                       <div class="d-flex align-content-start">
+                         <div>
+                           <div class="section-subheading card-title exp-title text-muted my-0">
+                             <a href="{{ .Permalink }}">{{ .Title }}</a>
+                           </div>
+                           <div>
+                             <div class="card-subtitle my-0 article-metadata">
+                               <h5>Organizers</h5>
+                               <ul>
+                                 {{ range .Params.organizers }}
+                                 <li>{{ .name}}, <em>{{ .affiliation }}</em></li>
+                                 {{ end }}
+                               </ul>
+                             </div>
+                           </div>
+                         </div>
+                         <div class="d-flex align-self-end push">
+                           <a href="{{ .Permalink }}">Explore this session...</a>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
                    {{ end }}
                  {{ end }}
                  {{ with .Site.Params.sessions.footer }}

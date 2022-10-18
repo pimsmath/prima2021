@@ -459,3 +459,30 @@ time.icon .calendar-day-number
 section.location a.badge {
     background-color: #fff;
 }
+
+section#sessions h4 a {
+    color: #3b4045;
+}
+
+.card {
+    overflow: hiden;
+    text-overflow: ellipsis;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 20%);
+    transition: all .2s ease-out;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    flex: auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.card-body .section-subheading a {
+    color: #3b4045;
+}
+
+.push {
+    margin-left: auto;
+}
