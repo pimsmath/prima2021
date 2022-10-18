@@ -17,59 +17,63 @@
       <p>{{ .name }}, <em>{{ .affiliation }}</em></p>
       {{ end }}
     </div>
-    {{ range .Pages }}
-      {{ $summary := "" }}
-      {{ if .Params.summary }}
-        {{ $summary = .Params.summary | markdownify | emojify }}
-      {{ else if .Params.abstract }}
-        {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 800) }}
-      {{ else if .Summary }}
-        {{ $summary = .Summary }}
-      {{ end }}
-      <div class="card">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-8">
-              <div class="section-subheading card-title exp-title text-muted my-0">
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-              </div>
-              <div>
-                <div class="card-subtitle mt-4 article-metadata">
-                  {{ range .Params.speakers }}
-                  <span class="author-highlighted">{{ .name }}, <em>{{ .affiliation }}</em></span>
-                  {{ end }}
-                  <div>
-                    <span class="article-date">{{ .Date }}</span>
-                    <span class="middot-divider"></span>
-                    {{ range .Params.locations }}
-                    <span class="article-location"><a class="badge badge-light" href="{{ "/locations/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></span>
+    {{ if gt (len .Pages) 0 }}
+      {{ range $index, $value := .Pages }}
+        {{ $summary := "" }}
+        {{ if .Params.summary }}
+          {{ $summary = .Params.summary | markdownify | emojify }}
+        {{ else if .Params.abstract }}
+          {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 800) }}
+        {{ else if .Summary }}
+          {{ $summary = .Summary }}
+        {{ end }}
+        <div class="card">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-8">
+                <div class="section-subheading card-title exp-title text-muted my-0">
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </div>
+                <div>
+                  <div class="card-subtitle mt-4 article-metadata">
+                    {{ range .Params.speakers }}
+                    <span class="author-highlighted">{{ .name }}, <em>{{ .affiliation }}</em></span>
                     {{ end }}
+                    <div>
+                      <span class="article-date">{{ .Date }}</span>
+                      <span class="middot-divider"></span>
+                      {{ range .Params.locations }}
+                      <span class="article-location"><a class="badge badge-light" href="{{ "/locations/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></span>
+                      {{ end }}
+                    </div>
                   </div>
                 </div>
               </div>
+              <div class="col-4">
+                <time datetime="{{ .Date | time.Format "2006-01-06" }}" class="icon">
+                  {{ with .OutputFormats.Get "Calendar" -}}
+                  <a href="{{ .Permalink | safeURL }}" data-toggle="tooltip" title="Add to my calender">
+                  {{ end }}
+                  <div>
+                    <div class="calendar-day">{{ .Date | time.Format "Monday" }}</div>
+                    <div class="calendar-day-number">{{ .Date | time.Format "2" }}</div>
+                    <div class="calendar-day-time">{{ .Date | time.Format "15:04 (MST)" }}</div>
+                  </div>
+                  {{ with .OutputFormats.Get "Calendar" -}}
+                  </a>
+                  {{ end }}
+                </time>
+              </div>
             </div>
-            <div class="col-4">
-              <time datetime="{{ .Date | time.Format "2006-01-06" }}" class="icon">
-                {{ with .OutputFormats.Get "Calendar" -}}
-                <a href="{{ .Permalink | safeURL }}" data-toggle="tooltip" title="Add to my calender">
-                {{ end }}
-                <div>
-                  <div class="calendar-day">{{ .Date | time.Format "Monday" }}</div>
-                  <div class="calendar-day-number">{{ .Date | time.Format "2" }}</div>
-                  <div class="calendar-day-time">{{ .Date | time.Format "15:04 (MST)" }}</div>
-                </div>
-                {{ with .OutputFormats.Get "Calendar" -}}
-                </a>
-                {{ end }}
-              </time>
+            <div class="abstract mt-3">
+              <h5>Abstract</h5>
+              {{ .Params.abstract | markdownify }}
             </div>
-          </div>
-          <div class="abstract mt-3">
-            <h5>Abstract</h5>
-            {{ .Params.abstract | markdownify }}
           </div>
         </div>
-      </div>
+      {{ end }}
+    {{ else }}
+    <p>No talks found in this session. New talks will appear here as they are added to the session.</p>
     {{ end }}
   </div>
 </section>
