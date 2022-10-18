@@ -20,10 +20,12 @@
         
         <div class="col-md-1"></div>
         <div class="col-md-10">
+          {{ range .Params.speakers }}
           <div class="row">
             <div class="col-12 col-md-3 pub-row-heading">Speaker</div>
-            <div class="col-12 col-md-9">{{ .Params.speaker }}</div>
+            <div class="col-12 col-md-9">{{ .name }}, <em>{{ .affiliation }}</em></div>
           </div>
+          {{ end }}
         </div>
         <div class="col-md-1"></div>
 

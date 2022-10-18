@@ -5,12 +5,28 @@
            <h2>{{ . }}</h2>
        {{ end }}
        </div>
+       {{ $section := "sessions" }}
        <div class="row">
            <div class="col-md-12 col-sm-12">
                <div class="content">
-                   {{ with .Site.Params.sessions.description }}
-                       {{ . | markdownify }}
+                 {{ with .Site.Params.sessions.header }}
+                 {{ . | markdownify | emojify }}
+                 {{ end }}
+                 <h2>Scientific Sessions</h2>
+                 {{ range (where .Site.Pages "Section" $section ) }}
+                   {{ if eq .Kind "term" }}
+                   <h4>{{ .Title }}</h4>
+                   <h5>Organizers</h5>
+                   <ul>
+                     {{ range .Params.organizers }}
+                     <li>{{ .name}}, <em>{{ .affiliation }}</em></li>
+                     {{ end }}
+                   </ul>
                    {{ end }}
+                 {{ end }}
+                 {{ with .Site.Params.sessions.footer }}
+                 {{ . | markdownify | emojify }}
+                 {{ end }}
                </div>
            </div>
        </div>

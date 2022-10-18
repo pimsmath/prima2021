@@ -1,5 +1,6 @@
 ---
 title: Algebraic Number Theory and Arithmetic Geometry
+weight: 10
 organizers:
   - name: Ellen Eischen
     affiliation: University of Oregon
