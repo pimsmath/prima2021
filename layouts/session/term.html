@@ -22,7 +22,7 @@
       {{ if .Params.summary }}
         {{ $summary = .Params.summary | markdownify | emojify }}
       {{ else if .Params.abstract }}
-        {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 300) }}
+        {{ $summary = .Params.abstract | markdownify | emojify | truncate (site.Params.abstract_length | default 800) }}
       {{ else if .Summary }}
         {{ $summary = .Summary }}
       {{ end }}
@@ -31,13 +31,11 @@
           <div class="section-subheading article-title">
             <a href="{{ .Permalink }}">{{ .LinkTitle }}</a>
           </div>
-          <a href="{{ .Permalink }}" class="summary-link">
-            {{ with $summary }}
-            <div class="article-style">
-              {{ . | markdownify }}
+          <div class="article-style">
+            <div class="abstract">
+              {{ .Params.abstract | markdownify }}
             </div>
-            {{ end }} 
-          </a>
+          </div>
           <div class="stream-meta article-metadata">
             {{ range .Params.speakers }}
             <span class="author-highlighted">{{ .name }}, <em>{{ .affiliation }}</em></span>
