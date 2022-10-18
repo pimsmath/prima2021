@@ -42,12 +42,12 @@ The skills developed by mathematical scientists have
 valuable applications in many industries, including (but not limited to!)
 
  * Financial services,
- * Software,
  * Business Services,
  * Pharmaceuticals or Biotechnology,
  * Communications,
- * Aerospace/Defense, and
- * Health care.
+ * Aerospace/Defense,
+ * Health care, and
+ * Software companies.
 
 If your company is looking for talented mathematical scientists in areas such as
 these, we encourage you to get in touch.
