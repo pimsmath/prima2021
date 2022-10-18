@@ -451,7 +451,12 @@ time.icon .calendar-day-number
     text-align: center;
 }
 
-a time {
+time a {
+    color: black;
+}
+
+time a:hover {
+    text-decoration: none;
     color: black;
 }
 
