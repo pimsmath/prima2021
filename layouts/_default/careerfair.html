@@ -4,20 +4,45 @@
         
 {{ partial "navigation.html" . }}
 
-<section class="section">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-md-12 col-sm-12">
-        <div class="content">
-          <div class="heading">
-            <h2>{{ .Title }}</h2>
-            <h4>{{ .Params.subtitle }}</h4>
+<div id="career-fair">
+  <section id="career-fair-intro" class="section career-fair">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="content">
+            <div class="heading">
+              <h2>{{ .Title }}</h2>
+              <h4>{{ .Params.subtitle }}</h4>
+            </div>
+            {{ .Content }}
           </div>
-          {{ .Content }}
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  
+  
+  {{ $headless_bundle := site.GetPage .File.Path }}
+  {{ range $index, $block := where ( $headless_bundle.Resources.ByType "page" ) ".Params.active" "!=" false }}
+  {{ $hash_id := replace $block.File.ContentBaseName "index" (path.Base .File.Dir) }}
+  {{ $block_type := lower $block.Params.widget | default "markdown" }}
+  {{ $widget_class := printf "wg-%s" (replace (replace $block_type "." "-") "_" "-") }}
+  <section id={{$hash_id}} class="section widget {{ if eq (mod $index 2) 0 }} bg-gray {{ end }} {{$widget_class}}">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="content">
+            <div class="heading">
+              <h2>{{ $block.Title }}</h2>
+              <h4>{{ $block.Params.subtitle }}</h4>
+            </div>
+            {{ $block.Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+{{ end }}
 
 {{ partial "footer.html" . }}

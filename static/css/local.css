@@ -1,3 +1,4 @@
+@media (min-width:1200px){ 
     .auto-clear .col-lg-1:nth-child(12n+1){clear:left;}
     .auto-clear .col-lg-2:nth-child(6n+1){clear:left;}
     .auto-clear .col-lg-3:nth-child(4n+1){clear:left;}
@@ -44,7 +45,7 @@ body {
     text-align: center;
 }
 
-section#speakers, section#conference-organizers, section#speaker, section#people {
+section#speakers, section#conference-organizers, section#speaker, section#people, section#career-fair-intro {
     background: url('/images/trianglify.svg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -272,6 +273,16 @@ td.empty {
     #DDD 12px
   );
 }
+section#schedule tr a {
+    display: block;
+    text-decoration: none;
+    color: #3b4045;
+}
+
+section#schedule tr li:hover {
+    background-color: rgba(0,0,0,.075);
+}
+
 div.content td ul {
     padding-left: 0;
 }
@@ -303,18 +314,203 @@ div.content td ul li:last-child {
 }
 
 @media(max-width:767px){
-.hero-area .col-sm-12 .counter {
-    padding: 0;
+  .hero-area .col-sm-12 .counter {
+      padding: 0;
+  }
+  
+  .hero-area .col-sm-12 .counter ul li {
+      padding: 0;
+      width: 24%;
+  }
+  
+  .hero-area .col-sm-12 .counter ul li .digit {
+      font-size: 25px;
+      height: 30px;
+      line-height: 35px;
+  }
 }
 
-.hero-area .col-sm-12 .counter ul li {
-    padding: 0;
-    width: 24%;
+.pub-row-heading {
+    font-weight: 700;
 }
 
-.hero-area .col-sm-12 .counter ul li .digit {
-    font-size: 25px;
-    height: 30px;
-    line-height: 35px;
+.talk-metadata {
+    font-size: 1.125rem;
+    line-height: 150%;
 }
+
+.media.stream-item .article-title {
+    font-size: 1.6rem;
 }
+.section-subheading {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.article-title a {
+    color: #151515;
+    transition: color .6s ease;
+}
+.article-style { 
+    margin-top: 1rem;
+    overflow: hidden;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.media-body a {
+    color: #151515;
+}
+
+.media-body a:hover {
+    text-decoration: none;
+}
+
+.media.stream-item {
+    margin-top: 2px;
+    margin-bottom: 2rem;
+    color: none;
+}
+
+.article-metadata {
+    overflow: hidden;
+    letter-spacing: 0.03rem;
+    color: rgba(0,0,0,.54);
+}
+
+.author-highlighted {
+    font-weight: 700;
+}
+
+.middot-divider {
+    padding-left: 0.45rem;
+    padding-right: 0.45rem;
+    font-size: 15px;
+}
+
+.middot-divider:after {
+    content: '\00B7';
+}
+
+.stream-meta {
+    margin-top: 12px;
+}
+time.icon
+{
+  font-size: 1em; /* change icon size */
+  display: block;
+  position: relative;
+  width: 6em;
+  height: 6em;
+  background-color: #fff;
+  margin: 0.6em auto;
+  border-radius: 0.3em;
+  box-shadow: 0 1px 0 #bdbdbd, 0 2px 0 #fff, 0 3px 0 #bdbdbd, 0 4px 0 #fff, 0 5px 0 #bdbdbd, 0 0 0 1px #bdbdbd;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: rotate(0deg) skewY(0deg);
+  -webkit-transform-origin: 50% 10%;
+  transform-origin: 50% 10%;
+}
+
+time.icon *
+{
+  display: block;
+  width: 100%;
+  font-size: 1em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+}
+
+time.icon .calendar-day
+{
+  position: absolute;
+  top: 0;
+  padding: 0.2em 0;
+  color: #fff;
+  background-color: #1bafb4;
+  border-bottom: 1px dashed #1bafb4;
+  box-shadow: 0 2px 0 #1bafb4;
+}
+
+
+time.icon .calendar-day-number
+{
+  width: 100%;
+  font-size: 1.9rem;
+  letter-spacing: -0.05em;
+  padding-top: 1.2em;
+  color: #2f2f2f;
+}
+
+.calendar-day-time {
+    font-weight: 700;
+    font-size: 1.0rem;
+    letter-spacing: -0.05rem;
+    padding-top: 0.2rem;
+    text-align: center;
+}
+
+time a {
+    color: black;
+}
+
+time a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+section.location a.badge {
+    background-color: #fff;
+}
+
+section#sessions h4 a {
+    color: #3b4045;
+}
+
+.card {
+    overflow: hiden;
+    text-overflow: ellipsis;
+    background: #fff;
+    box-shadow: 0 2px 4px rgb(0, 0, 0, 20%);
+    transition: all .2s ease-out;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    flex: auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+
+.card-body .section-subheading a {
+    color: #3b4045;
+}
+
+.push {
+    margin-left: auto;
+}
+
+.abstract h5 {
+    padding-bottom: 1rem;
+}
+
+p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+figure img {
+    border: 2px solid darkblue;
+}
+
+a figcaption {
+    color: #3b4045;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+figcaption {
+    padding-top: 1em;
+}
+
