@@ -31,10 +31,12 @@ the Career Fair leads to future employees getting started on a satisfying
 career.
 
 <div class="row">
-  <div class="col-lg-12 mt-4 pt-4">
+  <div class="col-12 mt-4 pt-4">
     <a href= "https://docs.google.com/presentation/d/e/2PACX-1vRMjP1THLJCO1bscp-vX7I5vF6W_fhqTN_eo-FMfUR026Uz8oN4gsMZxd9nCoxKwBkwf8hbaUQIIU0b/pub?start=false&loop=false&delayms=3000&slide=id.p">
-    <img class="img-responsive center-block d-block mx-auto" alt="PRIMA Career
-    Fair brochure" src="promo.png" />
+        <figure class="figure w-100 text-center">
+          <img class="img-responsive" alt="PRIMA Career Fair brochure" src="promo.png" />
+          <figcaption>View the Career Fair Brochure <i class="fa fa-external-link" aria-hidden="true"></i></figure>
+        </figure>
     </a>
   </div>
 </div>

@@ -499,3 +499,18 @@ p {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
+
+figure img {
+    border: 2px solid darkblue;
+}
+
+a figcaption {
+    color: #3b4045;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+figcaption {
+    padding-top: 1em;
+}
+

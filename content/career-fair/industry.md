@@ -1,14 +1,14 @@
 ---
 title: "Industry Partners"
 subtitle: ""
-weight: 30
+weight: 20
 ---
 The PRIMA Career Fair is an excellent chance for you to recruit future
 employees whose innovative problem-solving skills will contribute to the
 success of your company.  The PRIMA Career Fair is an event on the PRIMA
 program, which is distributed to all students, early career
 researchers and senior researchers who are attending the PRIMA conference.  The
-session will take place in ROOM LOCATION at the Sheraton Wall Centre from
+session will take place in room 1000 at the Sheraton Wall Centre from
 **13:00-15:30 on Wednesday, December 7**.  It is the only PRIMA event scheduled
 during this time, and as such we expect that a large proportion of PRIMA
 participants will attend the Career Fair on a drop-in basis.
@@ -27,7 +27,8 @@ to advertise opportunities at your company to students in their networks.
 The session has been advertised as a stand-alone session to undergraduate and
 graduate students in the mathematical sciences at Western Canadian research
 universities and to graduates of the prestigious PIMS
-[Math-to-Power-Industry](https://m2pi.ca) career-readiness program.  The skills
+[Math-to-Power-Industry <i class="fa fa-external-link" aria-hidden="true"></i>](https://m2pi.ca)
+career-readiness program.  The skills
 developed by mathematical scientists have valuable applications in many
 industries, including (but not limited to!) financial service companies,
 pharmaceuticals or biotechnology companies, communications companies, aerospace
@@ -37,7 +38,7 @@ industry.
 
 If your company is interested in participating in the PRIMA Career Fair,
 please get in touch via the contact form below. Company tables are priced at
-$300 CAD ([register here](https://events.eply.com/PRIMA2022)). Company
+$300 CAD ([register here <i class="fa fa-external-link" aria-hidden="true"></i>](https://events.eply.com/PRIMA2022)). Company
 representatives who are attending the PRIMA Conference may be eligible for a
 reduced combined registration fee, please contact <a
 href="mailto:industry@pims.math.ca?PRIMA Industry partner
@@ -47,9 +48,9 @@ materials.  With your company’s express written permission, we will display yo
 logo on PRIMA Conference materials (such as the website, program and posters).
 Participants will be encouraged to engage directly with company representatives.
 For more information, please see the [PRIMA Career Fair
-Brochure](https://docs.google.com/presentation/d/e/2PACX-1vRMjP1THLJCO1bscp-vX7I5vF6W_fhqTN_eo-FMfUR026Uz8oN4gsMZxd9nCoxKwBkwf8hbaUQIIU0b/pub?start=false&loop=false&delayms=3000),
+Brochure <i class="fa fa-external-link" aria-hidden="true"></i>](https://docs.google.com/presentation/d/e/2PACX-1vRMjP1THLJCO1bscp-vX7I5vF6W_fhqTN_eo-FMfUR026Uz8oN4gsMZxd9nCoxKwBkwf8hbaUQIIU0b/pub?start=false&loop=false&delayms=3000),
 or fill out the contact form below to get in touch. Or you may [register as a
-Career Fair exhibitor](https://events.eply.com/PRIMA2022).
+Career Fair exhibitor <i class="fa fa-external-link" aria-hidden="true"></i>](https://events.eply.com/PRIMA2022).
 
 
 {{< contactform title="Contact - Career Fair" >}}
