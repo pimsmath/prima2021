@@ -1,7 +1,5 @@
 ---
-title: 'Post-training Quantization for Deep Neural Networks with Provable
-Guarantees'
-  and power consumption of deep neural networks'
+title: Post-training Quantization for Deep Neural Networks with Provable Guarantees
 sessions:
 - Mathematics of Information
 speakers:
