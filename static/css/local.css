@@ -487,6 +487,10 @@ section#sessions h4 a {
     color: #3b4045;
 }
 
+.card-body a.more {
+    font-size: 1.25rem;
+    color: #3b4045;
+}
 .push {
     margin-left: auto;
 }

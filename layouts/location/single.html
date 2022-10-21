@@ -1,0 +1,24 @@
+{{ partial "header.html" . }}
+
+{{ partial "preloader.html" . }}
+        
+{{ partial "navigation.html" . }}
+
+<section class="location section">
+  <div class="container">
+    <div class="row">
+      <div class="heading">
+        <h2>{{ .Title }}XX</h2>
+        {{ with .Params.subtitle }}
+          <h4>{{ . }}</h4>
+        {{ end }}
+      </div>
+    </div>
+    <div class="location description">
+      <p>Something</p>
+    </div>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
+
