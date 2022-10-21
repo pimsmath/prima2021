@@ -389,25 +389,10 @@ participants (undergraduate, graduate and postdoctoral scholars) to highlight
 their areas of research. This can be done either through the poster session, or
 a 10 minute presentation.
 
-<<<<<<< HEAD
-
 Topics for presentations at the showcase are open, and should focus on
-research accomplishments of the researcher. Please fill in the [application
-form](https://ubc.ca1.qualtrics.com/jfe/form/SV_3qLmqRb4Je6a8Pc) with the
-poster/ talk details. Submissions close **August 31st, 2022**.
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-6 offset-md-3 pt-3">
-      <a href="https://ubc.ca1.qualtrics.com/jfe/form/SV_3qLmqRb4Je6a8Pc">
-        <button class="btn btn-send btn-lg">
-          Submit Application
-        </button>
-      </a>
-    </div>
-  </div>
-</div>
+research accomplishments of the researcher.
 """
+
     footer         = """
 ## Summer Schools
 
