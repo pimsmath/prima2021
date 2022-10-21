@@ -378,8 +378,8 @@ number as these requests are fraudulent in nature.
   [params.sessions]
     enable         = true
     title          = "Special Sessions"
-    showTimes      = true
-    showLocations  = true
+    showTimes      = false
+    showLocations  = false
     header         = """
 
 ## Early Career Research Showcase
