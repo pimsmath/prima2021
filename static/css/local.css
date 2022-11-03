@@ -517,4 +517,6 @@ a figcaption {
 figcaption {
     padding-top: 1em;
 }
-
+.heading h2 mjx-container {
+    text-transform: none;
+}

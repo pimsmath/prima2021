@@ -26,3 +26,8 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+
+[[redirects]]
+  from = "/talk/geometric-aspects-of-hyperbolic-manifolds-related-to-dehn-filling/"
+  to = "/talk/the-0pi-theorem/"
