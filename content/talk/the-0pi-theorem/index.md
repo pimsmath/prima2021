@@ -1,5 +1,5 @@
 ---
-title: geometric aspects of hyperbolic manifolds related to Dehn filling
+title: The $0\pi$-Theorem
 sessions:
 - Geometric Group Theory
 speakers:

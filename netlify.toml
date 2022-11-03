@@ -26,3 +26,8 @@
   for = "index.xml"
   [headers.values]
     Content-Type = "application/rss+xml"
+
+
+[[redirects]]
+  from = "/talk/geometric-scattering-on-graphs-manifolds-and-other-measure-spaces/"
+  to = "/talk/the-0pi-theorem/"
