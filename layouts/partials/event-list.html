@@ -56,7 +56,12 @@
             </div>
             <div class="abstract mt-3">
               <h5>Abstract</h5>
-              {{ .Params.abstract | markdownify }}
+              {{ $markdown := .Params.abstract | markdownify }}
+              {{ if not ( strings.Contains $markdown "<p>" ) }}
+                  <p>{{ $markdown }}</p>
+              {{ else }}
+                  {{ $markdown }}
+              {{ end }}
             </div>
           </div>
         </div>
