@@ -520,3 +520,7 @@ figcaption {
 .heading h2 mjx-container {
     text-transform: none;
 }
+
+.alert h4 {
+    margin-top: 0;
+}

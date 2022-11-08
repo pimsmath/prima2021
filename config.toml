@@ -363,8 +363,7 @@ encourage all participants to read through [the
 details](https://www.pims.math.ca/files/Code_of_conduct_for_events_and_programs_at_PIMS_1.pdf)
 before attending PRIMA 2022.
 
-
-
+{{< alert info >}}
 #### Online Security
 PIMS will _never_ contact you regarding travel reservations or accommodation
 payments. Please be vigilant should you receive any emails, calls or text
@@ -372,6 +371,7 @@ messages claiming to assist you in making reservations for a PIMS sponsored
 event, including PRIMA. Do not provide any personal information such as a
 social insurance number, credit card number, bank account number, or passport
 number as these requests are fraudulent in nature.
+{{< /alert >}}
 """
 
 
