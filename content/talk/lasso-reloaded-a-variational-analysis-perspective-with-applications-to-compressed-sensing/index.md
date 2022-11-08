@@ -24,7 +24,7 @@ abstract: 'Over the last few decades, the (unconstrained) LASSO
 
   $$
 
-  \min_{x\in \mathbb{R}^n} \frac12 \|A x-b\|_2^2 + \lambda \|x\|_1,
+  \min_{x\in \mathbb{R}^n} \frac12 \lVert A x-b\rVert_2^2 + \lambda \lVert x\rVert_1,
 
   $$
 
