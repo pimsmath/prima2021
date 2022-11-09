@@ -26,7 +26,7 @@ institutions.  Many PRIMA participants are students and other early-career
 researchers who will be looking for employment now or in the near future.  The
 PRIMA Career Fair is a golden opportunity  for job seekers who are highly
 skilled in the mathematical sciences to meet with face-to-face with employers
-who have opportunities utilizing those skills.  Ultimately, we hope network at
+who have opportunities utilizing those skills.  Ultimately, we hope networking at
 the Career Fair leads to future employees getting started on a satisfying
 career.
 
