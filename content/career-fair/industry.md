@@ -7,7 +7,7 @@ The PRIMA Career Fair is an excellent chance for you to recruit future
 employees whose innovative problem-solving skills will contribute to the
 success of your company.  The PRIMA Career Fair is an event on the PRIMA
 program, which is distributed to all students, early career
-researchers and senior researchers who are attending the PRIMA conference.  The
+researchers, and senior researchers who are attending the PRIMA conference.  The
 session will take place in room 1000 at the Sheraton Wall Centre from
 **13:00-15:30 on Wednesday, December 7**.  It is the only PRIMA event scheduled
 during this time, and as such we expect that a large proportion of PRIMA
@@ -15,11 +15,11 @@ participants will attend the Career Fair on a drop-in basis.
 
 
 ### Participants will include...
-  * Job-ready mathematical scientists who are currently seeking
-employment which matches their skills
-  * Students and early career researchers who may be available for internships
-or future employment
- * Faculty and other researchers from top academic institutions who may be able
+  * job-ready mathematical scientists who are currently seeking
+employment which matches their skills,
+  * students and early career researchers who may be available for internships
+or future employment, and
+  * faculty and other researchers from top academic institutions who may be able
 to advertise opportunities at your company to students in their networks.
 
 
@@ -43,7 +43,7 @@ representatives who are attending the PRIMA Conference may be eligible for a
 reduced combined registration fee, please contact <a
 href="mailto:industry@pims.math.ca?PRIMA Industry partner
 enquiry">industry@pims.math.ca</a> for further information.  A company table
-includes a table and two chairs for your to display your posters and printed
+includes a table and two chairs for you to display your posters and printed
 materials.  With your company’s express written permission, we will display your
 logo on PRIMA Conference materials (such as the website, program and posters).
 Participants will be encouraged to engage directly with company representatives.
