@@ -43,6 +43,50 @@ body {
 .breadcrumb {
     font-size: 16px;
     text-align: center;
+    background-color: inherit;
+    margin: 1.25rem 2.5rem;
+
+}
+
+.breadcrumb_item {
+    display: inline-block;
+    position: relative;
+}
+
+.breadcrumb li.breadcrumb_item {
+    color: inherit;
+    line-height: 1;
+    margin-right:0.3125rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.breadcrumb li.breadcrumb_item a {
+    color: #737272;
+}
+
+.breadcrumb li.breadcrumb_item a:hover {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumb li.breadcrumb_item::after {
+    content: "/";
+    margin-left: 0.3125rem;
+}
+
+.breadcrumb li.breadcrumb_item:first-child::after {
+    margin-left: 0.25rem;
+}
+
+.breadcrumb li.breadcrumb_item:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    font-weight: 700;
+}
+
+.breadcrumb li.breadcrumb_item:last-child::after {
+    content: "";
 }
 
 section#speakers, section#conference-organizers, section#speaker, section#people, section#career-fair-intro {

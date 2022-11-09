@@ -1,12 +1,20 @@
 {{ define "breadcrumb" }}
   {{ with .Parent }}
     {{ template "breadcrumb" . }}
-    <a href="{{ .Params.url }}">{{ if .IsHome }}Home{{ else }}{{.Title}}{{ end }}</a> >
+    {{ $link := "" }}
+    {{ if eq .Title "Sessions" }}
+      {{ $link = "/#sessions" }}
+    {{ else }}
+    {{ $link =  .Permalink | safeURL }}
+    {{ end }}
+    <li class="breadcrumb_item"><a href="{{ $link }}">{{ if .IsHome }}<i class="fa fa-home"></i>{{ else }}{{.Title}}{{ end }}</a></li>
   {{ end }}
 {{ end }}
 {{ if not .IsHome }}
   <div class="breadcrumb">
-    {{ template "breadcrumb" . }}
-    {{.Title}}
+    <ul>
+      {{ template "breadcrumb" . }}
+      <li class="breadcrumb_item">{{.Title | safeHTML }}</li>
+    </ul>
   </div>
 {{ end }}
