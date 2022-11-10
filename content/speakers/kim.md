@@ -1,10 +1,21 @@
-+++
-affiliation = "University of Warwick"
-photo = "/uploads/MinhyongKim.jpg"
-title = "Minhyong Kim"
-speakertype = ['Public']
-weight = 100
-+++
+---
+affiliation: "University of Warwick"
+photo: "/uploads/MinhyongKim.jpg"
+title: "Minhyong Kim"
+speakertype:
+  - 'Public'
+courses:
+- course: Ph.D in Mathematics
+  institution: Yale University
+- course: B.S in Mathematics
+  institution: Seoul National University
+interests:
+  - Arithmetic Geometry
+  - Applications of Number Theory to Topology
+  - Interface between Arithmetic Geometry and Quantum Field Theory
+
+weight: 100
+---
 ## Biography
 
 Minhyong Kim is a mathematician working in the area of arithmetic geometry,

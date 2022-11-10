@@ -1,10 +1,27 @@
-+++
-affiliation = "University of Colorado"
-photo = "/uploads/KatherinStange2.jpg"
-title = "Katherine Stange"
-speakertype = ['Public']
-weight = 180
-+++
+---
+affiliation: "University of Colorado"
+photo: "/uploads/KatherinStange2.jpg"
+title: "Katherine Stange"
+speakertype:
+  - Public
+courses:
+- course: Ph.D in Mathematics
+  institution: Brown University
+- course: M.Sc. in Mathematics
+  institution: Brown University
+- course: B.Math
+  institution: University of Waterloo
+
+interests:
+  - Elliptic curves
+  - Kleinian groups
+  - Algebraic divisibility sequences
+  - Diophantine geometry
+  - Arithmetic dynamics
+  - Quadratic and hermitian forms
+
+weight: 180
+---
 ## Biography
 
 Katherine Stange is a number theorist whose Areas of interest include elliptic
