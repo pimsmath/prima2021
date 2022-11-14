@@ -14,9 +14,9 @@ outputs:
 - Calendar
 categories:
 - special-session
-date: '2022-12-06T10:00:00-08:00'
+date: 2022-12-09T12:00:00-0800
 publishDate: '2022-10-01T10:00:00-08:00'
-end: '2022-12-06T11:00:00-08:00'
+end: 2022-12-09T12:25:00-0800
 featured: 'false'
 draft: 'false'
 abstract: We will discuss variants of matrix and tensor CUR decompositions and algorithms

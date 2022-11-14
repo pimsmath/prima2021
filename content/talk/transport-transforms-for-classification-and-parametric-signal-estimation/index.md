@@ -3,7 +3,7 @@ title: Transport Transforms for Classification and Parametric Signal Estimation
 sessions:
 - Mathematics of Information
 speakers:
-- name: ROCIO DIAZ MARTIN
+- name: Rocio Diaz Martin
   affiliation: Vanderbilt University
 locations:
 - Junior Ballroom C
@@ -14,9 +14,9 @@ outputs:
 - Calendar
 categories:
 - special-session
-date: '2022-12-06T10:00:00-08:00'
+date: 2022-12-09T14:30:00-0800
 publishDate: '2022-10-01T10:00:00-08:00'
-end: '2022-12-06T11:00:00-08:00'
+end: 2022-12-09T14:55:00-0800
 featured: 'false'
 draft: 'false'
 abstract: We will introduce a mathematical signal transform based on Optimal Transport

@@ -3,7 +3,7 @@ title: Geometric Scattering on Graphs, Manifolds, and other Measure Spaces
 sessions:
 - Mathematics of Information
 speakers:
-- name: MIchael Perlmutter
+- name: Michael Perlmutter
   affiliation: UCLA
 locations:
 - Junior Ballroom C
@@ -14,9 +14,9 @@ outputs:
 - Calendar
 categories:
 - special-session
-date: '2022-12-06T10:00:00-08:00'
+date: 2022-12-09T15:00:00-0800
 publishDate: '2022-10-01T10:00:00-08:00'
-end: '2022-12-06T11:00:00-08:00'
+end: 2022-12-09T15:25:00-0800
 featured: 'false'
 draft: 'false'
 abstract: 'Geometric Deep Learning is an emerging field of research that aims to extend
