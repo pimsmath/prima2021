@@ -5,7 +5,7 @@ speakers:
 - name: Katherine Stange
   affiliation: University of Colorado
 locations:
-- Grand Ball Room
+- Grand Ballroom
 tags:
 - ''
 outputs:
