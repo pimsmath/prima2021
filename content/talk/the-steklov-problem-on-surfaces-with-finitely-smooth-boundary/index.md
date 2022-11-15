@@ -6,7 +6,7 @@ speakers:
 - name: Broderick Causley
   affiliation: Marianopolis College
 locations:
-- Port Alberni
+- Junior Ballroom D
 tags:
 - ''
 outputs:

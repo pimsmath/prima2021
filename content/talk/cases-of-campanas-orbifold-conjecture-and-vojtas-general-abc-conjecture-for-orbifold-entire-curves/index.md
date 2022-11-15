@@ -7,7 +7,7 @@ speakers:
 - name: Julie Tzu-Yueh Wang
   affiliation: Institute of Mathematics, Academia Sinica, Taipei, Taiwan
 locations:
-- Junior Ballroom D
+- Port Alberni
 tags:
 - ''
 outputs:

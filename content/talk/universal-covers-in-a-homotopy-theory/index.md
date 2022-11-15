@@ -6,7 +6,7 @@ speakers:
 - name: Rachel Hardeman Morrill
   affiliation: University of Calgary
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

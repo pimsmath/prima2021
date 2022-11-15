@@ -6,7 +6,7 @@ speakers:
 - name: Natasha Morrison
   affiliation: University of Victoria
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

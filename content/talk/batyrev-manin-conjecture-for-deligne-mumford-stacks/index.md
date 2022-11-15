@@ -6,7 +6,7 @@ speakers:
 - name: Takehiko Yasuda
   affiliation: Osaka University
 locations:
-- Junior Ballroom D
+- Port Alberni
 tags:
 - ''
 outputs:

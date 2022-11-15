@@ -6,7 +6,7 @@ speakers:
 - name: Katrina Honigs
   affiliation: Simon Fraser University
 locations:
-- Junior Ballroom D
+- Port Alberni
 tags:
 - ''
 outputs:

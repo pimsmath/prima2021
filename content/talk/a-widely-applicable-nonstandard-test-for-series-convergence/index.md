@@ -6,7 +6,7 @@ speakers:
 - name: C. Bryan Dawson
   affiliation: Union University
 locations:
-- Port Alberni
+- Junior Ballroom D
 tags:
 - ''
 outputs:
