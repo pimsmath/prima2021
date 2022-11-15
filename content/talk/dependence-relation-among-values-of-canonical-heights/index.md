@@ -6,7 +6,7 @@ speakers:
 - name: Khoa Nguyen
   affiliation: University of Calgary
 locations:
-- Junior Ballroom D
+- Port Alberni
 tags:
 - ''
 outputs:

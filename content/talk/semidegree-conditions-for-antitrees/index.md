@@ -6,7 +6,7 @@ speakers:
 - name: Maya Stein
   affiliation: University of Chile
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

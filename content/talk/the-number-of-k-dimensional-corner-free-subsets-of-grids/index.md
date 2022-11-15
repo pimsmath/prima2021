@@ -6,7 +6,7 @@ speakers:
 - name: Younjin Kim
   affiliation: POSTECH
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

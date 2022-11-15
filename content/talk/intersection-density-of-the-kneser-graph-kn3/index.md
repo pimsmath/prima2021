@@ -6,7 +6,7 @@ speakers:
 - name: Karen Meagher
   affiliation: University of Regina
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

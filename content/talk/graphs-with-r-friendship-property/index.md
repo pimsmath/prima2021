@@ -6,7 +6,7 @@ speakers:
 - name: Mahsa N Shirazi
   affiliation: University of Manitoba
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

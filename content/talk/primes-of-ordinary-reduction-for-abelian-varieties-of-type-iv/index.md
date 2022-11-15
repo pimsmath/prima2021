@@ -6,7 +6,7 @@ speakers:
 - name: Elena Mantovan
   affiliation: California Institute of Technology
 locations:
-- Junior Ballroom C
+- Parksville
 tags:
 - ''
 outputs:

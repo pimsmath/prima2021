@@ -6,7 +6,7 @@ speakers:
 - name: Marissa Loving
   affiliation: University of Wisconsin-Madison
 locations:
-- Port Alberni
+- Junior Ballroom D
 tags:
 - ''
 outputs:

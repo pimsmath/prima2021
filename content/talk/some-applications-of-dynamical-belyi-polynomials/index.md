@@ -6,7 +6,7 @@ speakers:
 - name: Michelle Manes
   affiliation: University of Hawaii
 locations:
-- Junior Ballroom D
+- Port Alberni
 tags:
 - ''
 outputs:

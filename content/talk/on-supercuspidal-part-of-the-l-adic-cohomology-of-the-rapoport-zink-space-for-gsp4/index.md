@@ -7,7 +7,7 @@ speakers:
 - name: Yoichi Mieda
   affiliation: Graduate School of Mathematical Sciences, the University of Tokyo
 locations:
-- Junior Ballroom C
+- Parksville
 tags:
 - ''
 outputs:

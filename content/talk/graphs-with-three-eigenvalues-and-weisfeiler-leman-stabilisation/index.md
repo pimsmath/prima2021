@@ -6,7 +6,7 @@ speakers:
 - name: Gary Greaves
   affiliation: Nanyang Technological University
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

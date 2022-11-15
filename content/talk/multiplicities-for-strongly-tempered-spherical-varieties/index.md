@@ -6,7 +6,7 @@ speakers:
 - name: Lei Zhang
   affiliation: National University of Singapore
 locations:
-- Junior Ballroom C
+- Parksville
 tags:
 - ''
 outputs:

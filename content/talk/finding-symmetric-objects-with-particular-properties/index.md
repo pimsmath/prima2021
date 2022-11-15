@@ -6,7 +6,7 @@ speakers:
 - name: Marston Conder
   affiliation: University of Auckland
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

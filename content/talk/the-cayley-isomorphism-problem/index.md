@@ -6,7 +6,7 @@ speakers:
 - name: Joy Morris
   affiliation: University of Lethbridge
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

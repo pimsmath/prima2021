@@ -6,7 +6,7 @@ speakers:
 - name: Shunsuke Yamana
   affiliation: Osaka Metropolitan University
 locations:
-- Junior Ballroom C
+- Parksville
 tags:
 - ''
 outputs:
