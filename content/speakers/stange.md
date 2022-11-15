@@ -2,6 +2,8 @@
 affiliation: "University of Colorado"
 photo: "/uploads/KatherinStange2.jpg"
 title: "Katherine Stange"
+authors:
+  - stange
 speakertype:
   - Public
 courses:

@@ -1,6 +1,7 @@
 ---
-title: When are stable minimal surfaces holomorphic?
-author: stange
+title: The illustrated field diary of a mathematical naturalist
+authors:
+  - stange
 speakers:
 - name: Katherine Stange
   affiliation: University of Colorado

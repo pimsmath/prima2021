@@ -59,6 +59,38 @@
         {{ .Content }}
         </div>
       </div>
+    </div>
+    {{ if .Params.authors }}
+      <hr>
+      {{ range .Params.authors }}
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <h2>Talks and Events Featuring This Speaker</h2>
+            <div class="content">
+            {{ $speaker := site.GetPage (printf "/%s/%s" "authors" .) }}
+            {{ range (where $speaker.Pages ".Type" "talk") }}
+            <h4><a class="flatlink" href="{{ .RelPermalink }}">{{ .Title | safeHTML }}</a></h4>
+              <span class="article-date">{{ .Params.Date }}</span>
+              <span class="middot-divider"></span>
+              {{ range .Params.locations }}
+                <span class="article-location"><a class="badge badge-light" href="{{ "/locations/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></span>
+              {{ end }}
+              <span class="middot-divider"></span>
+              {{ range .Params.categories }}
+              <span class="article-category"><a class="badge badge-light" href="/#speakers-{{ . }}">{{ . }}</a></span>
+              {{ end }}
+              {{ $markdown := .Params.abstract | markdownify }}
+              {{ if not ( strings.Contains $markdown "<p>" ) }}
+                  <p>{{ $markdown }}</p>
+              {{ else }}
+                  {{ $markdown }}
+              {{ end }}
+            {{ end }}
+            </div>
+          </div>
+        </div>
+      {{ end }}
+    {{ end }}
   </div>
 </section>
 

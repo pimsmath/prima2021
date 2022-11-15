@@ -568,3 +568,11 @@ figcaption {
 .alert h4 {
     margin-top: 0;
 }
+
+a.flatlink {
+    color: #3b4045;
+}
+a.flatlink:hover {
+    text-decoration: none;
+}
+

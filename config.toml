@@ -407,8 +407,8 @@ number as these requests are fraudulent in nature.
   [params.sessions]
     enable         = true
     title          = "Special Sessions"
-    showTimes      = false
-    showLocations  = false
+    showTimes      = true
+    showLocations  = true
     header         = """
 
 ## Early Career Research Showcase
@@ -516,6 +516,8 @@ Package](uploads/PRIMA2022SponsorPackage.pdf).
   speakertype = "speakertype"
   session = "sessions"
   location = "locations"
+  speaker = "speakers"
+  author = "authors"
 
 [markup.goldmark.renderer]
   unsafe = true
