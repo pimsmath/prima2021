@@ -14,9 +14,9 @@ outputs:
 - Calendar
 categories:
 - special-session
-date: '2022-12-09T17:30:00-08:00'
+date: 2022-12-08T15:30:00-0800
 publishDate: '2022-10-01T10:00:00-08:00'
-end: '2022-12-09T17:30:00-08:00'
+end: 2022-12-08T16:15:00-0800
 featured: 'false'
 draft: 'false'
 abstract: " A recent trend in geometric group theory is to understand the large scale\
