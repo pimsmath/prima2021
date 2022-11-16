@@ -6,6 +6,8 @@ role_title: Prof.
 email: k.mann@cornell.edu
 speakertype:
   - Plenary
+authors:
+  - mann
 courses:
 - course: Ph.D, 2014
   institution: University of Chicago
@@ -13,6 +15,10 @@ interests:
 - Geometric topology
 - Low dimensional analysis
 website: https://math.cornell.edu/kathryn-mann
+social:
+  - icon: globe
+    icon_pack: fa
+    link: https://math.cornell.edu/kathryn-mann
 weight: 120
 ---
 ## Biography

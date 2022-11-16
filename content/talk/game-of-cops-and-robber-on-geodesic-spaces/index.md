@@ -6,7 +6,7 @@ speakers:
 - name: Bojan Mohar
   affiliation: Simon Fraser University
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

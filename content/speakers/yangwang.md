@@ -5,6 +5,8 @@ title: Yang Wang
 speakertype:
 - Plenary
 role_title: Prof.
+authors:
+  - yangwang
 courses:
 - course: 
 website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yang-wang-yangwang
@@ -19,6 +21,10 @@ interests:
 - Data analysis using machine learning
 - Wavelets and analysis
 weight: 240
+social:
+  - icon: globe
+    icon_pack: fa
+    link: https://www.math.hkust.edu.hk/~yangwang/
 ---
 
 ## Biography

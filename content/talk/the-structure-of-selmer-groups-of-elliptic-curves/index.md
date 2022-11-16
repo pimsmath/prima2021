@@ -6,7 +6,7 @@ speakers:
 - name: Chan-Ho Kim
   affiliation: KIAS
 locations:
-- Junior Ballroom C
+- Parksville
 tags:
 - ''
 outputs:

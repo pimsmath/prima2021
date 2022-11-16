@@ -1,9 +1,6 @@
 ---
 title: "Junior Ballroom C"
 description: |
- ## Description of Junior Ballroom C should go here
-   * How to find this room
-   * What's going on in here
-   * ...
+ ## North Tower, 3rd floor, Room 84
 image: "floorplan.png"
 ---

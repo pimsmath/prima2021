@@ -17,60 +17,108 @@
 
     <div class="talk-metadata">
       <div class="row">
-        
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          {{ range .Params.speakers }}
-          <div class="row">
-            <div class="col-12 col-md-3 pub-row-heading">Speaker</div>
-            <div class="col-12 col-md-9">{{ .name }}, <em>{{ .affiliation }}</em></div>
-          </div>
+        <div class="col-12">
+          {{ $talk_page := .Page }}
+          {{ if .Params.authors }}
+            {{ range .Params.authors }}
+              {{ $speaker_page := site.GetPage (printf "/%s/%s" "speakers" .) }}
+              {{ $link := $speaker_page.Page.RelPermalink }}
+              <div class="row auto-clear">
+                <div class="col-8 my-auto">
+                  <div class="row">
+                    <div class="col-12 col-md-3 pub-row-heading">Speaker</div>
+                    <div class="col-12 col-md-9"><a class="flatlink" href="{{ $link }}">{{ $speaker_page.Page.Title }}</a>, <em>{{ $speaker_page.Page.Params.affiliation }}</em></div>
+                  </div>
+                  {{ if site.Params.sessions.showTimes }}
+                  <div class="row">
+                    <div class="col-12 col-md-3 pub-row-heading">Date</div>
+                    <div class="col-12 col-md-9">
+                      {{ $talk_page.Params.Date.Format "2006-01-02 15:04 am (MST)" }}
+                      {{ with $talk_page.OutputFormats.Get "Calendar" }}
+                      <a href="{{ .RelPermalink }}" data-toggle="tooltip" title="Add to my calendar"> <i class="fa fa-calendar"></i></a>
+                      {{ end }}
+                    </div>
+                  </div>
+                  {{ end }}
+                  {{ if site.Params.sessions.showLocations }}
+                  <div class="row">
+                    <div class="col-12 col-md-3 pub-row-heading">Location</div>
+                    <div class="col-12 col-md-9">
+                      {{ range $talk_page.Params.locations }}
+                      <a class="badge badge-light" href="{{ "/locations/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                      {{ end }}
+                    </div>
+                  </div>
+                  {{ end }}
+                  {{ if $talk_page.Params.categories }}
+                  <div class="row">
+                    <div class="col-12 col-md-3 pub-row-heading">Session</div>
+                    <div class="col-12 col-md-9">
+                      {{ range $talk_page.Params.categories }}
+                      <a class="badge badge-light" href="/categories/{{ . }}">{{ . }}</a>
+                      {{ end }}
+                    </div>
+                  </div>
+                  {{ end }}
+                </div>
+                <div class="col-lg-4">
+                  <div class="block">
+                  {{ with $speaker_page.Page.Params.photo }}
+                    {{ $photoFileName := strings.TrimPrefix "/uploads/" . }}
+                    {{ $imageResource := ($.Site.GetPage "section" "uploads").Resources.GetMatch $photoFileName }}
+                    {{ $imageResized  := $imageResource.Fill "200x200" }}
+                    <a href="{{ $link }}"><img class="rounded-circle mx-auto d-block" src="{{ $imageResized.RelPermalink }}" /></a>
+                  {{ end }}
+                </div>
+              </div>
+            {{ end }} <!-- end or range over authors -->
+          {{ else }} <!-- Conditional check on authors -->
+             {{ range .Params.speakers }}
+            <div class="row">
+              <div class="col-12 col-md-3 pub-row-heading">Speaker</div>
+              <div class="col-12 col-md-9">{{ .name }}, <em>{{ .affiliation }}</em></div>
+            </div>
+            {{ end }}
+            {{ if .Site.Params.sessions.showTimes }}
+            <div class="row">
+              <div class="col-12 col-md-3 pub-row-heading">Date</div>
+              <div class="col-12 col-md-9">
+                {{ .Date.Format "2006-01-02 15:04 am (MST)" }}
+                {{ with .OutputFormats.Get "Calendar" }}
+                <a href="{{ .RelPermalink }}" data-toggle="tooltip" title="Add to my calendar"> <i class="fa fa-calendar"></i></a>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+            {{ if .Site.Params.sessions.showLocations }}
+            <div class="row">
+              <div class="col-12 col-md-3 pub-row-heading">Location</div>
+              <div class="col-12 col-md-9">
+                {{ range .Params.locations }}
+                <a class="badge badge-light" href="{{ "/locations/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+
+            {{ if .Params.sessions }}
+            <div class="row">
+              <div class="col-12 col-md-3 pub-row-heading">Session</div>
+              <div class="col-12 col-md-9">
+                {{ range .Params.sessions }}
+                <a class="badge badge-light" href="{{ "/sessions/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+
           {{ end }}
         </div>
-        <div class="col-md-1"></div>
+      </div> <!-- end of row -->
+    </div> <!-- end of talk metadata -->
 
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          {{ if .Site.Params.sessions.showTimes }}
-          <div class="row">
-            <div class="col-12 col-md-3 pub-row-heading">Date</div>
-            <div class="col-12 col-md-9">{{ .Date }}</div>
-          </div>
-          {{ end }}
-        </div>
-        <div class="col-md-1"></div>
 
-        {{ if .Site.Params.sessions.showLocations }}
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <div class="row">
-            <div class="col-12 col-md-3 pub-row-heading">Location</div>
-            <div class="col-12 col-md-9">
-              {{ range .Params.locations }}
-              <a class="badge badge-light" href="{{ "/locations/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-              {{ end }}
-            </div>
-          </div>
-        </div>
-        <div class="col-md-1"></div>
-        {{ end }}
 
-        {{ if .Params.sessions }}
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
-          <div class="row">
-            <div class="col-12 col-md-3 pub-row-heading">Session</div>
-            <div class="col-12 col-md-9">
-              {{ range .Params.sessions }}
-              <a class="badge badge-light" href="{{ "/sessions/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-              {{ end }}
-            </div>
-          </div>
-        </div>
-        <div class="col-md-1"></div>
-        {{ end }}
-      </div>
-    </div>
     <div class="row">
       <div class="col-md-12 col-sm-12">
       {{ with .Params.abstract }}
@@ -80,6 +128,9 @@
       </div>
     </div>
   </div>
+  {{ with .Content }}
+  {{ . }}
+  {{ end }}
 </section>
 
 {{ partial "footer.html" . }}

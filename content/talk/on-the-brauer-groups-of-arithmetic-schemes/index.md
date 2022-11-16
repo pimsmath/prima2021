@@ -6,7 +6,7 @@ speakers:
 - name: Yanshuai Qin
   affiliation: 'UC Berkeley '
 locations:
-- Junior Ballroom D
+- Port Alberni
 tags:
 - ''
 outputs:

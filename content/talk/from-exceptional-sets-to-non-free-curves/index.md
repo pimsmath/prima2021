@@ -6,7 +6,7 @@ speakers:
 - name: Sho Tanimoto
   affiliation: Nagoya University
 locations:
-- Junior Ballroom D
+- Port Alberni
 tags:
 - ''
 outputs:

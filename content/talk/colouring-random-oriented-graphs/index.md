@@ -6,7 +6,7 @@ speakers:
 - name: Karen Gunderson
   affiliation: University of Manitoba
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

@@ -83,9 +83,9 @@ impact on our economic, social, and cultural development.</p>
             <th>9:00</th>
             <td class="empty"rowspan=6></td>
             <td>Opening Remarks</td>
-            <td class="plenary">Plenary Lecture <strong>Sylvia Serfaty</strong></td>
-            <td class="plenary">Plenary Lecture <strong>Kathryn Mann</strong></td>
-            <td class="plenary">Plenary Lecture <strong>Andrés Navas</strong></td>
+            <td class="plenary">Plenary Lecture<ul><li><a href="/talk/systems-of-points-with-coulomb-interactions/"><strong>Sylvia Serfaty</strong><br/>Systems of points with Coulomb interactions</a></li></ul></td>
+            <td class="plenary">Plenary Lecture<ul><li><a href="/talk/groups-acting-at-infinity/"><strong>Kathryn Mann</strong><br/>Groups Acting At Infinity</a></li></ul></td>
+            <td class="plenary">Plenary Lecture<ul><li><a href="/talk/conjugates-paths-and-diffeomorphisms/"><strong>Andrés Navas</strong><br/>Conjugates, paths and groups of diffeomorphisms</a></li></ul></td>
             <td class="sessions">Scientific Sessions</td>
         </tr>
         <tr>
@@ -100,9 +100,9 @@ impact on our economic, social, and cultural development.</p>
               <ul>
                 <li><a href="/sessions/geometric-analysis/">Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></a></li>
                 <li><a href="/sessions/enumerative-algebraic-geometry/">Enumerative Algebraic Geometry<br/><em>(Finback)</em></li>
-                <li><a href="/sessions/algebraic-number-theory-and-arithmetic-geometry">Algebraic Number Theory and Arithmetic Geometry</a><br/><em>(Junior Ballroom C)</em></li>
+                <li><a href="/sessions/algebraic-number-theory-and-arithmetic-geometry">Algebraic Number Theory and Arithmetic Geometry</a><br/><em>(Parksville)</em></li>
                 <li><a href="/sessions/representation-theory-and-applications">Representation Theory Applications<br/><em>(Junior Ballroom D)</em></a></li>
-                <li><a href="/sessions/graph-theory-and-combinatorics">Graph Theory and Combinatorics<br/><em>(Parksville)</em></a></li>
+                <li><a href="/sessions/graph-theory-and-combinatorics">Graph Theory and Combinatorics<br/><em>(Junior Ballroom C)</em></a></li>
                 <li><a href="/sessions/geometric-group-theory">Geometric Group Theory<br/><em>(Port McNeill)</em></a></li>
                 <li class="last"><a href="/sessions/optimal-transport-and-applications">Optimal Transport and Applications<br/><em>(Port Alberni)</em></a></li>
               </ul>
@@ -113,25 +113,25 @@ impact on our economic, social, and cultural development.</p>
               <ul>
                 <li><a href="/sessions/geometric-analysis/">Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></a></li>
                 <li><a href="/sessions/enumerative-algebraic-geometry/">Enumerative Algebraic Geometry<br/><em>(Finback)</em></li>
-                <li><a href="/sessions/algebraic-number-theory-and-arithmetic-geometry">Algebraic Number Theory and Arithmetic Geometry</a><br/><em>(Junior Ballroom C)</em></li>
+                <li><a href="/sessions/algebraic-number-theory-and-arithmetic-geometry">Algebraic Number Theory and Arithmetic Geometry</a><br/><em>(Parksville)</em></li>
                 <li><a href="/sessions/representation-theory-and-applications">Representation Theory Applications<br/><em>(Junior Ballroom D)</em></a></li>
-                <li><a href="/sessions/graph-theory-and-combinatorics">Graph Theory and Combinatorics<br/><em>(Parksville)</em></a></li>
+                <li><a href="/sessions/graph-theory-and-combinatorics">Graph Theory and Combinatorics<br/><em>(Junior Ballroom C)</em></a></li>
                 <li><a href="/sessions/geometric-group-theory">Geometric Group Theory<br/><em>(Port McNeill)</em></a></li>
                 <li class="last"><a href="/sessions/optimal-transport-and-applications">Optimal Transport and Applications<br/><em>(Port Alberni)</em></a></li>
               </ul>
             </td>
-            <td class="showcase">Early Research Showcase</td>
+            <td class="showcase">Early Research Showcase<br><ul><li><a href="/talk/early-research-showcase-posters"><em>Junior Ballroom A/B (posters)</em></a></li><li><a href="/talk/early-research-showcase-alberni"><em>Port Alberni (talks)</em></a></li><li><a href="/talk/early-research-showcase-mcneill"><em>Port McNeill (talks)</em></a></li></ul></td>
             <td class="sessions" rowspan=2>
               <!-- Thursday Morning -->
               Scientific Sessions
               <ul>
                 <li><a href="/sessions/geometric-analysis/">Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></a></li>
                 <li><a href="/sessions/moduli-spaces-in-algebraic-geometry">Moduli Spaces in Algebraic Geometry<br/><em>(Finback)</em></a></li>
-                <li><a href="/sessions/indigenous-mathematical-scientists">A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom C)</em></a></li>
-                <li><a href="/sessions/arithmetic-geometry-theory-and-computation">Arithmetic Geometry: Theory and Computation<br/><em>(Junior Ballroom D)</em></a></li>
+                <li><a href="/sessions/indigenous-mathematical-scientists">A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom D)</em></a></li>
+                <li><a href="/sessions/arithmetic-geometry-theory-and-computation">Arithmetic Geometry: Theory and Computation<br/><em>(Port Alberni)</em></a></li>
                 <li><a href="/sessions/harmonic-functions-and-laplace-eigenfunctions">Harmonic Functions and Laplace Eigenfunctions<br/><em>(Parksville)</em></a></li>
                 <li><a href="/sessions/geometric-group-theory">Geometric Group Theory<br/><em>(Port McNeill)</em></a></li>
-                <li><a href="/sessions/mathematics-of-information">Mathematics of Information<br/><em>(Port Alberni)</em></li>
+                <li><a href="/sessions/mathematics-of-information">Mathematics of Information<br/><em>(Junior Ballroom C)</em></li>
                 <li class="last"><a href="/sessions/new-trends-in-geometry-and-mathematical-physics">New Trends in Geometry and Mathematical Physics<br/><em>(Orca)</em></a></li>
               </ul>
             </td>
@@ -140,17 +140,17 @@ impact on our economic, social, and cultural development.</p>
               Scientific Sessions
               <ul>
                 <li><a href="/sessions/moduli-spaces-in-algebraic-geometry">Moduli Spaces in Algebraic Geometry<br/><em>(Finback)</em></a></li>
-                <li><a href="/sessions/indigenous-mathematical-scientists">A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom C)</em></a></li>
-                <li><a href="/sessions/arithmetic-geometry-theory-and-computation">Arithmetic Geometry: Theory and Computation<br/><em>(Junior Ballroom D)</em></a></li>
+                <li><a href="/sessions/indigenous-mathematical-scientists">A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom D)</em></a></li>
+                <li><a href="/sessions/arithmetic-geometry-theory-and-computation">Arithmetic Geometry: Theory and Computation<br/><em>(Port Alberni)</em></a></li>
                 <li><a href="/sessions/harmonic-functions-and-laplace-eigenfunctions">Harmonic Functions and Laplace Eigenfunctions<br/><em>(Parksville)</em></a></li>
-                <li><a href="/sessions/mathematics-of-information">Mathematics of Information<br/><em>(Port Alberni)</em></li>
+                <li><a href="/sessions/mathematics-of-information">Mathematics of Information<br/><em>(Junior Ballroom C)</em></li>
                 <li class="last"><a href="/sessions/new-trends-in-geometry-and-mathematical-physics">New Trends in Geometry and Mathematical Physics</a><br/><em>(Orca)</em></a></li>
               </ul>
             </td>
         </tr>
         <tr>
             <th>11:30</th>
-            <td class="plenary">Plenary Lecture <strong>Ozawa Narutaka</strong></td>
+            <td class="plenary">Plenary Lecture<ul><li><a href="/talk/kazhdans-property-t-for-aut-f-n-and-el-nr/"><strong>Ozawa Narutaka</strong><br/>Kazhdan's property (T) for Aut(F-n) and EL_n(R)</a></li></ul></td>
         </tr>
         <tr>
             <th>12:30</th>
@@ -162,23 +162,23 @@ impact on our economic, social, and cultural development.</p>
         </tr>
         <tr>
             <th>13:00</th>
-            <td class="career-fair" rowspan=3><a href="/career-fair/">Industry Career Fair</a><br></td>
+            <td class="career-fair" rowspan=3><a href="/career-fair/">Industry Career Fair<ul><li><em>Junior Ballroom C & D</em></li></ul></a><br></td>
         </tr>
         <tr>
             <th>14:00</th>
             <td class="registration" rowspan=4>Registration and Package Pickup: Sheraton Hotel Grand Ball Room.<br><i>*Please note, registration will also be available throughout the conference at the front desk.</i></td>
-            <td class="plenary">Plenary Lecture <strong>Ciprian Manolescu</strong></td>
-            <td class="plenary">Plenary Lecture <strong>Yang Wang</strong></td>
-            <td class="plenary">Plenary Lecture <strong>Isabel Hubard</strong></td>
+            <td class="plenary">Plenary Lecture<ul><li><a href="/talk/khovanov-homology-and-four-dimensional-topology/"><strong>Ciprian Manolescu</strong><br/>Khovanov homology and four dimensional topology</a></li></ul></td>
+            <td class="plenary">Plenary Lecture<ul><li><a href="/talk/deep-generative-models-and-schrodinger-bridge/"><strong>Yang Wang</strong><br/>Deep generative models and Schrödinger Bridge</a></li></ul></td>
+            <td class="plenary">Plenary Lecture<ul><li><a href="/talk/twisted-honeycombs-and-abstract-polytopes/"><strong>Isabel Hubard</strong><br/>Twisted Honeycombs And Abstract Polytopes</a></li></ul></td>
             <td class="sessions"rowspan=3>
               <!-- Friday Afternoon -->
               Scientific Sessions
               <ul>
                 <li><a href="/sessions/moduli-spaces-in-algebraic-geometry">Moduli Spaces in Algebraic Geometry<br/><em>(Finback)</em></a></li>
-                <li><a href="/sessions/indigenous-mathematical-scientists">A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom C)</em></a></li>
-                <li><a href="/sessions/arithmetic-geometry-theory-and-computation">Arithmetic Geometry: Theory and Computation<br/><em>(Junior Ballroom D)</em></a></li>
+                <li><a href="/sessions/indigenous-mathematical-scientists">A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom D)</em></a></li>
+                <li><a href="/sessions/arithmetic-geometry-theory-and-computation">Arithmetic Geometry: Theory and Computation<br/><em>(Port Alberni)</em></a></li>
                 <li><a href="/sessions/harmonic-functions-and-laplace-eigenfunctions">Harmonic Functions and Laplace Eigenfunctions<br/><em>(Parksville)</em></a></li>
-                <li><a href="/sessions/mathematics-of-information">Mathematics of Information<br/><em>(Port Alberni)</em></li>
+                <li><a href="/sessions/mathematics-of-information">Mathematics of Information<br/><em>(Junior Ballroom C)</em></li>
                 <li class="last"><a href="/sessions/new-trends-in-geometry-and-mathematical-physics">New Trends in Geometry and Mathematical Physics<br/><em>(Orca)</em></a></li>
               </ul>
             </td>
@@ -197,9 +197,9 @@ impact on our economic, social, and cultural development.</p>
               <ul>
                 <li><a href="/sessions/geometric-analysis/">Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></a></li>
                 <li><a href="/sessions/enumerative-algebraic-geometry/">Enumerative Algebraic Geometry<br/><em>(Finback)</em></li>
-                <li><a href="/sessions/algebraic-number-theory-and-arithmetic-geometry">Algebraic Number Theory and Arithmetic Geometry</a><br/><em>(Junior Ballroom C)</em></li>
+                <li><a href="/sessions/algebraic-number-theory-and-arithmetic-geometry">Algebraic Number Theory and Arithmetic Geometry</a><br/><em>(Parksville)</em></li>
                 <li><a href="/sessions/representation-theory-and-applications">Representation Theory Applications<br/><em>(Junior Ballroom D)</em></a></li>
-                <li><a href="/sessions/graph-theory-and-combinatorics">Graph Theory and Combinatorics<br/><em>(Parksville)</em></a></li>
+                <li><a href="/sessions/graph-theory-and-combinatorics">Graph Theory and Combinatorics<br/><em>(Junior Ballroom C)</em></a></li>
                 <li><a href="/sessions/geometric-group-theory">Geometric Group Theory<br/><em>(Port McNeill)</em></a></li>
                 <li class="last"><a href="/sessions/optimal-transport-and-applications">Optimal Transport and Applications<br/><em>(Port Alberni)</em></a></li>
               </ul>
@@ -210,9 +210,9 @@ impact on our economic, social, and cultural development.</p>
               <ul>
                 <li><a href="/sessions/geometric-analysis/">Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></a></li>
                 <li><a href="/sessions/enumerative-algebraic-geometry/">Enumerative Algebraic Geometry<br/><em>(Finback)</em></li>
-                <li><a href="/sessions/algebraic-number-theory-and-arithmetic-geometry">Algebraic Number Theory and Arithmetic Geometry</a><br/><em>(Junior Ballroom C)</em></li>
+                <li><a href="/sessions/algebraic-number-theory-and-arithmetic-geometry">Algebraic Number Theory and Arithmetic Geometry</a><br/><em>(Parksville)</em></li>
                 <li><a href="/sessions/representation-theory-and-applications">Representation Theory Applications<br/><em>(Junior Ballroom D)</em></a></li>
-                <li><a href="/sessions/graph-theory-and-combinatorics">Graph Theory and Combinatorics<br/><em>(Parksville)</em></a></li>
+                <li><a href="/sessions/graph-theory-and-combinatorics">Graph Theory and Combinatorics<br/><em>(Junior Ballroom C)</em></a></li>
                 <li><a href="/sessions/geometric-group-theory">Geometric Group Theory<br/><em>(Port McNeill)</em></a></li>
                 <li class="last"><a href="/sessions/optimal-transport-and-applications">Optimal Transport and Applications<br/><em>(Port Alberni)</em></a></li>
               </ul>
@@ -224,11 +224,11 @@ impact on our economic, social, and cultural development.</p>
               <ul>
                 <li><a href="/sessions/geometric-analysis/">Geometric Analysis<br/><em>(Junior Ballroom A/B)</em></a></li>
                 <li><a href="/sessions/moduli-spaces-in-algebraic-geometry">Moduli Spaces in Algebraic Geometry<br/><em>(Finback)</em></a></li>
-                <li><a href="/sessions/indigenous-mathematical-scientists">A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom C)</em></a></li>
-                <li><a href="/sessions/arithmetic-geometry-theory-and-computation">Arithmetic Geometry: Theory and Computation<br/><em>(Junior Ballroom D)</em></a></li>
+                <li><a href="/sessions/indigenous-mathematical-scientists">A Celebration of Indigenous Mathematical Scientists<br/><em>(Junior Ballroom D)</em></a></li>
+                <li><a href="/sessions/arithmetic-geometry-theory-and-computation">Arithmetic Geometry: Theory and Computation<br/><em>(Port Alberni)</em></a></li>
                 <li><a href="/sessions/harmonic-functions-and-laplace-eigenfunctions">Harmonic Functions and Laplace Eigenfunctions<br/><em>(Parksville)</em></a></li>
                 <li><a href="/sessions/geometric-group-theory">Geometric Group Theory<br/><em>(Port McNeill)</em></a></li>
-                <li><a href="/sessions/mathematics-of-information">Mathematics of Information<br/><em>(Port Alberni)</em></li>
+                <li><a href="/sessions/mathematics-of-information">Mathematics of Information<br/><em>(Junior Ballroom C)</em></li>
                 <li class="last"><a href="/sessions/new-trends-in-geometry-and-mathematical-physics">New Trends in Geometry and Mathematical Physics<br/><em>(Orca)</em></a></li>
               </ul>
             </td>
@@ -246,10 +246,10 @@ impact on our economic, social, and cultural development.</p>
         </tr>
         <tr>
             <th>17:45</th>
-            <td class="plenary">Plenary Lecture <strong>Caroline Colijn</strong></td>
-            <td class="public">Public Lecture <strong>Minhyong Kim</strong></td>
+            <td class="plenary">Plenary Lecture<ul><li><a href="/talk/infectious-disease-modelling-in-the-time-of-covid/"><strong>Caroline Colijn</strong><br/>Infectious Disease Modelling in the Time of COVID</a></li></ul></td>
+            <td class="public">Public Lecture<ul><li><a href="/talk/measurement-calculation-and-history/"><strong>Minhyong Kim</strong><br/><em>When are stable minimal surfaces holomorphic</em></li></ul></td>
             <td class="banquet" rowspan=3>Conference Banquet</td>
-            <td class="public">Public Lecture <strong>Katherine Stange</strong></td>
+            <td class="public">Public Lecture<ul><li><a href="/talk/the-illustrated-field-diary-of-a-mathematical-naturalist/"><br/><strong>Katherine Stange</strong><br/>The illustrated field diary of a mathematical naturalist</li></ul></td>
         </tr>
         <tr>
             <th>19:00</th>
@@ -407,8 +407,8 @@ number as these requests are fraudulent in nature.
   [params.sessions]
     enable         = true
     title          = "Special Sessions"
-    showTimes      = false
-    showLocations  = false
+    showTimes      = true
+    showLocations  = true
     header         = """
 
 ## Early Career Research Showcase
@@ -516,6 +516,8 @@ Package](uploads/PRIMA2022SponsorPackage.pdf).
   speakertype = "speakertype"
   session = "sessions"
   location = "locations"
+  speaker = "speakers"
+  author = "authors"
 
 [markup.goldmark.renderer]
   unsafe = true

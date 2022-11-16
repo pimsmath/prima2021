@@ -1,11 +1,9 @@
 ---
-title: When are stable minimal surfaces holomorphic?
-author: stange
-speakers:
-- name: Katherine Stange
-  affiliation: University of Colorado
+title: The illustrated field diary of a mathematical naturalist
+authors:
+  - stange
 locations:
-- Grand Ball Room
+- Grand Ballroom
 tags:
 - ''
 outputs:
@@ -29,3 +27,34 @@ abstract: |
   complex and rational numbers and the roots of polynomials.
 
 ---
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-12 col-md-4">
+      <img
+        class="medium-zoom-image img-zoomable mx-auto d-block"
+        data-zoom-src="c2.png"
+        src="c2.webp"
+        alt=""
+        data-zoomable="true"
+      />
+    </div>
+    <div class="col-12 col-md-4">
+      <img
+        class="medium-zoom-image img-zoomable mx-auto d-block"
+        data-zoom-src="c3.png"
+        src="c3.webp"
+        alt=""
+        data-zoomable="true"
+      />
+    </div>
+    <div class="col-12 col-md-4">
+      <img
+        class="medium-zoom-image img-zoomable mx-auto d-block"
+        data-zoom-src="c4.png"
+        src="c4.webp"
+        alt=""
+        data-zoomable="true"
+      />
+    </div>
+  </div>
+</div>

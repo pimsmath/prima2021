@@ -6,7 +6,7 @@ speakers:
 - name: Alexandru Ghitza
   affiliation: University of Melbourne
 locations:
-- Junior Ballroom C
+- Parksville
 tags:
 - ''
 outputs:

@@ -4,6 +4,12 @@ photo: /uploads/CiprianManolescu.jpg
 title: Ciprian Manolescu
 role_title: Prof.
 email: cm5@stanford.edu
+authors:
+  - manolescu
+social:
+  - icon: globe
+    icon_pack: fa
+    link: https://web.stanford.edu/~cm5/
 speakertype:
 - Plenary
 courses:

@@ -6,7 +6,7 @@ speakers:
 - name: Venkata Raghu Tej Pantangi
   affiliation: University of Regina
 locations:
-- Parksville
+- Junior Ballroom C
 tags:
 - ''
 outputs:

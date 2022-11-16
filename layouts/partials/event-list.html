@@ -28,15 +28,26 @@
                       {{ range .Params.speakers }}
                       <span class="author-highlighted">{{ .name }}, <em>{{ .affiliation }}</em></span>
                       {{ end }}
+                      {{ range .Params.authors }}
+                      {{ $author := site.GetPage (printf "/%s/%s" "speakers" .) }}
+                      <span class="author-highlighted"><a class="flatlink" href={{ $author.RelPermalink }}>{{ $author.Title }}, <em>{{ $author.Params.affiliation }}</a></em></span>
+                      {{ end }}
                       <div>
                         {{ if .Site.Params.sessions.showTimes }}
-                        <span class="article-date">{{ .Date }}</span>
+                        <span class="article-date">{{ .Date.Format "2006-01-02 15:04 am (MST)" }}</span>
                         {{ end }}
                         {{ if .Site.Params.sessions.showLocations }}
                         <span class="middot-divider"></span>
                         {{ range .Params.locations }}
                         <span class="article-location"><a class="badge badge-light" href="{{ "/locations/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></span>
                         {{ end }}
+                        <span class="middot-divider"></span>
+                        {{ if .Params.categories }}
+                          {{ range .Params.categories }}
+                          <span class="article-category"><a class="badge badge-light" href="/categories/{{ . }}">{{ . }}</a></span>
+                          {{ end }}
+                        {{ end }}
+
                         {{ end }}
                       </div>
                     </div>
@@ -51,7 +62,7 @@
                     <div>
                       <div class="calendar-day">{{ .Date | time.Format "Monday" }}</div>
                       <div class="calendar-day-number">{{ .Date | time.Format "2" }}</div>
-                      <div class="calendar-day-time">{{ .Date | time.Format "15:04 (MST)" }}</div>
+                      <div class="calendar-day-time">{{ .Date | time.Format "15:04 am" }}</div>
                     </div>
                     {{ with .OutputFormats.Get "Calendar" -}}
                     </a>

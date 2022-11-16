@@ -2,6 +2,14 @@
 affiliation: "University of Colorado"
 photo: "/uploads/KatherinStange2.jpg"
 title: "Katherine Stange"
+website: https://math.katestange.net/
+social:
+  - icon: globe
+    icon_pack: fa
+  - icon: youtube-play
+    icon_pack: fa
+authors:
+  - stange
 speakertype:
   - Public
 courses:

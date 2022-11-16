@@ -6,7 +6,7 @@ speakers:
 - name: Bianca Viray
   affiliation: University of Washington
 locations:
-- Junior Ballroom C
+- Parksville
 tags:
 - ''
 outputs:

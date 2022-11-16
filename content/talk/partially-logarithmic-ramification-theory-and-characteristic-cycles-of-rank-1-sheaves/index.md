@@ -7,7 +7,7 @@ speakers:
 - name: Yuri Yatagawa
   affiliation: Tokyo Institute of Technology
 locations:
-- Junior Ballroom D
+- Port Alberni
 tags:
 - ''
 outputs:

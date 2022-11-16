@@ -1,0 +1,50 @@
+{{ partial "header.html" . }}
+
+{{ partial "preloader.html" . }}
+        
+{{ partial "navigation.html" . }}
+
+<section class="location-description section pb-0">
+  <div class="container">
+      <div class="heading">
+        <h2>{{ .Title }}</h2>
+        {{ with .Params.subtitle }}
+          <h4>{{ . }}</h4>
+        {{ end }}
+      </div>
+    <div class="row align-items-center">
+      <div class="col-12 col-md-8 order-first">
+        <div class="location-description">
+          {{ .Params.description | markdownify | emojify }}
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        {{ $resource := (.Resources.ByType "image").GetMatch .Params.image }}
+        {{ with $resource }}
+          {{ $image := .Resize "240x webp" }}
+          <img 
+            class="medium-zoom-image img-zoomable"
+            data-zoom-src="{{ $resource.RelPermalink }}"
+            src="{{ $image.RelPermalink }}"
+            alt="{{ .Title }}"
+            data-zoomable="true"
+          />
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <ul class="list-group">
+    {{ range .Pages }}
+    <li class="list-group-item d-flex justify-content-between align-items-center">
+      <a href="{{ .RelPermalink }}">{{ .Title }} lectures</a>
+    </li>
+    {{ end }} 
+    </ul>
+  </div>
+</section>
+
+{{ partial "footer.html" . }}
+
