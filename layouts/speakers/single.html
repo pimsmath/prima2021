@@ -25,7 +25,12 @@
           {{ else if in (slice "http" "https") $scheme }}
             {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
           {{ end }}
-          <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}><h3>{{ .Params.affiliation }}</h3></a>
+          <h3>{{ .Params.affiliation }}</h3>
+          <ul class="network-icon">
+            <li>
+              <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}><i class="fas fa-globe big-icon"></i></a>
+            </li>
+          </ul>
         </div> 
       </div>
       <div class="col-md-4 col-sm-12 wow fadeInDown">
