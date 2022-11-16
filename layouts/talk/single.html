@@ -17,16 +17,14 @@
 
     <div class="talk-metadata">
       <div class="row">
-        
-        <div class="col-md-1"></div>
-        <div class="col-md-10">
+        <div class="col-12">
           {{ $talk_page := .Page }}
           {{ if .Params.authors }}
             {{ range .Params.authors }}
               {{ $speaker_page := site.GetPage (printf "/%s/%s" "speakers" .) }}
               {{ $link := $speaker_page.Page.RelPermalink }}
               <div class="row auto-clear">
-                <div class="col-lg-8 my-auto">
+                <div class="col-8 my-auto">
                   <div class="row">
                     <div class="col-12 col-md-3 pub-row-heading">Speaker</div>
                     <div class="col-12 col-md-9"><a class="flatlink" href="{{ $link }}">{{ $speaker_page.Page.Title }}</a>, <em>{{ $speaker_page.Page.Params.affiliation }}</em></div>
@@ -34,7 +32,12 @@
                   {{ if site.Params.sessions.showTimes }}
                   <div class="row">
                     <div class="col-12 col-md-3 pub-row-heading">Date</div>
-                    <div class="col-12 col-md-9">{{ $talk_page.Params.Date.Format "2006-01-02 15:04 am (MST)" }}</div>
+                    <div class="col-12 col-md-9">
+                      {{ $talk_page.Params.Date.Format "2006-01-02 15:04 am (MST)" }}
+                      {{ with $talk_page.OutputFormats.Get "Calendar" }}
+                      <a href="{{ .RelPermalink }}" data-toggle="tooltip" title="Add to my calendar"> <i class="fa fa-calendar"></i></a>
+                      {{ end }}
+                    </div>
                   </div>
                   {{ end }}
                   {{ if site.Params.sessions.showLocations }}
@@ -79,7 +82,12 @@
             {{ if .Site.Params.sessions.showTimes }}
             <div class="row">
               <div class="col-12 col-md-3 pub-row-heading">Date</div>
-              <div class="col-12 col-md-9">{{ .Date.Format "2006-01-02 15:04 am (MST)" }}</div>
+              <div class="col-12 col-md-9">
+                {{ .Date.Format "2006-01-02 15:04 am (MST)" }}
+                {{ with .OutputFormats.Get "Calendar" }}
+                <a href="{{ .RelPermalink }}" data-toggle="tooltip" title="Add to my calendar"> <i class="fa fa-calendar"></i></a>
+                {{ end }}
+              </div>
             </div>
             {{ end }}
             {{ if .Site.Params.sessions.showLocations }}
