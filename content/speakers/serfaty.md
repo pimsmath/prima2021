@@ -4,6 +4,8 @@ photo: "/uploads/SylviaSerfaty.jpg"
 title: Sylvia Serfaty
 role_title: Silver Prof.
 email: serfaty@cims.nyu.edu
+authors:
+  - serfaty
 speakertype:
 - Plenary
 courses:

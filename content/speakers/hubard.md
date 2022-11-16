@@ -5,6 +5,8 @@ title: "Isabel Hubard"
 speakertype:
   - Plenary
 role_title: Prof.
+authors:
+  - hubbard
 email: isahubard@im.unam.mx
 speakers:
   - Plenary

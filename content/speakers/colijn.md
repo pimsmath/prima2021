@@ -5,6 +5,8 @@ title: Caroline Colijn
 speakertype:
 - Plenary
 role_title: Prof.
+authors:
+  - colijn
 courses:
 - course: 
 website: https://www.sfu.ca/math/people/faculty/ccolijn/

@@ -37,6 +37,13 @@
                         {{ range .Params.locations }}
                         <span class="article-location"><a class="badge badge-light" href="{{ "/locations/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></span>
                         {{ end }}
+                        <span class="middot-divider"></span>
+                        {{ if .Params.categories }}
+                          {{ range .Params.categories }}
+                          <span class="article-category"><a class="badge badge-light" href="/#speakers-{{ . }}">{{ . }}</a></span>
+                          {{ end }}
+                        {{ end }}
+
                         {{ end }}
                       </div>
                     </div>

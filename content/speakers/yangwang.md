@@ -5,6 +5,8 @@ title: Yang Wang
 speakertype:
 - Plenary
 role_title: Prof.
+authors:
+  - yangwang
 courses:
 - course: 
 website: https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yang-wang-yangwang

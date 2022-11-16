@@ -2,6 +2,8 @@
 affiliation: "University of Warwick"
 photo: "/uploads/MinhyongKim.jpg"
 title: "Minhyong Kim"
+authors:
+  - kim
 speakertype:
   - 'Public'
 courses:

@@ -52,14 +52,6 @@
         </div>
       </div>
     </div>
-    <hr>
-    <div class="row">
-      <div class="col-md-12 col-sm-12">
-        <div class="content">
-        {{ .Content }}
-        </div>
-      </div>
-    </div>
     {{ if .Params.authors }}
       <hr>
       {{ range .Params.authors }}
@@ -91,6 +83,14 @@
         </div>
       {{ end }}
     {{ end }}
+    <hr>
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="content">
+        {{ .Content }}
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 

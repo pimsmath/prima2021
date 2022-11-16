@@ -6,6 +6,8 @@ title: Andres Navas
 speakertype:
   - Plenary
 email: andres.navas@usach.cl
+authors:
+  - navas
 courses:
 - course: Ph.D, 2012
   institution: Stanford
