@@ -28,6 +28,10 @@
                       {{ range .Params.speakers }}
                       <span class="author-highlighted">{{ .name }}, <em>{{ .affiliation }}</em></span>
                       {{ end }}
+                      {{ range .Params.authors }}
+                      {{ $author := site.GetPage (printf "/%s/%s" "speakers" .) }}
+                      <span class="author-highlighted"><a class="flatlink" href={{ $author.RelPermalink }}>{{ $author.Title }}, <em>{{ $author.Params.affiliation }}</a></em></span>
+                      {{ end }}
                       <div>
                         {{ if .Site.Params.sessions.showTimes }}
                         <span class="article-date">{{ .Date }}</span>

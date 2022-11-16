@@ -1,10 +1,7 @@
 ---
-title: When are stable minimal surfaces holomorphic?
+title: Measurement Calculation and History
 authors:
   - kim
-speakers:
-- name: Minhyong Kim
-  affiliation: University of Warwick
 locations:
 - Grand Ballroom
 tags:

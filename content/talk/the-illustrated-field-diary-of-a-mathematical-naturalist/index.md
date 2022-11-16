@@ -2,9 +2,6 @@
 title: The illustrated field diary of a mathematical naturalist
 authors:
   - stange
-speakers:
-- name: Katherine Stange
-  affiliation: University of Colorado
 locations:
 - Grand Ballroom
 tags:
