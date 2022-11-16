@@ -15,6 +15,10 @@ interests:
 - Geometric topology
 - Low dimensional analysis
 website: https://math.cornell.edu/kathryn-mann
+social:
+  - icon: globe
+    icon_pack: fa
+    link: https://math.cornell.edu/kathryn-mann
 weight: 120
 ---
 ## Biography

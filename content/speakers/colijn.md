@@ -7,6 +7,16 @@ speakertype:
 role_title: Prof.
 authors:
   - colijn
+social:
+  - icon: twitter
+    icon_pack: fa
+    link: https://twitter.com/carolinecolijn
+  - icon: github
+    icon_pack: fa
+    link: https://github.com/carolinecolijn
+  - icon: globe
+    icon_pack: fa
+    link: https://www.sfu.ca/magpie/home.html
 courses:
 - course: 
 website: https://www.sfu.ca/math/people/faculty/ccolijn/

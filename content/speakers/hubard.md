@@ -5,6 +5,10 @@ title: "Isabel Hubard"
 speakertype:
   - Plenary
 role_title: Prof.
+social:
+  - icon: globe
+    icon_pack: fa
+    link: https://sites.google.com/im.unam.mx/isahubard?pli=1
 authors:
   - hubard
 email: isahubard@im.unam.mx

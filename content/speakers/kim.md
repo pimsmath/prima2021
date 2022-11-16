@@ -6,6 +6,10 @@ authors:
   - kim
 speakertype:
   - 'Public'
+social:
+  - icon: globe
+    icon_pack: fa
+    link: https://warwick.ac.uk/fac/sci/maths/people/staff/mkim/
 courses:
 - course: Ph.D in Mathematics
   institution: Yale University

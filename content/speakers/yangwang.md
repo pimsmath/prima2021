@@ -21,6 +21,10 @@ interests:
 - Data analysis using machine learning
 - Wavelets and analysis
 weight: 240
+social:
+  - icon: globe
+    icon_pack: fa
+    link: https://www.math.hkust.edu.hk/~yangwang/
 ---
 
 ## Biography

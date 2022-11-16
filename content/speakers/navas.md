@@ -18,6 +18,10 @@ interests:
 - Dissemination of mathematics
 website: http://www.mat.usach.cl/index.php/2012-12-19-12-50-19/academicos/75-andres-navas-flores
 weight: 130
+social:
+  - icon: globe
+    icon_pack: fa
+    link: http://www.mat.usach.cl/index.php/2012-12-19-12-50-19/academicos/75-andres-navas-flores
 ---
 ## Biography
 Andres Navas performed studies at USACH (undergraduate), IMPA (master) and

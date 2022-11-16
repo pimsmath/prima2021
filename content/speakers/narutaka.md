@@ -16,7 +16,10 @@ interests:
 - Operator Algebra Theory
 - Functional Analytic Group Theory
 - Quantum Information Theory
-
+social:
+  - icon: globe
+    icon_pack: fa
+    link: https://www.kurims.kyoto-u.ac.jp/~narutaka/
 ---
 ## Biography
 Narutaka Ozawa is working on theory of operator algebras on Hilbert spaces and on the functional analytic aspects of the group theory, with an emphasis on the interplay between these subjects.

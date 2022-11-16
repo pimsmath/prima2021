@@ -26,11 +26,15 @@
             {{ $target = "target=\"_blank\" rel=\"noopener\"" }}
           {{ end }}
           <h3>{{ .Params.affiliation }}</h3>
+          {{ if isset .Params "social" }}
           <ul class="network-icon">
+            {{ range .Params.social }}
             <li>
-              <a href="{{ $link | safeURL }}" {{ $target | safeHTMLAttr }}><i class="fas fa-globe big-icon"></i></a>
+              <a href="{{ .link | safeURL }}" {{ $target | safeHTMLAttr }}><i class="{{ .icon_pack }} {{ .icon_pack }}-{{ .icon }} size-3"></i></a>
             </li>
+            {{ end }}
           </ul>
+          {{ end }}
         </div> 
       </div>
       <div class="col-md-4 col-sm-12 wow fadeInDown">

@@ -576,3 +576,17 @@ a.flatlink:hover {
     text-decoration: none;
 }
 
+ul.network-icon {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+ul.network-icon li {
+    margin-right: 10px;
+}
+.size-3 {
+    font-size: 56px;
+}
