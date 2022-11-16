@@ -1,7 +1,7 @@
 ---
 title: Twisted honeycombs and abstract polytopes
 authors:
-  - hubbard
+  - hubard
 locations:
 - Grand Ballroom
 tags:

@@ -6,7 +6,7 @@ speakertype:
   - Plenary
 role_title: Prof.
 authors:
-  - hubbard
+  - hubard
 email: isahubard@im.unam.mx
 speakers:
   - Plenary

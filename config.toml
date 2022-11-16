@@ -83,9 +83,9 @@ impact on our economic, social, and cultural development.</p>
             <th>9:00</th>
             <td class="empty"rowspan=6></td>
             <td>Opening Remarks</td>
-            <td class="plenary">Plenary Lecture <strong>Sylvia Serfaty</strong></td>
-            <td class="plenary">Plenary Lecture <strong>Kathryn Mann</strong></td>
-            <td class="plenary">Plenary Lecture <strong>Andrés Navas</strong></td>
+            <td class="plenary"><ul><li><a href="/talk/systems-of-points-with-coulomb-interactions/">Plenary Lecture<br/><strong>Sylvia Serfaty</strong><br/>Systems of points with Coulomb interactions</a></li></ul></td>
+            <td class="plenary"><ul><li><a href="/talk/groups-acting-at-infinity/">Plenary Lecture<br/><strong>Kathryn Mann</strong><br/>Groups Acting At Infinity</a></li></ul></td>
+            <td class="plenary"><ul><li><a href="/talk/conjugates-paths-and-diffeomorphisms/">Plenary Lecture<br/><strong>Andrés Navas</strong><br/>Conjugates, paths and groups of diffeomorphisms</a></li></ul></td>
             <td class="sessions">Scientific Sessions</td>
         </tr>
         <tr>
@@ -150,7 +150,7 @@ impact on our economic, social, and cultural development.</p>
         </tr>
         <tr>
             <th>11:30</th>
-            <td class="plenary">Plenary Lecture <strong>Ozawa Narutaka</strong></td>
+            <td class="plenary"><ul><li><a href="/talk/kazhdans-property-t-for-aut-f-n-and-el-nr/">Plenary Lecture<br/><strong>Ozawa Narutaka</strong><br/>Kazhdan's property (T) for Aut(F-n) and EL_n(R)</a></li></ul></td>
         </tr>
         <tr>
             <th>12:30</th>
@@ -167,9 +167,9 @@ impact on our economic, social, and cultural development.</p>
         <tr>
             <th>14:00</th>
             <td class="registration" rowspan=4>Registration and Package Pickup: Sheraton Hotel Grand Ball Room.<br><i>*Please note, registration will also be available throughout the conference at the front desk.</i></td>
-            <td class="plenary">Plenary Lecture <strong>Ciprian Manolescu</strong></td>
-            <td class="plenary">Plenary Lecture <strong>Yang Wang</strong></td>
-            <td class="plenary">Plenary Lecture <strong>Isabel Hubard</strong></td>
+            <td class="plenary"><ul><li><a href="/talk/khovanov-homology-and-four-dimensional-topology/">Plenary Lecture<br/><strong>Ciprian Manolescu</strong><br/>Khovanov homology and four dimensional topology</a></li></ul></td>
+            <td class="plenary"><ul><li><a href="/talk/deep-generative-models-and-schrodinger-bridge/">Plenary Lecture<br/><strong>Yang Wang</strong><br/>Deep generative models and Schrödinger Bridge</a></li></ul></td>
+            <td class="plenary"><ul><li><a href="/talk/twisted-honeycombs-and-abstract-polytopes/">Plenary Lecture<br/><strong>Isabel Hubard</strong><br/>Twisted Honeycombs And Abstract Polytopes</a></li></ul></td>
             <td class="sessions"rowspan=3>
               <!-- Friday Afternoon -->
               Scientific Sessions
@@ -246,7 +246,7 @@ impact on our economic, social, and cultural development.</p>
         </tr>
         <tr>
             <th>17:45</th>
-            <td class="plenary">Plenary Lecture <strong>Caroline Colijn</strong></td>
+            <td class="plenary"><ul><li><a href="/talk/infectious-disease-modelling-in-the-time-of-covid/">Plenary Lecture<br/><strong>Caroline Colijn</strong><br/></a></li></ul></td>
             <td class="public"><ul><li><a href="/talk/measurement-calculation-and-history/">Public Lecture<br/><strong>Minhyong Kim</strong><br/><em>When are stable minimal surfaces holomorphic</em></li></ul></td>
             <td class="banquet" rowspan=3>Conference Banquet</td>
             <td class="public"><ul><li><a href="/talk/the-illustrated-field-diary-of-a-mathematical-naturalist/">Public Lecture<br/><strong>Katherine Stange</strong><br/>The illustrated field diary of a mathematical naturalist</li></ul></td>
