@@ -57,7 +57,7 @@
       {{ range .Params.authors }}
         <div class="row">
           <div class="col-md-12 col-sm-12">
-            <h2>Talks and Events Featuring This Speaker</h2>
+            <h2>Events Featuring This Speaker</h2>
             <div class="content">
             {{ $speaker := site.GetPage (printf "/%s/%s" "authors" .) }}
             {{ range (where $speaker.Pages ".Type" "talk") }}
