@@ -78,7 +78,7 @@
               {{ end }}
               <span class="middot-divider"></span>
               {{ range .Params.categories }}
-              <span class="article-category"><a class="badge badge-light" href="/#speakers-{{ . }}">{{ . }}</a></span>
+              <span class="article-category"><a class="badge badge-light" href="/categories/{{ . }}">{{ . }}</a></span>
               {{ end }}
               {{ $markdown := .Params.abstract | markdownify }}
               {{ if not ( strings.Contains $markdown "<p>" ) }}
