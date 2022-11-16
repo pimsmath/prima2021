@@ -34,7 +34,7 @@
                   {{ if site.Params.sessions.showTimes }}
                   <div class="row">
                     <div class="col-12 col-md-3 pub-row-heading">Date</div>
-                    <div class="col-12 col-md-9">{{ $talk_page.Params.Date }}</div>
+                    <div class="col-12 col-md-9">{{ $talk_page.Params.Date.Format "2006-01-02 15:04 am (MST)" }}</div>
                   </div>
                   {{ end }}
                   {{ if site.Params.sessions.showLocations }}
@@ -79,7 +79,7 @@
             {{ if .Site.Params.sessions.showTimes }}
             <div class="row">
               <div class="col-12 col-md-3 pub-row-heading">Date</div>
-              <div class="col-12 col-md-9">{{ .Date }}</div>
+              <div class="col-12 col-md-9">{{ .Date.Format "2006-01-02 15:04 am (MST)" }}</div>
             </div>
             {{ end }}
             {{ if .Site.Params.sessions.showLocations }}
