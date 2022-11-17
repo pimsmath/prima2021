@@ -39,6 +39,17 @@
       </div>
     </div>
   </div>
+  {{ with .Content }}
+  <div class="container">
+    {{ $markdown := . | markdownify | emojify }}
+    {{ if not ( strings.Contains $markdown "<p>" ) }}
+        <p>{{ $markdown }}</p>
+    {{ else }}
+        {{ $markdown }}
+    {{ end }}
+  </div>
+  {{ end }}
+
 </section>
 
 {{ partial "event-list.html" . }}

@@ -1,7 +1,7 @@
 ---
 title: "parksville"
 description: |
-  ## North Tower, 3rd floor, Room 45
+  ## North Tower, 3rd floor
 
 image: "floorplan.png"
 ---

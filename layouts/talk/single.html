@@ -129,7 +129,9 @@
     </div>
   </div>
   {{ with .Content }}
-  {{ . }}
+  <div class="container">
+  {{ . | markdownify | emojify }}
+  </div>
   {{ end }}
 </section>
 
