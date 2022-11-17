@@ -6,8 +6,10 @@ website: https://math.katestange.net/
 social:
   - icon: globe
     icon_pack: fa
+    link: https://math.katestange.net/
   - icon: youtube-play
     icon_pack: fa
+    link: https://www.youtube.com/c/ProofofConceptMath
 authors:
   - stange
 speakertype:

@@ -575,6 +575,7 @@ figcaption {
 
 a.flatlink {
     color: #3b4045;
+    font-weight: 700;
 }
 a.flatlink:hover {
     text-decoration: none;
