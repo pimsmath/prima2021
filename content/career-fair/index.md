@@ -1,6 +1,6 @@
 ---
 title: "PRIMA 2022 - Career Fair"
-subtitle: Sheraton Wall Centre, December 7th, 2022
+subtitle: Junior Ballroom C & D, Sheraton Wall Centre, December 7th, 2022
 date: 2022-10-04T15:32:21-07:00
 draft: false
 contact:
