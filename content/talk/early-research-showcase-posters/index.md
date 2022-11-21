@@ -3,7 +3,7 @@ title: Early Research Showcase Poster Session
 sessions:
 - Early Research Showcase
 locations:
-- Junior Ballroom A/B
+- Junior Ballroom Foyer
 tags:
 - ''
 outputs:

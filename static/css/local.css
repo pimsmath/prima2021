@@ -323,7 +323,7 @@ section#schedule tr a {
     color: #3b4045;
 }
 
-section#schedule tr li:hover {
+section#schedule tr a:hover {
     background-color: rgba(0,0,0,.075);
 }
 
@@ -513,7 +513,7 @@ section#sessions h4 a {
 }
 
 .card {
-    overflow: hiden;
+    overflow: hidden;
     text-overflow: ellipsis;
     background: #fff;
     box-shadow: 0 2px 4px rgb(0, 0, 0, 20%);
