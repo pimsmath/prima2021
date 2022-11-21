@@ -20,12 +20,6 @@ $(document).ready(function() {
     SpeakerGroupSelect();
 });
 
-window.MathJax = {
-      tex: {
-              inlineMath: [['$', '$'], ['\\(', '\\)']]
-            }
-};
-
 mediumZoom('[data-zoomable]', {
       background: '#eee',
       scrollOffset: 10,
