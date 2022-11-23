@@ -33,7 +33,7 @@
                   <div class="row">
                     <div class="col-12 col-md-3 pub-row-heading">Date</div>
                     <div class="col-12 col-md-9">
-                      {{ $talk_page.Params.Date.Format "2006-01-02 15:04 am (MST)" }}
+                      {{ $talk_page.Params.Date.Format "2006-01-02 3:04 AM (MST)" }}
                       {{ with $talk_page.OutputFormats.Get "Calendar" }}
                       <a href="{{ .RelPermalink }}" data-toggle="tooltip" title="Add to my calendar"> <i class="fa fa-calendar"></i></a>
                       {{ end }}
@@ -83,7 +83,7 @@
             <div class="row">
               <div class="col-12 col-md-3 pub-row-heading">Date</div>
               <div class="col-12 col-md-9">
-                {{ .Date.Format "2006-01-02 15:04 am (MST)" }}
+                {{ .Date.Format "2006-01-02 3:04 PM (MST)" }}
                 {{ with .OutputFormats.Get "Calendar" }}
                 <a href="{{ .RelPermalink }}" data-toggle="tooltip" title="Add to my calendar"> <i class="fa fa-calendar"></i></a>
                 {{ end }}
