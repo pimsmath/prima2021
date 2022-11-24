@@ -47,6 +47,12 @@
                           <span class="article-category"><a class="badge badge-light" href="/categories/{{ . }}">{{ . }}</a></span>
                           {{ end }}
                         {{ end }}
+                        <span class="middot-divider"></span>
+                        {{ if .Params.sessions }}
+                          {{ range .Params.sessions }}
+                          <span class="article-category"><a class="badge badge-light" href="/sessions/{{ . | urlize }}">{{ . }}</a></span>
+                          {{ end }}
+                        {{ end }}
 
                         {{ end }}
                       </div>
