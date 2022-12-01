@@ -18,7 +18,7 @@ date: '2022-12-09T17:30:00-08:00'
 publishDate: '2022-10-01T10:00:00-08:00'
 end: '2022-12-09T17:30:00-08:00'
 featured: 'false'
-draft: 'false'
+draft: 'true'
 abstract: Let $X$ be a regular scheme projective flat over the ring of integers in
   a number field $K$, we prove a relation between the Brauer group of $X$, the geometric
   Brauer group of $X_K$ and the Tate-Shafarevich group of $Pic^0_{X/K}$,  generalizing
