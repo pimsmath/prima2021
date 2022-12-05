@@ -9,8 +9,8 @@ email: andres.navas@usach.cl
 authors:
   - navas
 courses:
-- course: Ph.D, 2012
-  institution: Stanford
+- course: Ph.D, 2003
+  institution: École Normale Supérieure
 interests:
 - Dynamical systems
 - Group theory
