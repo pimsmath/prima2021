@@ -6,7 +6,7 @@ speakers:
 - name: Gabriel Khan
   affiliation: Iowa State University
 locations:
-- Port Alberni
+- Online
 tags:
 - ''
 outputs:

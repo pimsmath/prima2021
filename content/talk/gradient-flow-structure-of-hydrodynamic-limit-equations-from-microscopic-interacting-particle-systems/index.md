@@ -7,7 +7,7 @@ speakers:
 - name: Makiko Sasada
   affiliation: University of Tokyo
 locations:
-- Port Alberni
+- Online
 tags:
 - ''
 outputs:

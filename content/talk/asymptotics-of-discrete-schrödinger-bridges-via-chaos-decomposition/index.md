@@ -6,7 +6,7 @@ speakers:
 - name: Lang Liu
   affiliation: University of Washington
 locations:
-- Port Alberni
+- Online
 tags:
 - ''
 outputs:

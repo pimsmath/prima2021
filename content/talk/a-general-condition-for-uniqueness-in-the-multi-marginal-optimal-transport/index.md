@@ -6,7 +6,7 @@ speakers:
 - name: "Adolfo Vargas-Jim\xE9nez"
   affiliation: University of Ottawa
 locations:
-- Port Alberni
+- Online
 tags:
 - ''
 outputs:

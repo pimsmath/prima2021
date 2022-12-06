@@ -6,7 +6,7 @@ speakers:
 - name: Li Xiang-Dong
   affiliation: AMSS, Chinese Academy of Sciences
 locations:
-- Port Alberni
+- Online
 tags:
 - ''
 outputs:

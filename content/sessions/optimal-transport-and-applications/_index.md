@@ -13,4 +13,7 @@ organizers:
 - name: Asuka Takatsu
   affiliation: Tokyo Metropolitan University
 ---
+{{< alert danger >}}
 _Please note, the session on December 10th will take place online._
+{{< /alert >}}
+

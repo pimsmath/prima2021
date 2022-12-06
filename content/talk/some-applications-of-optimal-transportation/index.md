@@ -6,7 +6,7 @@ speakers:
 - name: Jiakun Liu
   affiliation: University of Wollongong
 locations:
-- Port Alberni
+- Online
 tags:
 - ''
 outputs:

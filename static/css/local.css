@@ -595,3 +595,11 @@ ul.network-icon li {
 .size-3 {
     font-size: 56px;
 }
+ul.showlist {
+    list-style: disc;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+ul.showlist li {
+    margin-left: 2rem;
+}
