@@ -14,9 +14,9 @@ outputs:
 - Calendar
 categories:
 - special-session
-date: 2022-12-09T16:30:00-0800
+date: 2022-12-09T14:00:00-0800
 publishDate: '2022-10-01T10:00:00-08:00'
-end: 2022-12-09T17:15:00-0800
+end: 2022-12-09T14:45:00-0800
 featured: 'false'
 draft: 'false'
 abstract: "In this talk, we will explore the celebrated Almgren\u2019s monotonicity\
