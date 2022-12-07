@@ -14,6 +14,7 @@ organizers:
   affiliation: Tokyo Metropolitan University
 ---
 {{< alert danger >}}
-_Please note, the session on December 10th will take place online._
+_Please note, the session on December 10th will take place online:
+https://ubc.zoom.us/j/69961568613?pwd=eUJ4SFRneGIxbmdGUkQ5OEFLeHhudz09_
 {{< /alert >}}
 
