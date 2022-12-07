@@ -1,7 +1,7 @@
 ---
 title: "Online"
 description: |
- <em>N.B. These sessions will take place online via zoom.</em>
+ <em>N.B. These sessions will take place online via zoom: https://ubc.zoom.us/j/69961568613?pwd=eUJ4SFRneGIxbmdGUkQ5OEFLeHhudz09</em>
 
  ## Organizers
  <ul class="showlist">
