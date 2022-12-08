@@ -27,4 +27,6 @@ abstract: 'We discuss the gradient flow structure of hydrodynamic limit equation
   metric with mobility. Then we discuss when such formulation can be justified rigorously,
   and how it can be applied for the study of hydrodynamic limits. This talk is based
   on an ongoing work with Kohei Hayashi.  '
+alert: N.B. This event will take place online <a href="https://ubc.zoom.us/j/69961568613?pwd=eUJ4SFRneGIxbmdGUkQ5OEFLeHhudz09">via
+  zoom</a>
 ---

@@ -30,4 +30,6 @@ abstract: 'Multi-marginal optimal transport, a natural extension of the well-kno
   uniqueness.
 
   '
+alert: N.B. This event will take place online <a href="https://ubc.zoom.us/j/69961568613?pwd=eUJ4SFRneGIxbmdGUkQ5OEFLeHhudz09">via
+  zoom</a>
 ---

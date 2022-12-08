@@ -32,4 +32,6 @@ abstract: " Optimal transport studies the most economical movement of resources.
   \ an associated K\xE4hler manifold and discuss the geometry of this curvature tensor.\
   \ In particular, we show (somewhat surprisingly) that its negativity is preserved\
   \ along K\xE4hler-Ricci flow."
+alert: N.B. This event will take place online <a href="https://ubc.zoom.us/j/69961568613?pwd=eUJ4SFRneGIxbmdGUkQ5OEFLeHhudz09">via
+  zoom</a>
 ---

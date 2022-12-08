@@ -34,4 +34,6 @@ abstract: "Consider the problem of matching two independent sets of $N$ i.i.d. o
   \ symmetric statistics, generalizing the Hoeffding decomposition for U-statistics.\
   \ Our results establish a novel passage for the transition from discrete to continuum\
   \ in Schr\xF6dinger's lazy gas experiment."
+alert: N.B. This event will take place online <a href="https://ubc.zoom.us/j/69961568613?pwd=eUJ4SFRneGIxbmdGUkQ5OEFLeHhudz09">via
+  zoom</a>
 ---

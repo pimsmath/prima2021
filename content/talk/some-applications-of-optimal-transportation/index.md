@@ -26,4 +26,6 @@ abstract: 'In this talk, we will introduce some interesting applications of opti
   series of joint work with Shibing Chen, Xu-Jia Wang, and with Gregoire Loeper.
 
   '
+alert: N.B. This event will take place online <a href="https://ubc.zoom.us/j/69961568613?pwd=eUJ4SFRneGIxbmdGUkQ5OEFLeHhudz09">via
+  zoom</a>
 ---

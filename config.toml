@@ -87,7 +87,11 @@ impact on our economic, social, and cultural development.</p>
             <td class="plenary">Plenary Lecture<ul><li><a href="/talk/systems-of-points-with-coulomb-interactions/"><strong>Sylvia Serfaty</strong><br/>Systems of points with Coulomb interactions</a></li></ul></td>
             <td class="plenary">Plenary Lecture<ul><li><a href="/talk/groups-acting-at-infinity/"><strong>Kathryn Mann</strong><br/>Groups Acting At Infinity</a></li></ul></td>
             <td class="plenary">Plenary Lecture<ul><li><a href="/talk/conjugates-paths-and-diffeomorphisms/"><strong>Andrés Navas</strong><br/>Conjugates, paths and groups of diffeomorphisms</a></li></ul></td>
-            <td class="sessions">Scientific Sessions</td>
+            <td class="sessions">Scientific Sessions
+            <ul>
+              <li><a href="/sessions/moduli-spaces-in-algebraic-geometry">Moduli Spaces in Algebraic Geometry<br/><em>(Finback)</em></a></li>
+            </ul>
+            </td>
         </tr>
         <tr>
             <th>10:00</th>

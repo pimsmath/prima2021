@@ -28,4 +28,6 @@ abstract: 'Inspired by Perelman''s work on the entropy formula for Ricci flow, w
   geodesic flow and the  gradient flow of the Boltzmann entropy (i.e., the heat equation
   on the underlying manifold). Moreover, we present a $W$-entropy type formula for
   the Langevin deformation.  Joint work with Songzi Li. '
+alert: N.B. This event will take place online <a href="https://ubc.zoom.us/j/69961568613?pwd=eUJ4SFRneGIxbmdGUkQ5OEFLeHhudz09">via
+  zoom</a>
 ---
