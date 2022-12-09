@@ -18,7 +18,7 @@ date: 2022-12-09T10:30:00-0800
 publishDate: '2022-10-01T10:00:00-08:00'
 end: 2022-12-09T11:20:00-0800
 featured: 'false'
-draft: 'false'
+draft: 'true'
 abstract: Manin's conjecture is a conjectural asymptotic formula for the counting
   function of rational points on Fano varieties, and mainly with Brian Lehmann, I
   have been studying exceptional sets arising in this conjecture. In this talk I would
