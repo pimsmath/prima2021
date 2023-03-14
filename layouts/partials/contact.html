@@ -15,26 +15,6 @@
                         </div>
                     </div>
               </div>
-              <div class="col-xs-12 col-sm-12 col-md-8 offset-md-2">
-                <!-- Begin Mailchimp Signup Form -->
-                <div id="mc_embed_signup">
-                  <form action="https://primamath.us8.list-manage.com/subscribe/post?u=c9cc3beec9fa57d7299ac161c&amp;id=bb8789dc3b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                    <div id="mc_embed_signup_scroll">
-                      <div class="input-field">
-                        <input type="email" class="form-control" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Email Address" required>
-                      </div>
-                      <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                      <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_c9cc3beec9fa57d7299ac161c_bb8789dc3b" tabindex="-1" value=""></div>
-                      <div class="row">
-                        <div class="col-md-4 offset-md-4">
-                          <input class="btn btn-send" type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button">
-                        </div>
-                      </div>
-                   </div>
-                 </form>
-                </div>
-                <!--End mc_embed_signup-->
-                </div>
             </div>
             <div class="row">
               <div class="col-md-6 offset-md-3">
@@ -49,32 +29,8 @@
                             <h2>{{ . }}</h2>
                             {{ end }}
                             {{ with .Site.Params.contact.subtitle_form }}
-                                <p>{{ . }}</p>
+                                <p>{{ . | markdownify  }}</p>
                             {{ end }}
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <form method="post" name="contact-form" data-netlify="true">
-                            <div class="input-field">
-                                <input type="text" class="form-control" placeholder="Your Name" name="name">
-                            </div>
-                            <div class="input-field">
-                                <input type="email" class="form-control" placeholder="Email Address" name="email">
-                            </div>
-                            <div class="input-field">
-                                <textarea class="form-control" placeholder="Your Message" rows="3" name="message"></textarea>
-                            </div>
-                            <div class="row">
-                              <div class="col-md-4 offset-md-4">
-                                <button class="btn btn-send" type="submit">Send</button>
-                              </div>
-                            </div>
-                        </form>
-                        <div id="success">
-                            <p>Your Message was sent successfully</p>
-                        </div>
-                        <div id="error">
-                            <p>Your Message was not sent successfully</p>
                         </div>
                     </div>
                 </div>

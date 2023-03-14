@@ -8,9 +8,9 @@ theme = "infinity-hugo"
     enable         = true
     bg             = "images/vancouver-winter-1900x1250-dark-reduced.webp"
     title          = "PRIMA Congress 2022"
-    subtitle       = """The 2022 Pacific Rim Mathematical Association Congress will
-be taking place in Vancouver, Canada, between December 4-9, 2022. The fourth
-meeting will be hosted by the [Pacific Institute for the Mathematical
+    subtitle       = """The 2022 Pacific Rim Mathematical Association Congress 
+took place in Vancouver, Canada, between December 4-9, 2022. The fourth
+meeting was hosted by the [Pacific Institute for the Mathematical
 Sciences (PIMS)](https://www.pims.math.ca).
 
 <div class="d-none d-md-block">
@@ -22,10 +22,7 @@ interconnected mathematical community whose activities have an unprecedented
 impact on our economic, social, and cultural development.</p>
 </div>
 """
-
-    countdownYear  = "2022"
-    countdownMonth = "12"
-    countdownDay   = "4"
+  disableCountdown = true
 
   [params.navigation]
     logo           = "images/prima_logo_24.png"
@@ -474,10 +471,8 @@ for more information and to register.
   [params.contact]
     enable             = true
     title              = "Contact"
-    title_mailchimp    = "Mailing List"
-    subtitle_mailchimp = "To receive the latest updates from PRIMA 2022, including registration details, please sign up for our newsletter."
-    title_form         = "Have a question?"
-    subtitle_form      = "If you have questions about PRIMA 2022, please get in touch with the organizing committee via the form below."
+    title_form         = "Have a question about PRIMA?"
+    subtitle_form      = "PRIMA 2022 has now concluded, if you have a question about the PRIMA organization, please contact [recetion@pims.math.ca](mailto:reception@pims.math.ca)"
 
 
   [params.sponsors]
