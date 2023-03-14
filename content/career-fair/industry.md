@@ -37,7 +37,7 @@ industry.
 
 
 If your company is interested in participating in the PRIMA Career Fair,
-please get in touch via the contact form below. Company tables are priced at
+please get in touch via [industry@pims.math.ca](mailto:industry@pims.math.ca). Company tables are priced at
 $300 CAD ([register here <i class="fa fa-external-link" aria-hidden="true"></i>](https://events.eply.com/PRIMA2022)). Company
 representatives who are attending the PRIMA Conference may be eligible for a
 reduced combined registration fee, please contact <a
@@ -49,8 +49,7 @@ logo on PRIMA Conference materials (such as the website, program and posters).
 Participants will be encouraged to engage directly with company representatives.
 For more information, please see the [PRIMA Career Fair
 Brochure <i class="fa fa-external-link" aria-hidden="true"></i>](https://docs.google.com/presentation/d/e/2PACX-1vRMjP1THLJCO1bscp-vX7I5vF6W_fhqTN_eo-FMfUR026Uz8oN4gsMZxd9nCoxKwBkwf8hbaUQIIU0b/pub?start=false&loop=false&delayms=3000),
-or fill out the contact form below to get in touch. Or you may [register as a
-Career Fair exhibitor <i class="fa fa-external-link" aria-hidden="true"></i>](https://events.eply.com/PRIMA2022).
+or contact [industry@pims.math.ca](industry@pims.math.ca). Or you may [register
+as a Career Fair exhibitor <i class="fa fa-external-link"
+aria-hidden="true"></i>](https://events.eply.com/PRIMA2022).
 
-
-{{< contactform title="Contact - Career Fair" >}}

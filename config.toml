@@ -472,7 +472,7 @@ for more information and to register.
     enable             = true
     title              = "Contact"
     title_form         = "Have a question about PRIMA?"
-    subtitle_form      = "PRIMA 2022 has now concluded, if you have a question about the PRIMA organization, please contact [recetion@pims.math.ca](mailto:reception@pims.math.ca)"
+    subtitle_form      = "PRIMA 2022 has now concluded, if you have a question about the PRIMA organization, please contact [reception@pims.math.ca](mailto:reception@pims.math.ca)"
 
 
   [params.sponsors]
