@@ -40,4 +40,8 @@ abstract: |
   provinces in 2021, and will describe and interpret our findings about the
   transmission rates. Finally, I will discuss the broader challenges for
   infectious disease modelling in this pandemic and beyond. 
+
+files:
+ - url: prima-colijn-2022.pdf
+   title: Slides (pdf)
 ---

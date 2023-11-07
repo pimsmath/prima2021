@@ -28,4 +28,7 @@ abstract: The Springer theory relates nilpotent orbits in the Lie algebra of a r
   work of Lusztig and Yun, where irreducible representations of trigonometric double
   affine Hecke algebras appear in the picture.  This is based on joint work with Kari
   Vilonen and partly with Misha Grinberg.
+files:
+  - url: Slides_PRIMA_Ting.pdf
+    title: Slides (pdf)
 ---

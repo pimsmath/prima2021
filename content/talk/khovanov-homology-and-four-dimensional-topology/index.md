@@ -28,4 +28,7 @@ abstract: |
   Lisa Piccirillo) and some of the challenges we encountered. I will also review
   other topological applications of Khovanov homology, with regard to smoothly
   embedded surfaces in 4-manifolds.
+files:
+  - url: Khovanov4m60m.pdf
+    title: Slides (pdf)
 ---

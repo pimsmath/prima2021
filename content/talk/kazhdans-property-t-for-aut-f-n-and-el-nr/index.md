@@ -24,4 +24,7 @@ abstract: |
   property (T) for $\operatorname{Aut}(F_n)$, $n>3$, thus solving a well-known problem in
   geometric group theory. I then talk about my recent human effort in
   coping with the computer assisted proof.
+files:
+  - url: PRIMA2022.pdf
+    title: Slides (pdf)
 ---

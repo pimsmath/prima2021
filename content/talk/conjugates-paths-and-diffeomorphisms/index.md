@@ -23,4 +23,9 @@ abstract: |
   rosenberg, namely the path connectedness of the space of commuting circle
   diffeomorphisms. I will present several results on this, the most recent of
   which have been obtained in collaboration with Hélène Eynard.
+files:
+  - url: Navas-vancouver.pdf
+    title: Slides (pdf)
+  - url: Navas-vancouver.pptx
+    title: Slides (pptx)
 ---
