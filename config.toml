@@ -410,6 +410,7 @@ number as these requests are fraudulent in nature.
     title          = "Special Sessions"
     showTimes      = true
     showLocations  = true
+    showFiles      = true
     header         = """
 
 ## Early Career Research Showcase

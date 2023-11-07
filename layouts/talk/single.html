@@ -60,6 +60,18 @@
                     </div>
                   </div>
                   {{ end }}
+                  {{ with $talk_page.Params.files }}
+                  {{ if site.Params.sessions.showFiles }}
+                  <div class="row">
+                    <div class="col-12 col-md-3 pub-row-heading">Files</div>
+                    <div class="col-12 col-md-9">
+                      {{ range $talk_page.Params.files }}
+                      <a class="badge badge-light" href="{{ .url }}">{{ .title }}</a>
+                      {{ end }}
+                    </div>
+                  </div>
+                  {{ end }}
+                  {{ end }}
                 </div>
                 <div class="col-lg-4">
                   <div class="block">

@@ -31,4 +31,9 @@ abstract: |
   Bridge is comparable with state-of-the-art GANs, suggesting a new formulation of
   generative learning. We demonstrate its usefulness in image interpolation and
   image inpainting.
+files:
+  - url: DeepGenerativeLearning-revise.pdf
+    title: Slides (PDF)
+  - url: DeepGenerativeLearning-revise.pptx
+    title: Slides (PPTX)
 ---
